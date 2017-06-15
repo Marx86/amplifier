@@ -1,4 +1,4 @@
-update=Чт. 26 янв. 2017 15:52:55
+update=Чт 15 июн 2017 12:43:54
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=lib/tda7293v
+LibName32=lib/ad1955
