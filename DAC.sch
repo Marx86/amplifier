@@ -31,12 +31,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:tda7293v
 LIBS:ad1955
+LIBS:src4392i
 LIBS:amplifier-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 3 4
 Title ""
 Date ""
 Rev ""

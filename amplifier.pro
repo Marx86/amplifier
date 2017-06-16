@@ -1,4 +1,4 @@
-update=Чт 15 июн 2017 12:43:54
+update=Пт. 16 июня 2017 17:51:38
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -61,3 +59,6 @@ LibName29=contrib
 LibName30=valves
 LibName31=lib/tda7293v
 LibName32=lib/ad1955
+LibName33=lib/src4392i
+[general]
+version=1
