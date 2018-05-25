@@ -32,6 +32,7 @@ LIBS:valves
 LIBS:tda7293v
 LIBS:ad1955
 LIBS:src4392i
+LIBS:cdclvc1104
 LIBS:amplifier-cache
 EELAYER 26 0
 EELAYER END
