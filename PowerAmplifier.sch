@@ -1,40 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:amplifier-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:tda7293v
-LIBS:ad1955
-LIBS:src4392i
-LIBS:cdclvc1104
 LIBS:amplifier-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -112,7 +79,7 @@ F 1 "100" V 6500 2450 50  0000 C CNN
 F 2 "" H 6300 2300 60  0001 C CNN
 F 3 "" H 6300 2300 60  0001 C CNN
 	1    6300 2300
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L R-RESCUE-amplifier R9
@@ -520,20 +487,20 @@ Wire Wire Line
 Wire Wire Line
 	5700 2000 6600 2000
 Wire Wire Line
-	3050 1000 3500 1000
+	3050 1000 3600 1000
 Wire Wire Line
 	3050 1000 3050 2100
 Wire Wire Line
-	2900 1900 3400 1900
+	2800 1900 3400 1900
 Wire Wire Line
-	2300 1900 2400 1900
+	2300 1900 2500 1900
 Connection ~ 3050 1900
 Wire Wire Line
 	1850 2350 1850 3000
 Wire Wire Line
 	3950 1250 4150 1250
 Wire Wire Line
-	4350 1000 4350 1050
+	4350 1000 4350 1150
 Connection ~ 4350 1000
 Wire Wire Line
 	3550 1250 3400 1250
@@ -541,10 +508,10 @@ Wire Wire Line
 	3400 1250 3400 1000
 Connection ~ 3400 1000
 Wire Wire Line
-	4350 1550 4350 1600
+	4350 1450 4350 1600
 Connection ~ 6000 2000
 Wire Wire Line
-	1800 1900 1900 1900
+	1700 1900 1900 1900
 Wire Wire Line
 	1850 1950 1850 1900
 Connection ~ 1850 1900
@@ -560,11 +527,9 @@ Wire Wire Line
 Wire Wire Line
 	5450 2600 5700 2600
 Wire Wire Line
-	5700 2600 5700 2550
+	5700 2600 5700 2450
 Wire Wire Line
-	5700 2050 5700 2000
-Wire Wire Line
-	6000 2550 6000 2600
+	5700 2000 5700 2150
 Wire Wire Line
 	5200 2500 5200 2450
 Wire Wire Line
@@ -577,17 +542,17 @@ Wire Wire Line
 	4900 2450 4900 2500
 Connection ~ 4900 2500
 Wire Wire Line
-	2350 1300 2500 1300
+	2250 1300 2500 1300
 Wire Wire Line
 	2500 1300 2500 1400
 Wire Wire Line
-	1850 1300 1700 1300
+	1700 1300 1950 1300
 Wire Wire Line
 	1700 1300 1700 1400
 Wire Wire Line
 	2500 2300 3400 2300
 Wire Wire Line
-	2750 2300 2750 2350
+	2750 2300 2750 2450
 Wire Wire Line
 	2500 2350 2500 2300
 Connection ~ 2750 2300
@@ -596,7 +561,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 2200 2050 2350
 Wire Wire Line
-	2250 2350 2250 2200
+	2250 2200 2250 2450
 Connection ~ 2250 2200
 Wire Wire Line
 	2950 2350 2950 2300
@@ -606,21 +571,21 @@ Wire Wire Line
 Wire Wire Line
 	2950 2900 2750 2900
 Wire Wire Line
-	2750 2850 2750 3200
+	2750 2750 2750 3200
 Wire Wire Line
 	2500 2750 2500 3000
 Wire Wire Line
 	2050 2750 2050 3000
 Connection ~ 2750 2900
 Wire Wire Line
-	2250 2850 2250 3200
+	2250 2750 2250 3200
 Wire Wire Line
 	1400 2900 2250 2900
 Connection ~ 2250 2900
 Wire Wire Line
 	4300 1900 6600 1900
 Wire Wire Line
-	1250 1900 1300 1900
+	1250 1900 1400 1900
 Wire Wire Line
 	1300 2100 1300 3000
 Wire Wire Line
@@ -803,7 +768,7 @@ F 3 "" H 7300 4000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 1000 4900 1000
+	3900 1000 5000 1000
 $Comp
 L C-RESCUE-amplifier C3
 U 1 1 58342B6B
@@ -842,16 +807,16 @@ F 3 "" H 3300 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 2850 3300 3000
+	3300 2750 3300 3000
 Wire Wire Line
-	3300 800  3300 2350
+	3300 800  3300 2450
 Wire Wire Line
 	3300 2000 3400 2000
 Wire Wire Line
 	5450 1000 5450 2050
 Connection ~ 5450 1800
 Wire Wire Line
-	5400 1000 5450 1000
+	5300 1000 5450 1000
 Connection ~ 3300 2000
 $Comp
 L R-RESCUE-amplifier R8
@@ -865,7 +830,7 @@ F 3 "" H 5150 800 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4900 800  3300 800 
+	3300 800  5000 800 
 $Comp
 L GNDPWR #PWR020
 U 1 1 5835BB93
@@ -878,12 +843,10 @@ F 3 "" H 6300 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 2550 6300 2600
-Wire Wire Line
-	6300 2050 6300 2000
+	6300 2000 6300 2150
 Connection ~ 6300 2000
 Wire Wire Line
-	6000 2050 6000 2000
+	6000 2000 6000 2150
 Wire Wire Line
 	6500 800  6500 2300
 Wire Wire Line
@@ -911,5 +874,13 @@ Wire Wire Line
 Wire Wire Line
 	3400 1800 3150 1800
 Wire Wire Line
-	5400 800  5850 800 
+	5300 800  5850 800 
+Wire Wire Line
+	2250 3200 2350 3200
+Wire Wire Line
+	2750 3200 2650 3200
+Wire Wire Line
+	6300 2450 6300 2600
+Wire Wire Line
+	6000 2450 6000 2600
 $EndSCHEMATC

@@ -1,40 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:amplifier-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:tda7293v
-LIBS:ad1955
-LIBS:src4392i
-LIBS:cdclvc1104
 LIBS:amplifier-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -49,7 +16,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R31
+L R-RESCUE-amplifier R31
 U 1 1 588A0CB4
 P 6550 3850
 F 0 "R31" H 6620 3896 50  0000 L CNN
@@ -60,7 +27,7 @@ F 3 "" H 6550 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R32
+L R-RESCUE-amplifier R32
 U 1 1 588A0D04
 P 6550 5550
 F 0 "R32" H 6620 5596 50  0000 L CNN
@@ -71,7 +38,7 @@ F 3 "" H 6550 5550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R30
+L R-RESCUE-amplifier R30
 U 1 1 588A0D7E
 P 6200 5150
 F 0 "R30" H 6270 5196 50  0000 L CNN
@@ -82,7 +49,7 @@ F 3 "" H 6200 5150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R28
+L R-RESCUE-amplifier R28
 U 1 1 588A0DC0
 P 5850 5150
 F 0 "R28" H 5920 5196 50  0000 L CNN
@@ -93,7 +60,7 @@ F 3 "" H 5850 5150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R29
+L R-RESCUE-amplifier R29
 U 1 1 588A0E08
 P 6200 3450
 F 0 "R29" H 6270 3496 50  0000 L CNN
@@ -104,7 +71,7 @@ F 3 "" H 6200 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R26
+L R-RESCUE-amplifier R26
 U 1 1 588A0E99
 P 5850 3450
 F 0 "R26" H 5920 3496 50  0000 L CNN
@@ -258,7 +225,7 @@ F 3 "" H 5450 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R25
+L R-RESCUE-amplifier R25
 U 1 1 588A3B8A
 P 5550 5550
 F 0 "R25" H 5620 5596 50  0000 L CNN
@@ -269,7 +236,7 @@ F 3 "" H 5550 5550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R23
+L R-RESCUE-amplifier R23
 U 1 1 588A4174
 P 5200 2950
 F 0 "R23" H 5270 2996 50  0000 L CNN
@@ -280,7 +247,7 @@ F 3 "" H 5200 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R22
+L R-RESCUE-amplifier R22
 U 1 1 588A4292
 P 5000 2950
 F 0 "R22" H 5070 2996 50  0000 L CNN
@@ -291,7 +258,7 @@ F 3 "" H 5000 2950 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L POT RV2
+L POT-RESCUE-amplifier RV2
 U 1 1 588A4905
 P 5550 2300
 F 0 "RV2" H 5800 2450 50  0000 R CNN
@@ -313,7 +280,7 @@ F 3 "" H 5000 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R27
+L R-RESCUE-amplifier R27
 U 1 1 588A617E
 P 5850 4050
 F 0 "R27" V 5643 4050 50  0000 C CNN
@@ -324,7 +291,7 @@ F 3 "" H 5850 4050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R17
+L R-RESCUE-amplifier R17
 U 1 1 588A65A8
 P 3900 5550
 F 0 "R17" H 3970 5596 50  0000 L CNN
@@ -357,7 +324,7 @@ F 3 "" H 3700 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L R-RESCUE-amplifier R15
 U 1 1 588A8000
 P 3500 3350
 F 0 "R15" V 3293 3350 50  0000 C CNN
@@ -379,7 +346,7 @@ F 3 "" H 4700 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R21
+L R-RESCUE-amplifier R21
 U 1 1 588A8846
 P 4700 4650
 F 0 "R21" H 4770 4696 50  0000 L CNN
@@ -412,7 +379,7 @@ F 3 "" H 5200 4300 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R16
+L R-RESCUE-amplifier R16
 U 1 1 588B05CD
 P 3550 4250
 F 0 "R16" H 3620 4296 50  0000 L CNN
@@ -703,7 +670,7 @@ F 3 "" H 4550 2300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R20
+L R-RESCUE-amplifier R20
 U 1 1 5894B398
 P 4550 2700
 F 0 "R20" H 4620 2746 50  0000 L CNN
@@ -749,7 +716,7 @@ F 3 "" H 6450 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R24
+L R-RESCUE-amplifier R24
 U 1 1 5894D3F0
 P 5550 1950
 F 0 "R24" H 5650 2000 50  0000 L CNN
@@ -764,7 +731,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 2100 5550 2150
 $Comp
-L R R18
+L R-RESCUE-amplifier R18
 U 1 1 5894EB90
 P 4050 1950
 F 0 "R18" H 4120 1996 50  0000 L CNN
@@ -775,7 +742,7 @@ F 3 "" H 4050 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R19
+L R-RESCUE-amplifier R19
 U 1 1 5894EC84
 P 4050 2950
 F 0 "R19" H 4120 2996 50  0000 L CNN
