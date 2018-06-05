@@ -65,6 +65,8 @@ LIBS:valves
 LIBS:video
 LIBS:xilinx
 LIBS:ad8066
+LIBS:ldk220
+LIBS:+9va
 LIBS:amplifier-cache
 EELAYER 25 0
 EELAYER END

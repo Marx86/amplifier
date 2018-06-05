@@ -1,4 +1,4 @@
-update=Пт 01 июн 2018 17:07:31
+update=Пн 04 июн 2018 15:34:50
 version=1
 last_client=kicad
 [pcbnew]
@@ -95,3 +95,5 @@ LibName63=valves
 LibName64=video
 LibName65=xilinx
 LibName66=lib/ad8066
+LibName67=lib/ldk220
+LibName68=lib/+9va
