@@ -1,78 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:amplifier-rescue
-LIBS:ad1955
-LIBS:cdclvc1104
-LIBS:kc7050
-LIBS:lp5900
-LIBS:src4392i
-LIBS:tda7293v
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:linear
-LIBS:logo
-LIBS:memory
-LIBS:microchip
-LIBS:microchip1
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microcontrollers
-LIBS:motorola
-LIBS:msp430
-LIBS:nxp_armmcu
-LIBS:opto
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:sensors
-LIBS:siliconi
-LIBS:special
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:xilinx
-LIBS:ad8066
-LIBS:ldk220
-LIBS:+9va
+EESchema Schematic File Version 4
 LIBS:amplifier-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -83,2232 +15,4335 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AD1955 DD?
+L amplifier-rescue:AD1955 DD?
 U 1 1 5943ADF1
-P 9300 3500
-F 0 "DD?" H 9300 4447 60  0000 C CNN
-F 1 "AD1955" H 9300 4341 60  0000 C CNN
-F 2 "" H 9300 3750 60  0001 C CNN
-F 3 "" H 9300 3750 60  0001 C CNN
-	1    9300 3500
+P 8250 2950
+F 0 "DD?" H 8250 3897 60  0000 C CNN
+F 1 "AD1955" H 8250 3791 60  0000 C CNN
+F 2 "" H 8250 3200 60  0001 C CNN
+F 3 "" H 8250 3200 60  0001 C CNN
+	1    8250 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L SRC4392I DD?
+L amplifier-rescue:SRC4392I DD?
 U 1 1 5943BE8C
-P 4550 2750
-F 0 "DD?" H 4350 4300 60  0000 C CNN
-F 1 "SRC4392I" H 4750 4300 60  0000 C CNN
-F 2 "" H 4600 3450 60  0001 C CNN
-F 3 "" H 4600 3450 60  0001 C CNN
-	1    4550 2750
+P 3500 2200
+F 0 "DD?" H 3300 3750 60  0000 C CNN
+F 1 "SRC4392I" H 3700 3750 60  0000 C CNN
+F 2 "" H 3550 2900 60  0001 C CNN
+F 3 "" H 3550 2900 60  0001 C CNN
+	1    3500 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-amplifier R?
+L amplifier-rescue:R-RESCUE-amplifier R?
 U 1 1 5B040832
-P 8200 4700
-F 0 "R?" H 8250 4400 50  0000 L CNN
-F 1 "3k" H 8250 4300 50  0000 L CNN
-F 2 "" V 8130 4700 50  0001 C CNN
-F 3 "" H 8200 4700 50  0001 C CNN
-	1    8200 4700
+P 7150 4150
+F 0 "R?" H 7200 3850 50  0000 L CNN
+F 1 "3k" H 7200 3750 50  0000 L CNN
+F 2 "" V 7080 4150 50  0001 C CNN
+F 3 "" H 7150 4150 50  0001 C CNN
+	1    7150 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA-RESCUE-amplifier #PWR?
+L amplifier-rescue:GNDA-RESCUE-amplifier #PWR?
 U 1 1 5B0409AF
-P 8200 5250
+P 7150 4550
 AR Path="/5B0409AF" Ref="#PWR?"  Part="1" 
-AR Path="/59424E93/5B0409AF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8200 5000 50  0001 C CNN
-F 1 "GNDA" H 8250 5100 50  0000 C CNN
-F 2 "" H 8200 5250 50  0001 C CNN
-F 3 "" H 8200 5250 50  0001 C CNN
-	1    8200 5250
+AR Path="/59424E93/5B0409AF" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 7150 4300 50  0001 C CNN
+F 1 "GNDA" H 7200 4400 50  0000 C CNN
+F 2 "" H 7150 4550 50  0001 C CNN
+F 3 "" H 7150 4550 50  0001 C CNN
+	1    7150 4550
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR?
+L amplifier-rescue:GNDD #PWR014
 U 1 1 5B0549CE
+P 7050 4550
+F 0 "#PWR014" H 7050 4300 50  0001 C CNN
+F 1 "GNDD" H 6900 4400 50  0000 C CNN
+F 2 "" H 7050 4550 50  0001 C CNN
+F 3 "" H 7050 4550 50  0001 C CNN
+	1    7050 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:ATMEGA88A-PU U?
+U 1 1 5B058D71
+P 2450 8600
+F 0 "U?" H 2500 9967 50  0000 C CNN
+F 1 "ATMEGA88A-PU" H 2500 9876 50  0000 C CNN
+F 2 "DIL28" H 2450 8600 50  0001 C CIN
+F 3 "" H 2450 8600 50  0001 C CNN
+	1    2450 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:GNDD #PWR015
+U 1 1 5B059729
+P 2500 4550
+F 0 "#PWR015" H 2500 4300 50  0001 C CNN
+F 1 "GNDD" H 2505 4377 50  0000 C CNN
+F 2 "" H 2500 4550 50  0001 C CNN
+F 3 "" H 2500 4550 50  0001 C CNN
+	1    2500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:GNDD #PWR016
+U 1 1 5B059F24
+P 5750 4550
+F 0 "#PWR016" H 5750 4300 50  0001 C CNN
+F 1 "GNDD" H 5900 4450 50  0000 C CNN
+F 2 "" H 5750 4550 50  0001 C CNN
+F 3 "" H 5750 4550 50  0001 C CNN
+	1    5750 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:Jumper_NC_Small JP?
+U 1 1 5B05A60E
+P 6200 2450
+F 0 "JP?" H 6350 2500 50  0000 C CNN
+F 1 "DAC ON" H 6650 2500 50  0000 C CNN
+F 2 "" H 6200 2450 50  0001 C CNN
+F 3 "" H 6200 2450 50  0001 C CNN
+	1    6200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:Jumper_NC_Small JP?
+U 1 1 5B05A7AF
+P 6200 2550
+F 0 "JP?" H 6350 2600 50  0000 C CNN
+F 1 "DAC ON" H 6650 2600 50  0000 C CNN
+F 2 "" H 6200 2550 50  0001 C CNN
+F 3 "" H 6200 2550 50  0001 C CNN
+	1    6200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:Jumper_NC_Small JP?
+U 1 1 5B05A8D6
+P 6200 2650
+F 0 "JP?" H 6350 2700 50  0000 C CNN
+F 1 "DAC ON" H 6650 2700 50  0000 C CNN
+F 2 "" H 6200 2650 50  0001 C CNN
+F 3 "" H 6200 2650 50  0001 C CNN
+	1    6200 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:R-RESCUE-amplifier R?
+U 1 1 5B07D3AE
+P 7400 2250
+F 0 "R?" V 7350 1800 50  0000 C CNN
+F 1 "75" V 7350 2000 50  0000 C CNN
+F 2 "" V 7330 2250 50  0001 C CNN
+F 3 "" H 7400 2250 50  0001 C CNN
+	1    7400 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:R-RESCUE-amplifier R?
+U 1 1 5B07D4F2
+P 7400 2350
+F 0 "R?" V 7350 1900 50  0000 C CNN
+F 1 "75" V 7350 2100 50  0000 C CNN
+F 2 "" V 7330 2350 50  0001 C CNN
+F 3 "" H 7400 2350 50  0001 C CNN
+	1    7400 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:R-RESCUE-amplifier R?
+U 1 1 5B07D5AA
+P 7400 2450
+F 0 "R?" V 7350 2000 50  0000 C CNN
+F 1 "75" V 7350 2200 50  0000 C CNN
+F 2 "" V 7330 2450 50  0001 C CNN
+F 3 "" H 7400 2450 50  0001 C CNN
+	1    7400 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:CONN_01X04 J?
+U 1 1 5B07EC49
+P 6000 3300
+F 0 "J?" V 5850 3550 50  0000 L CNN
+F 1 "To external DAC" V 6150 3100 50  0000 L CNN
+F 2 "" H 6000 3300 50  0001 C CNN
+F 3 "" H 6000 3300 50  0001 C CNN
+	1    6000 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:GNDD #PWR017
+U 1 1 5B081C63
+P 1250 7350
+F 0 "#PWR017" H 1250 7100 50  0001 C CNN
+F 1 "GNDD" H 1255 7177 50  0000 C CNN
+F 2 "" H 1250 7350 50  0001 C CNN
+F 3 "" H 1250 7350 50  0001 C CNN
+	1    1250 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CONN_01X12 J?
+U 1 1 5B07ED58
+P 6000 1500
+F 0 "J?" H 5950 2250 50  0000 L CNN
+F 1 "SRC Pins" H 5850 2150 50  0000 L CNN
+F 2 "" H 6000 1500 50  0001 C CNN
+F 3 "" H 6000 1500 50  0001 C CNN
+	1    6000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CONN_01X05 J?
+U 1 1 5B07F3A1
+P 9500 1250
+F 0 "J?" H 9450 1650 50  0000 L CNN
+F 1 "DAC Pins" H 9350 1550 50  0000 L CNN
+F 2 "" H 9500 1250 50  0001 C CNN
+F 3 "" H 9500 1250 50  0001 C CNN
+	1    9500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CONN_01X04 J?
+U 1 1 5B07EEE9
+P 950 3450
+F 0 "J?" H 950 3100 50  0000 C CNN
+F 1 "DSD Input" H 950 3200 50  0000 C CNN
+F 2 "" H 950 3450 50  0001 C CNN
+F 3 "" H 950 3450 50  0001 C CNN
+	1    950  3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L amplifier-rescue:CONN_01X04 J?
+U 1 1 5B07F035
+P 950 2500
+F 0 "J?" H 950 2150 50  0000 C CNN
+F 1 "PCM Input" H 950 2250 50  0000 C CNN
+F 2 "" H 950 2500 50  0001 C CNN
+F 3 "" H 950 2500 50  0001 C CNN
+	1    950  2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B0818E3
+P 2200 750
+F 0 "C?" V 2050 650 50  0000 C CNN
+F 1 "0.1" V 2150 650 50  0000 C CNN
+F 2 "" H 2200 750 50  0001 C CNN
+F 3 "" H 2200 750 50  0001 C CNN
+	1    2200 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B081A3A
+P 2500 850
+F 0 "C?" V 2450 950 50  0000 C CNN
+F 1 "0.1" V 2450 1150 50  0000 C CNN
+F 2 "" H 2500 850 50  0001 C CNN
+F 3 "" H 2500 850 50  0001 C CNN
+	1    2500 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B081AB8
+P 2200 950
+F 0 "C?" V 2050 850 50  0000 C CNN
+F 1 "0.1" V 2150 850 50  0000 C CNN
+F 2 "" H 2200 950 50  0001 C CNN
+F 3 "" H 2200 950 50  0001 C CNN
+	1    2200 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B081B1B
+P 2500 1050
+F 0 "C?" V 2450 1150 50  0000 C CNN
+F 1 "0.1" V 2450 1350 50  0000 C CNN
+F 2 "" H 2500 1050 50  0001 C CNN
+F 3 "" H 2500 1050 50  0001 C CNN
+	1    2500 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B081B69
+P 2200 1150
+F 0 "C?" V 2050 1050 50  0000 C CNN
+F 1 "0.1" V 2150 1050 50  0000 C CNN
+F 2 "" H 2200 1150 50  0001 C CNN
+F 3 "" H 2200 1150 50  0001 C CNN
+	1    2200 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B081BB3
+P 2500 1250
+F 0 "C?" V 2450 1350 50  0000 C CNN
+F 1 "0.1" V 2450 1550 50  0000 C CNN
+F 2 "" H 2500 1250 50  0001 C CNN
+F 3 "" H 2500 1250 50  0001 C CNN
+	1    2500 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B081BFD
+P 2200 1350
+F 0 "C?" V 2050 1250 50  0000 C CNN
+F 1 "0.1" V 2150 1250 50  0000 C CNN
+F 2 "" H 2200 1350 50  0001 C CNN
+F 3 "" H 2200 1350 50  0001 C CNN
+	1    2200 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B081C4D
+P 2500 1450
+F 0 "C?" V 2450 1550 50  0000 C CNN
+F 1 "0.1" V 2450 1750 50  0000 C CNN
+F 2 "" H 2500 1450 50  0001 C CNN
+F 3 "" H 2500 1450 50  0001 C CNN
+	1    2500 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:CONN_01X05 J?
+U 1 1 5B07F925
+P 950 1250
+F 0 "J?" H 950 850 50  0000 C CNN
+F 1 "SPDIF Inputs" H 950 950 50  0000 C CNN
+F 2 "" H 950 1250 50  0001 C CNN
+F 3 "" H 950 1250 50  0001 C CNN
+	1    950  1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L amplifier-rescue:R-RESCUE-amplifier R?
+U 1 1 5B0808B8
+P 1700 1700
+F 0 "R?" H 1500 1750 50  0000 C CNN
+F 1 "75" H 1500 1650 50  0000 C CNN
+F 2 "" V 1630 1700 50  0001 C CNN
+F 3 "" H 1700 1700 50  0001 C CNN
+	1    1700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:R-RESCUE-amplifier R?
+U 1 1 5B080B0F
+P 1800 1700
+F 0 "R?" H 1700 1350 50  0000 C CNN
+F 1 "75" H 1700 1250 50  0000 C CNN
+F 2 "" V 1730 1700 50  0001 C CNN
+F 3 "" H 1800 1700 50  0001 C CNN
+	1    1800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:R-RESCUE-amplifier R?
+U 1 1 5B080B5B
+P 1900 1700
+F 0 "R?" H 1900 1350 50  0000 C CNN
+F 1 "75" H 1900 1250 50  0000 C CNN
+F 2 "" V 1830 1700 50  0001 C CNN
+F 3 "" H 1900 1700 50  0001 C CNN
+	1    1900 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:R-RESCUE-amplifier R?
+U 1 1 5B080BA9
+P 2000 1700
+F 0 "R?" H 2150 1750 50  0000 C CNN
+F 1 "75" H 2150 1650 50  0000 C CNN
+F 2 "" V 1930 1700 50  0001 C CNN
+F 3 "" H 2000 1700 50  0001 C CNN
+	1    2000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CONN_01X05 J?
+U 1 1 5B08D492
+P 950 7050
+F 0 "J?" H 950 6650 50  0000 C CNN
+F 1 "Input select" H 950 6750 50  0000 C CNN
+F 2 "" H 950 7050 50  0001 C CNN
+F 3 "" H 950 7050 50  0001 C CNN
+	1    950  7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L amplifier-rescue:LP5900 DA?
+U 1 1 5B0D4E9E
+P 7000 7300
+F 0 "DA?" H 6750 7500 60  0000 C CNN
+F 1 "LP5900" H 7200 7500 60  0000 C CNN
+F 2 "" H 7000 7150 60  0001 C CNN
+F 3 "" H 7000 7150 60  0001 C CNN
+	1    7000 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:GNDD #PWR018
+U 1 1 5B0D84F8
+P 6500 8450
+F 0 "#PWR018" H 6500 8200 50  0001 C CNN
+F 1 "GNDD" H 6300 8400 50  0000 C CNN
+F 2 "" H 6500 8450 50  0001 C CNN
+F 3 "" H 6500 8450 50  0001 C CNN
+	1    6500 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:R-RESCUE-amplifier R?
+U 1 1 5B0D892D
+P 5100 3250
+F 0 "R?" V 4950 3100 50  0000 C CNN
+F 1 "10" V 4950 3300 50  0000 C CNN
+F 2 "" V 5030 3250 50  0001 C CNN
+F 3 "" H 5100 3250 50  0001 C CNN
+	1    5100 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 5B0DAA10
+P 5500 2750
+F 0 "C?" V 5350 2650 50  0000 C CNN
+F 1 "10.0" V 5350 2850 50  0000 C CNN
+F 2 "" H 5500 2750 50  0001 C CNN
+F 3 "" H 5500 2750 50  0001 C CNN
+	1    5500 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B0DB12D
+P 5500 3250
+F 0 "C?" V 5350 3150 50  0000 C CNN
+F 1 "0.1" V 5350 3300 50  0000 C CNN
+F 2 "" H 5500 3250 50  0001 C CNN
+F 3 "" H 5500 3250 50  0001 C CNN
+	1    5500 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B0DCD0B
+P 7150 10650
+F 0 "C?" H 7200 10850 50  0000 L CNN
+F 1 "0.1" H 7200 10750 50  0000 L CNN
+F 2 "" H 7150 10650 50  0001 C CNN
+F 3 "" H 7150 10650 50  0001 C CNN
+	1    7150 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B0DD4F0
+P 6150 7550
+F 0 "C?" V 6050 7450 50  0000 C CNN
+F 1 "1.0" V 6050 7650 50  0000 C CNN
+F 2 "" H 6150 7550 50  0001 C CNN
+F 3 "" H 6150 7550 50  0001 C CNN
+	1    6150 7550
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B0DD5F1
+P 7800 7400
+F 0 "C?" H 7900 7300 50  0000 L CNN
+F 1 "1.0" H 7900 7400 50  0000 L CNN
+F 2 "" H 7800 7400 50  0001 C CNN
+F 3 "" H 7800 7400 50  0001 C CNN
+	1    7800 7400
+	1    0    0    1   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B0E1851
+P 6400 10650
+F 0 "C?" H 6450 10850 50  0000 L CNN
+F 1 "0.1" H 6450 10750 50  0000 L CNN
+F 2 "" H 6400 10650 50  0001 C CNN
+F 3 "" H 6400 10650 50  0001 C CNN
+	1    6400 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B0E1858
+P 6150 6900
+F 0 "C?" V 6050 6800 50  0000 C CNN
+F 1 "1.0" V 6050 7000 50  0000 C CNN
+F 2 "" H 6150 6900 50  0001 C CNN
+F 3 "" H 6150 6900 50  0001 C CNN
+	1    6150 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B0E185F
+P 7800 6750
+F 0 "C?" H 7900 6850 50  0000 L CNN
+F 1 "1.0" H 7900 6750 50  0000 L CNN
+F 2 "" H 7800 6750 50  0001 C CNN
+F 3 "" H 7800 6750 50  0001 C CNN
+	1    7800 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+1V8 #PWR019
+U 1 1 5B0E5BBE
+P 4450 2350
+AR Path="/5B0E5BBE" Ref="#PWR019"  Part="1" 
+AR Path="/59424E93/5B0E5BBE" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 4450 2200 50  0001 C CNN
+F 1 "+1V8" H 4450 2550 50  0000 C CNN
+F 2 "" H 4450 2350 50  0001 C CNN
+F 3 "" H 4450 2350 50  0001 C CNN
+	1    4450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+3V3 #PWR020
+U 1 1 5B0E6A26
+P 8400 6450
+F 0 "#PWR020" H 8400 6300 50  0001 C CNN
+F 1 "+3V3" H 8415 6623 50  0000 C CNN
+F 2 "" H 8400 6450 50  0001 C CNN
+F 3 "" H 8400 6450 50  0001 C CNN
+	1    8400 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+1V8 #PWR021
+U 1 1 5B0E6B12
+P 8400 7100
+AR Path="/5B0E6B12" Ref="#PWR021"  Part="1" 
+AR Path="/59424E93/5B0E6B12" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 8400 6950 50  0001 C CNN
+F 1 "+1V8" H 8415 7273 50  0000 C CNN
+F 2 "" H 8400 7100 50  0001 C CNN
+F 3 "" H 8400 7100 50  0001 C CNN
+	1    8400 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+3V3 #PWR022
+U 1 1 5B0E6E93
+P 4600 2350
+F 0 "#PWR022" H 4600 2200 50  0001 C CNN
+F 1 "+3V3" H 4600 2500 50  0000 C CNN
+F 2 "" H 4600 2350 50  0001 C CNN
+F 3 "" H 4600 2350 50  0001 C CNN
+	1    4600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 5B0E6722
+P 6650 10650
+F 0 "C?" H 6700 10850 50  0000 L CNN
+F 1 "10.0" H 6700 10750 50  0000 L CNN
+F 2 "" H 6650 10650 50  0001 C CNN
+F 3 "" H 6650 10650 50  0001 C CNN
+	1    6650 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 5B0E6C4E
+P 7400 10650
+F 0 "C?" H 7450 10850 50  0000 L CNN
+F 1 "10.0" H 7450 10750 50  0000 L CNN
+F 2 "" H 7400 10650 50  0001 C CNN
+F 3 "" H 7400 10650 50  0001 C CNN
+	1    7400 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+3V3 #PWR023
+U 1 1 5B0E77CF
+P 6400 10300
+F 0 "#PWR023" H 6400 10150 50  0001 C CNN
+F 1 "+3V3" H 6550 10400 50  0000 C CNN
+F 2 "" H 6400 10300 50  0001 C CNN
+F 3 "" H 6400 10300 50  0001 C CNN
+	1    6400 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+1V8 #PWR024
+U 1 1 5B0E78BD
+P 7150 10300
+AR Path="/5B0E78BD" Ref="#PWR024"  Part="1" 
+AR Path="/59424E93/5B0E78BD" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 7150 10150 50  0001 C CNN
+F 1 "+1V8" H 7300 10400 50  0000 C CNN
+F 2 "" H 7150 10300 50  0001 C CNN
+F 3 "" H 7150 10300 50  0001 C CNN
+	1    7150 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:GNDD #PWR025
+U 1 1 5B0E7965
+P 6400 10900
+F 0 "#PWR025" H 6400 10650 50  0001 C CNN
+F 1 "GNDD" H 6600 10850 50  0000 C CNN
+F 2 "" H 6400 10900 50  0001 C CNN
+F 3 "" H 6400 10900 50  0001 C CNN
+	1    6400 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:GNDD #PWR026
+U 1 1 5B0E7AA4
+P 7150 10900
+F 0 "#PWR026" H 7150 10650 50  0001 C CNN
+F 1 "GNDD" H 7350 10850 50  0000 C CNN
+F 2 "" H 7150 10900 50  0001 C CNN
+F 3 "" H 7150 10900 50  0001 C CNN
+	1    7150 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:GNDD #PWR027
+U 1 1 5B0EA727
+P 1600 4550
+F 0 "#PWR027" H 1600 4300 50  0001 C CNN
+F 1 "GNDD" H 1605 4377 50  0000 C CNN
+F 2 "" H 1600 4550 50  0001 C CNN
+F 3 "" H 1600 4550 50  0001 C CNN
+	1    1600 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CONN_01X03 J?
+U 1 1 5B0ED8A9
+P 950 5750
+F 0 "J?" H 950 5450 50  0000 C CNN
+F 1 "MUTE/~RST" H 950 5550 50  0000 C CNN
+F 2 "" H 950 5750 50  0001 C CNN
+F 3 "" H 950 5750 50  0001 C CNN
+	1    950  5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B0F699D
+P 6150 6250
+F 0 "C?" V 6050 6150 50  0000 C CNN
+F 1 "1.0" V 6050 6350 50  0000 C CNN
+F 2 "" H 6150 6250 50  0001 C CNN
+F 3 "" H 6150 6250 50  0001 C CNN
+	1    6150 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B0F69A4
+P 7800 6100
+F 0 "C?" H 7900 6200 50  0000 L CNN
+F 1 "1.0" H 7900 6100 50  0000 L CNN
+F 2 "" H 7800 6100 50  0001 C CNN
+F 3 "" H 7800 6100 50  0001 C CNN
+	1    7800 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+3.3V-RESCUE-amplifier #PWR?
+U 1 1 5B0F7816
+P 8400 5150
+AR Path="/5B0F7816" Ref="#PWR?"  Part="1" 
+AR Path="/59424E93/5B0F7816" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 8400 5110 30  0001 C CNN
+F 1 "+3.3V" H 8409 5288 30  0000 C CNN
+F 2 "" H 8400 5150 60  0001 C CNN
+F 3 "" H 8400 5150 60  0001 C CNN
+	1    8400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CONN_01X04 J?
+U 1 1 5B0F9FFA
+P 950 6400
+F 0 "J?" H 950 6050 50  0000 C CNN
+F 1 "PCM/DSD Fs select" H 850 6150 50  0000 C CNN
+F 2 "" H 950 6400 50  0001 C CNN
+F 3 "" H 950 6400 50  0001 C CNN
+	1    950  6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 5B0E67F7
+P 6900 10650
+F 0 "C?" H 6950 10850 50  0000 L CNN
+F 1 "10.0" H 6950 10750 50  0000 L CNN
+F 2 "" H 6900 10650 50  0001 C CNN
+F 3 "" H 6900 10650 50  0001 C CNN
+	1    6900 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:KC7050 DD??
+U 1 1 5B116018
+P 3600 4850
+F 0 "DD??" H 3350 5000 60  0000 C CNN
+F 1 "KC7050" H 3800 5000 60  0000 C CNN
+F 2 "" H 3600 4750 60  0001 C CNN
+F 3 "" H 3600 4750 60  0001 C CNN
+	1    3600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:KC7050 DD??
+U 1 1 5B1160F3
+P 3600 5200
+F 0 "DD??" H 3350 5350 60  0000 C CNN
+F 1 "KC7050" H 3800 5350 60  0000 C CNN
+F 2 "" H 3600 5100 60  0001 C CNN
+F 3 "" H 3600 5100 60  0001 C CNN
+	1    3600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+3.3V-RESCUE-amplifier #PWR029
+U 1 1 5B1193F9
+P 3000 4650
+F 0 "#PWR029" H 3000 4610 30  0001 C CNN
+F 1 "+3.3V" H 3009 4788 30  0000 C CNN
+F 2 "" H 3000 4650 60  0001 C CNN
+F 3 "" H 3000 4650 60  0001 C CNN
+	1    3000 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:DGND #PWR030
+U 1 1 5B1198E7
+P 4200 5500
+F 0 "#PWR030" H 4200 5500 40  0001 C CNN
+F 1 "DGND" H 4200 5567 40  0000 C CNN
+F 2 "" H 4200 5500 60  0001 C CNN
+F 3 "" H 4200 5500 60  0001 C CNN
+	1    4200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B11D648
+P 5200 10650
+F 0 "C?" H 5250 10850 50  0000 L CNN
+F 1 "0.1" H 5250 10750 50  0000 L CNN
+F 2 "" H 5200 10650 50  0001 C CNN
+F 3 "" H 5200 10650 50  0001 C CNN
+	1    5200 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:GNDD #PWR031
+U 1 1 5B11D65E
+P 5450 10900
+F 0 "#PWR031" H 5450 10650 50  0001 C CNN
+F 1 "GNDD" H 5650 10850 50  0000 C CNN
+F 2 "" H 5450 10900 50  0001 C CNN
+F 3 "" H 5450 10900 50  0001 C CNN
+	1    5450 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+3.3V-RESCUE-amplifier #PWR032
+U 1 1 5B11D937
+P 5450 10300
+F 0 "#PWR032" H 5450 10260 30  0001 C CNN
+F 1 "+3.3V" H 5550 10400 30  0000 C CNN
+F 2 "" H 5450 10300 60  0001 C CNN
+F 3 "" H 5450 10300 60  0001 C CNN
+	1    5450 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B11DCA9
+P 5450 10650
+F 0 "C?" H 5500 10850 50  0000 L CNN
+F 1 "0.1" H 5500 10750 50  0000 L CNN
+F 2 "" H 5450 10650 50  0001 C CNN
+F 3 "" H 5450 10650 50  0001 C CNN
+	1    5450 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B11DD3A
+P 6150 10650
+F 0 "C?" H 6200 10850 50  0000 L CNN
+F 1 "0.1" H 6200 10750 50  0000 L CNN
+F 2 "" H 6150 10650 50  0001 C CNN
+F 3 "" H 6150 10650 50  0001 C CNN
+	1    6150 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 5B11E895
+P 5700 10650
+F 0 "C?" H 5750 10850 50  0000 L CNN
+F 1 "4.7" H 5750 10750 50  0000 L CNN
+F 2 "" H 5700 10650 50  0001 C CNN
+F 3 "" H 5700 10650 50  0001 C CNN
+	1    5700 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 5B11EC2C
+P 5950 10650
+F 0 "C?" H 6000 10850 50  0000 L CNN
+F 1 "4.7" H 6000 10750 50  0000 L CNN
+F 2 "" H 5950 10650 50  0001 C CNN
+F 3 "" H 5950 10650 50  0001 C CNN
+	1    5950 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:AD8066 DA??
+U 1 1 5B12377F
+P 11450 2200
+F 0 "DA??" H 11250 2450 60  0000 C CNN
+F 1 "AD8066" H 11600 2450 60  0000 C CNN
+F 2 "" H 11350 2150 60  0001 C CNN
+F 3 "" H 11350 2150 60  0001 C CNN
+	1    11450 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:AD8066 DA??
+U 2 1 5B123836
+P 11450 3200
+F 0 "DA??" H 11250 3450 60  0000 C CNN
+F 1 "AD8066" H 11600 3450 60  0000 C CNN
+F 2 "" H 11350 3150 60  0001 C CNN
+F 3 "" H 11350 3150 60  0001 C CNN
+	2    11450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+3V3 #PWR033
+U 1 1 5B15244D
+P 5450 4700
+F 0 "#PWR033" H 5450 4550 50  0001 C CNN
+F 1 "+3V3" H 5465 4873 50  0000 C CNN
+F 2 "" H 5450 4700 50  0001 C CNN
+F 3 "" H 5450 4700 50  0001 C CNN
+	1    5450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:LDK220 DA?
+U 1 1 5B15AD3E
+P 7000 6000
+F 0 "DA?" H 6750 6200 60  0000 C CNN
+F 1 "LDK220" H 7150 6200 60  0000 C CNN
+F 2 "" H 7050 5900 60  0001 C CNN
+F 3 "" H 7050 5900 60  0001 C CNN
+	1    7000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+3V3 #PWR034
+U 1 1 5B15D195
+P 5950 7250
+F 0 "#PWR034" H 5950 7100 50  0001 C CNN
+F 1 "+3V3" H 5965 7423 50  0000 C CNN
+F 2 "" H 5950 7250 50  0001 C CNN
+F 3 "" H 5950 7250 50  0001 C CNN
+	1    5950 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+9V #PWR035
+U 1 1 5B15D516
+P 5950 7750
+F 0 "#PWR035" H 5950 7720 20  0001 C CNN
+F 1 "+9V" H 5950 7860 30  0000 C CNN
+F 2 "" H 5950 7750 60  0001 C CNN
+F 3 "" H 5950 7750 60  0001 C CNN
+	1    5950 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+5V #PWR036
+U 1 1 5B15DFBF
+P 5950 5250
+F 0 "#PWR036" H 5950 5340 20  0001 C CNN
+F 1 "+5V" H 5950 5340 30  0000 C CNN
+F 2 "" H 5950 5250 60  0001 C CNN
+F 3 "" H 5950 5250 60  0001 C CNN
+	1    5950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:AGND #PWR037
+U 1 1 5B15EA6B
+P 6500 9350
+F 0 "#PWR037" H 6500 9350 40  0001 C CNN
+F 1 "AGND" H 6700 9350 50  0000 C CNN
+F 2 "" H 6500 9350 60  0001 C CNN
+F 3 "" H 6500 9350 60  0001 C CNN
+	1    6500 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+5VD #PWR038
+U 1 1 5B15F8CD
+P 8400 7700
+F 0 "#PWR038" H 8400 7650 20  0001 C CNN
+F 1 "+5VD" H 8400 7800 30  0000 C CNN
+F 2 "" H 8400 7700 60  0001 C CNN
+F 3 "" H 8400 7700 60  0001 C CNN
+	1    8400 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+5VA #PWR039
+U 1 1 5B15FEC9
+P 8400 8550
+F 0 "#PWR039" H 8400 8680 20  0001 C CNN
+F 1 "+5VA" H 8400 8650 30  0000 C CNN
+F 2 "" H 8400 8550 60  0001 C CNN
+F 3 "" H 8400 8550 60  0001 C CNN
+	1    8400 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B161038
+P 7800 8200
+F 0 "C?" H 7900 8100 50  0000 L CNN
+F 1 "4.7" H 7900 8200 50  0000 L CNN
+F 2 "" H 7800 8200 50  0001 C CNN
+F 3 "" H 7800 8200 50  0001 C CNN
+	1    7800 8200
+	1    0    0    1   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B1646BC
+P 6500 8200
+F 0 "C?" H 6700 8000 50  0000 C CNN
+F 1 "1.0" H 6700 8100 50  0000 C CNN
+F 2 "" H 6500 8200 50  0001 C CNN
+F 3 "" H 6500 8200 50  0001 C CNN
+	1    6500 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 2550 6850 2250
+Wire Wire Line
+	6850 3150 7600 3150
+Wire Wire Line
+	2850 2150 2700 2150
+Wire Wire Line
+	4150 1650 5800 1650
+Wire Wire Line
+	4150 1750 5800 1750
+Wire Wire Line
+	4150 1850 5800 1850
+Wire Wire Line
+	4150 1950 5800 1950
+Wire Wire Line
+	4150 850  5450 850 
+Wire Wire Line
+	4150 750  5550 750 
+Wire Wire Line
+	4150 2050 5800 2050
+Wire Wire Line
+	7150 4000 7150 3050
+Wire Wire Line
+	7150 3050 7600 3050
+Wire Wire Line
+	7150 4550 7150 4300
+Wire Wire Line
+	8900 2950 9250 2950
+Wire Wire Line
+	8900 2850 9150 2850
+Wire Wire Line
+	7050 2550 7600 2550
+Wire Wire Line
+	7050 1050 7050 2550
+Wire Wire Line
+	7050 2950 7600 2950
+Connection ~ 7050 2950
+Wire Wire Line
+	4150 2250 4250 2250
+Wire Wire Line
+	2500 1550 2500 1750
+Wire Wire Line
+	2500 1750 2850 1750
+Wire Wire Line
+	4150 2950 5750 2950
+Wire Wire Line
+	5750 950  5750 2750
+Wire Wire Line
+	5750 3450 4150 3450
+Wire Wire Line
+	4150 3150 5750 3150
+Connection ~ 5750 3150
+Wire Wire Line
+	4150 2850 5750 2850
+Wire Wire Line
+	4150 3550 5750 3550
+Connection ~ 5750 3450
+Wire Wire Line
+	4150 2450 5850 2450
+Wire Wire Line
+	4150 2550 5950 2550
+Wire Wire Line
+	4150 2650 6050 2650
+Wire Wire Line
+	6450 2650 6300 2650
+Wire Wire Line
+	6300 2550 6850 2550
+Wire Wire Line
+	6450 2350 6450 2650
+Wire Wire Line
+	7600 2450 7550 2450
+Wire Wire Line
+	7600 2350 7550 2350
+Wire Wire Line
+	7600 2250 7550 2250
+Wire Wire Line
+	6300 2450 7250 2450
+Wire Wire Line
+	6450 2350 7250 2350
+Wire Wire Line
+	6850 2250 7250 2250
+Wire Wire Line
+	2850 2450 2500 2450
+Connection ~ 2500 2450
+Connection ~ 5750 2950
+Wire Wire Line
+	6050 2650 6050 3100
+Connection ~ 6050 2650
+Wire Wire Line
+	5950 2550 5950 3100
+Connection ~ 5950 2550
+Wire Wire Line
+	5850 2450 5850 3100
+Connection ~ 5850 2450
+Wire Wire Line
+	6850 3150 6850 4200
+Wire Wire Line
+	6850 4200 2600 4200
+Wire Wire Line
+	2600 1650 2850 1650
+Wire Wire Line
+	6950 4300 6950 3250
+Wire Wire Line
+	2700 4300 4600 4300
+Wire Wire Line
+	2700 2150 2700 4300
+Wire Wire Line
+	1150 2350 2850 2350
+Wire Wire Line
+	1600 2650 1150 2650
+Wire Wire Line
+	1150 1450 1600 1450
+Wire Wire Line
+	1600 1450 1600 1950
+Wire Wire Line
+	1250 5850 1250 6550
+Wire Wire Line
+	1600 3600 1150 3600
+Wire Wire Line
+	1150 3500 1900 3500
+Wire Wire Line
+	1900 3500 1900 3900
+Wire Wire Line
+	1900 3900 6550 3900
+Wire Wire Line
+	6550 3900 6550 2650
+Wire Wire Line
+	6550 2650 7600 2650
+Wire Wire Line
+	6650 2750 7600 2750
+Wire Wire Line
+	6650 2750 6650 4000
+Wire Wire Line
+	6650 4000 1800 4000
+Wire Wire Line
+	1800 4000 1800 3400
+Wire Wire Line
+	1800 3400 1150 3400
+Wire Wire Line
+	6750 2850 7600 2850
+Wire Wire Line
+	6750 2850 6750 4100
+Wire Wire Line
+	6750 4100 1700 4100
+Wire Wire Line
+	1700 4100 1700 3300
+Wire Wire Line
+	1700 3300 1150 3300
+Wire Wire Line
+	6950 3250 7600 3250
+Wire Wire Line
+	6150 2950 6150 3100
+Wire Wire Line
+	4150 1550 5800 1550
+Wire Wire Line
+	4150 1450 5800 1450
+Wire Wire Line
+	4150 1350 5800 1350
+Wire Wire Line
+	4150 1250 5800 1250
+Wire Wire Line
+	5800 950  5750 950 
+Wire Wire Line
+	5800 1050 5550 1050
+Wire Wire Line
+	5550 1050 5550 750 
+Wire Wire Line
+	5450 850  5450 1150
+Wire Wire Line
+	5450 1150 5800 1150
+Wire Wire Line
+	9300 1450 9250 1450
+Wire Wire Line
+	9250 1450 9250 2950
+Wire Wire Line
+	9150 2850 9150 1350
+Wire Wire Line
+	9150 1350 9300 1350
+Wire Wire Line
+	9300 1250 9050 1250
+Wire Wire Line
+	9050 1250 9050 2550
+Wire Wire Line
+	9050 2550 8900 2550
+Wire Wire Line
+	9300 1150 8950 1150
+Wire Wire Line
+	8950 1150 8950 2450
+Wire Wire Line
+	8950 2450 8900 2450
+Wire Wire Line
+	7050 1050 9300 1050
+Connection ~ 7050 2550
+Wire Wire Line
+	4150 2150 4350 2150
+Wire Wire Line
+	4350 2150 4350 3800
+Wire Wire Line
+	4350 3800 2000 3800
+Wire Wire Line
+	2000 3800 2000 2550
+Wire Wire Line
+	2000 2550 1150 2550
+Wire Wire Line
+	4250 2250 4250 3700
+Wire Wire Line
+	4250 3700 2100 3700
+Wire Wire Line
+	2100 3700 2100 2450
+Wire Wire Line
+	2100 2450 1150 2450
+Connection ~ 1600 2650
+Wire Wire Line
+	2850 750  2300 750 
+Wire Wire Line
+	2850 950  2300 950 
+Wire Wire Line
+	2300 1150 2850 1150
+Wire Wire Line
+	2300 1350 2850 1350
+Wire Wire Line
+	2600 850  2850 850 
+Wire Wire Line
+	2850 1050 2600 1050
+Wire Wire Line
+	2850 1250 2600 1250
+Wire Wire Line
+	2850 1450 2600 1450
+Wire Wire Line
+	2400 850  2350 850 
+Wire Wire Line
+	2350 850  2350 1050
+Wire Wire Line
+	2400 1050 2350 1050
+Connection ~ 2350 1050
+Wire Wire Line
+	2400 1250 2350 1250
+Connection ~ 2350 1250
+Connection ~ 2350 1450
+Wire Wire Line
+	1800 950  2100 950 
+Wire Wire Line
+	1900 1150 2100 1150
+Wire Wire Line
+	1150 1350 2000 1350
+Connection ~ 1600 1450
+Wire Wire Line
+	1150 1250 1900 1250
+Wire Wire Line
+	1900 1150 1900 1250
+Wire Wire Line
+	1800 950  1800 1150
+Wire Wire Line
+	1800 1150 1150 1150
+Wire Wire Line
+	1150 1050 1700 1050
+Wire Wire Line
+	1700 750  1700 1050
+Wire Wire Line
+	1700 750  2100 750 
+Wire Wire Line
+	1700 1850 1700 1950
+Wire Wire Line
+	1600 1950 1700 1950
+Connection ~ 1600 1950
+Wire Wire Line
+	2000 1950 2000 1850
+Connection ~ 1700 1950
+Wire Wire Line
+	1800 1850 1800 1950
+Connection ~ 1800 1950
+Wire Wire Line
+	1900 1850 1900 1950
+Connection ~ 1900 1950
+Wire Wire Line
+	2000 1550 2000 1350
+Connection ~ 2000 1350
+Connection ~ 1900 1250
+Connection ~ 1800 1150
+Connection ~ 1700 1050
+Wire Wire Line
+	2600 1650 2600 4200
+Wire Wire Line
+	2850 2250 2800 2250
+Wire Wire Line
+	2800 2250 2800 4400
+Wire Wire Line
+	7250 4400 7250 3650
+Wire Wire Line
+	7250 3650 7600 3650
+Wire Wire Line
+	4700 9300 3450 9300
+Wire Wire Line
+	4700 1150 4700 5950
+Wire Wire Line
+	4700 1150 4150 1150
+Wire Wire Line
+	7600 3450 7350 3450
+Wire Wire Line
+	7600 3550 7550 3550
+Wire Wire Line
+	2850 1850 2400 1850
+Wire Wire Line
+	2850 2050 2300 2050
+Wire Wire Line
+	2850 1950 2200 1950
+Wire Wire Line
+	3450 9400 4900 9400
+Wire Wire Line
+	4900 9400 4900 950 
+Wire Wire Line
+	4900 950  4150 950 
+Wire Wire Line
+	1150 7150 3500 7150
+Wire Wire Line
+	1150 7050 3600 7050
+Wire Wire Line
+	1150 6950 3700 6950
+Wire Wire Line
+	1150 6850 5850 6850
+Wire Wire Line
+	1150 7250 1250 7250
+Wire Wire Line
+	5950 7400 6450 7400
+Wire Wire Line
+	6400 7200 6450 7200
+Wire Wire Line
+	6400 5250 6400 5600
+Wire Wire Line
+	6250 7550 6400 7550
+Wire Wire Line
+	7600 7300 7600 7400
+Wire Wire Line
+	7600 7300 7550 7300
+Wire Wire Line
+	7550 7200 7800 7200
+Connection ~ 6400 7550
+Wire Wire Line
+	5250 3250 5300 3250
+Wire Wire Line
+	5300 3250 5300 2750
+Wire Wire Line
+	4150 2750 5300 2750
+Wire Wire Line
+	4150 3250 4600 3250
+Wire Wire Line
+	4600 3350 4150 3350
+Connection ~ 5750 3550
+Connection ~ 5750 2850
+Wire Wire Line
+	5600 2750 5750 2750
+Connection ~ 5750 2750
+Connection ~ 5300 2750
+Connection ~ 5300 3250
+Wire Wire Line
+	5600 3250 5750 3250
+Connection ~ 5750 3250
+Wire Wire Line
+	5950 7550 6050 7550
+Wire Wire Line
+	5950 5250 5950 5450
+Wire Wire Line
+	5950 7250 5950 7400
+Wire Wire Line
+	7600 6900 7600 6750
+Wire Wire Line
+	7600 6650 7550 6650
+Wire Wire Line
+	7550 6550 7800 6550
+Wire Wire Line
+	7800 6900 7800 6850
+Wire Wire Line
+	5950 6900 6050 6900
+Wire Wire Line
+	4600 2350 4600 3250
+Connection ~ 4600 3250
+Connection ~ 7600 7550
+Wire Wire Line
+	7550 7400 7600 7400
+Connection ~ 7600 7400
+Wire Wire Line
+	4450 2350 4450 3050
+Wire Wire Line
+	4450 3050 4150 3050
+Wire Wire Line
+	6250 6900 6400 6900
+Connection ~ 6400 6900
+Connection ~ 7600 6900
+Wire Wire Line
+	7800 6550 7800 6650
+Wire Wire Line
+	7800 7550 7800 7500
+Wire Wire Line
+	6400 10300 6400 10400
+Wire Wire Line
+	6150 10400 6400 10400
+Wire Wire Line
+	6900 10400 6900 10550
+Wire Wire Line
+	6650 10550 6650 10400
+Connection ~ 6650 10400
+Wire Wire Line
+	6400 10750 6400 10800
+Wire Wire Line
+	6150 10800 6400 10800
+Wire Wire Line
+	6900 10800 6900 10750
+Wire Wire Line
+	6650 10750 6650 10800
+Connection ~ 6650 10800
+Wire Wire Line
+	7150 10750 7150 10800
+Wire Wire Line
+	7150 10800 7400 10800
+Wire Wire Line
+	7400 10800 7400 10750
+Wire Wire Line
+	7150 10300 7150 10400
+Wire Wire Line
+	7150 10400 7400 10400
+Wire Wire Line
+	7400 10400 7400 10550
+Connection ~ 6400 10400
+Connection ~ 6400 10800
+Connection ~ 7150 10400
+Connection ~ 7150 10800
+Connection ~ 1600 3600
+Wire Wire Line
+	2850 1550 2500 1550
+Connection ~ 2500 1750
+Wire Wire Line
+	5850 5350 5850 6000
+Connection ~ 5850 6850
+Wire Wire Line
+	1150 5850 1250 5850
+Connection ~ 1250 7250
+Wire Wire Line
+	2600 5750 1150 5750
+Connection ~ 2600 4200
+Wire Wire Line
+	2700 5650 1150 5650
+Connection ~ 2700 4300
+Connection ~ 6400 7200
+Wire Wire Line
+	5950 5900 6450 5900
+Wire Wire Line
+	7600 6250 7600 6000
+Wire Wire Line
+	7600 6000 7550 6000
+Wire Wire Line
+	7550 5900 7800 5900
+Wire Wire Line
+	7800 6250 7800 6200
+Wire Wire Line
+	6250 6250 6400 6250
+Connection ~ 7600 6250
+Wire Wire Line
+	6050 6250 5950 6250
+Connection ~ 5950 6250
+Wire Wire Line
+	6450 6000 5850 6000
+Wire Wire Line
+	1150 6550 1250 6550
+Connection ~ 1250 6550
+Wire Wire Line
+	1150 6450 4300 6450
+Wire Wire Line
+	1150 6350 4400 6350
+Wire Wire Line
+	1150 6250 4500 6250
+Wire Wire Line
+	3050 4900 3000 4900
+Wire Wire Line
+	3000 4650 3000 4900
+Wire Wire Line
+	3000 5250 3050 5250
+Wire Wire Line
+	4150 4900 4200 4900
+Wire Wire Line
+	4200 4900 4200 5250
+Wire Wire Line
+	4200 5250 4150 5250
+Wire Wire Line
+	2800 4800 3050 4800
+Wire Wire Line
+	2900 5150 3050 5150
+Wire Wire Line
+	4100 8100 3450 8100
+Wire Wire Line
+	4200 8200 3450 8200
+Wire Wire Line
+	4300 5150 4150 5150
+Wire Wire Line
+	4300 4400 4300 4800
+Wire Wire Line
+	4300 4800 4150 4800
+Connection ~ 3000 4900
+Connection ~ 4200 5250
+Wire Wire Line
+	2800 5850 4100 5850
+Wire Wire Line
+	4100 5850 4100 8100
+Wire Wire Line
+	2900 5150 2900 5750
+Wire Wire Line
+	2900 5750 4200 5750
+Wire Wire Line
+	4200 5750 4200 8200
+Wire Wire Line
+	2800 5850 2800 4800
+Wire Wire Line
+	2800 4400 3600 4400
+Wire Wire Line
+	3900 4400 4300 4400
+Wire Wire Line
+	6250 4400 7250 4400
+Connection ~ 4300 4400
+Connection ~ 4300 4800
+Wire Wire Line
+	5450 10300 5450 10400
+Wire Wire Line
+	5450 10750 5450 10800
+Wire Wire Line
+	5700 10800 5700 10750
+Wire Wire Line
+	5200 10800 5450 10800
+Connection ~ 5450 10800
+Wire Wire Line
+	5700 10400 5700 10550
+Wire Wire Line
+	5200 10400 5450 10400
+Connection ~ 5450 10400
+Wire Wire Line
+	6150 10550 6150 10400
+Wire Wire Line
+	6150 10750 6150 10800
+Wire Wire Line
+	5200 10400 5200 10550
+Wire Wire Line
+	5200 10750 5200 10800
+Wire Wire Line
+	5950 10400 5950 10550
+Connection ~ 5700 10400
+Wire Wire Line
+	5950 10800 5950 10750
+Connection ~ 5700 10800
+Wire Wire Line
+	5050 5950 4700 5950
+Connection ~ 4700 5950
+Wire Wire Line
+	5050 4950 5050 5150
+Wire Wire Line
+	5050 5650 5050 5950
+Wire Wire Line
+	5450 4700 5450 5150
+Wire Wire Line
+	5450 5150 5050 5150
+Connection ~ 5050 5150
+Wire Wire Line
+	5050 4300 5050 4650
+Connection ~ 5050 4300
+Wire Wire Line
+	3450 8950 4600 8950
+Wire Wire Line
+	4600 8950 4600 4300
+Connection ~ 4600 4300
+Connection ~ 5950 7400
+$Comp
+L amplifier-rescue:+9VA #PWR040
+U 1 1 5B166F80
+P 5950 8550
+F 0 "#PWR040" H 5950 8520 20  0001 C CNN
+F 1 "+9VA" H 5950 8660 30  0000 C CNN
+F 2 "" H 5950 8550 60  0001 C CNN
+F 3 "" H 5950 8550 60  0001 C CNN
+	1    5950 8550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 5900
+Connection ~ 6400 6250
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B16D3E1
+P 6150 5600
+F 0 "C?" V 6050 5500 50  0000 C CNN
+F 1 "1.0" V 6050 5700 50  0000 C CNN
+F 2 "" H 6150 5600 50  0001 C CNN
+F 3 "" H 6150 5600 50  0001 C CNN
+	1    6150 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B16DF18
+P 7800 5450
+F 0 "C?" H 7900 5550 50  0000 L CNN
+F 1 "1.0" H 7900 5450 50  0000 L CNN
+F 2 "" H 7800 5450 50  0001 C CNN
+F 3 "" H 7800 5450 50  0001 C CNN
+	1    7800 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 5600 7800 5550
+Wire Wire Line
+	6250 5600 6400 5600
+Wire Wire Line
+	7550 5350 7600 5350
+Wire Wire Line
+	7600 5350 7600 5450
+Connection ~ 7600 5600
+Wire Wire Line
+	7800 5250 7800 5350
+Wire Wire Line
+	7550 5250 7800 5250
+Wire Wire Line
+	6450 5350 5850 5350
+Connection ~ 5850 6000
+Wire Wire Line
+	6050 5600 5950 5600
+Connection ~ 5950 5600
+Connection ~ 6400 5600
+$Comp
+L amplifier-rescue:+3,3V #PWR041
+U 1 1 5B16EF92
+P 8400 5800
+F 0 "#PWR041" H 8400 5760 30  0001 C CNN
+F 1 "+3,3V" H 8400 5910 30  0000 C CNN
+F 2 "" H 8400 5800 60  0001 C CNN
+F 3 "" H 8400 5800 60  0001 C CNN
+	1    8400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+3,3V #PWR042
+U 1 1 5B16FB19
+P 1500 7350
+F 0 "#PWR042" H 1500 7310 30  0001 C CNN
+F 1 "+3,3V" H 1500 7460 30  0000 C CNN
+F 2 "" H 1500 7350 60  0001 C CNN
+F 3 "" H 1500 7350 60  0001 C CNN
+	1    1500 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 7350 1500 7500
+Wire Wire Line
+	1500 7500 1550 7500
+$Comp
+L amplifier-rescue:GNDD #PWR043
+U 1 1 5B1704F4
+P 1500 10000
+F 0 "#PWR043" H 1500 9750 50  0001 C CNN
+F 1 "GNDD" H 1505 9827 50  0000 C CNN
+F 2 "" H 1500 10000 50  0001 C CNN
+F 3 "" H 1500 10000 50  0001 C CNN
+	1    1500 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 9700 1500 9700
+Wire Wire Line
+	1500 9700 1500 9800
+Wire Wire Line
+	1550 9800 1500 9800
+Connection ~ 1500 9800
+$Comp
+L amplifier-rescue:+5VD #PWR044
+U 1 1 5B171DF6
+P 9050 3150
+F 0 "#PWR044" H 9050 3100 20  0001 C CNN
+F 1 "+5VD" H 9050 3250 30  0000 C CNN
+F 2 "" H 9050 3150 60  0001 C CNN
+F 3 "" H 9050 3150 60  0001 C CNN
+	1    9050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+5VA #PWR045
+U 1 1 5B17251D
+P 9200 3150
+F 0 "#PWR045" H 9200 3280 20  0001 C CNN
+F 1 "+5VA" H 9200 3250 30  0000 C CNN
+F 2 "" H 9200 3150 60  0001 C CNN
+F 3 "" H 9200 3150 60  0001 C CNN
+	1    9200 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 3150 9050 3250
+Wire Wire Line
+	9050 3250 8900 3250
+Wire Wire Line
+	8900 3450 9200 3450
+Wire Wire Line
+	9200 3450 9200 3150
+Wire Wire Line
+	8900 3350 9100 3350
+Wire Wire Line
+	9100 3350 9100 3550
+Wire Wire Line
+	9100 3550 8900 3550
+$Comp
+L amplifier-rescue:AGND #PWR046
+U 1 1 5B173203
+P 9100 3850
+F 0 "#PWR046" H 9100 3850 40  0001 C CNN
+F 1 "AGND" H 9250 3800 50  0000 C CNN
+F 2 "" H 9100 3850 60  0001 C CNN
+F 3 "" H 9100 3850 60  0001 C CNN
+	1    9100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:GNDD #PWR047
+U 1 1 5B173AD8
+P 8950 3800
+F 0 "#PWR047" H 8950 3550 50  0001 C CNN
+F 1 "GNDD" H 8750 3700 50  0000 C CNN
+F 2 "" H 8950 3800 50  0001 C CNN
+F 3 "" H 8950 3800 50  0001 C CNN
+	1    8950 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 3650 8950 3650
+Wire Wire Line
+	8950 3650 8950 3800
+Connection ~ 9100 3550
+$Comp
+L amplifier-rescue:R-RESCUE-amplifier R?
+U 1 1 5B175F29
+P 8150 3900
+F 0 "R?" V 8050 3750 50  0000 C CNN
+F 1 "75" V 8050 4000 50  0000 C CNN
+F 2 "" V 8080 3900 50  0001 C CNN
+F 3 "" H 8150 3900 50  0001 C CNN
+	1    8150 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier-rescue:AGND #PWR048
+U 1 1 5B176395
+P 8400 4050
+F 0 "#PWR048" H 8400 4050 40  0001 C CNN
+F 1 "AGND" H 8550 4050 50  0000 C CNN
+F 2 "" H 8400 4050 60  0001 C CNN
+F 3 "" H 8400 4050 60  0001 C CNN
+	1    8400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:GNDD #PWR049
+U 1 1 5B17639B
+P 7850 4000
+F 0 "#PWR049" H 7850 3750 50  0001 C CNN
+F 1 "GNDD" H 8000 3950 50  0000 C CNN
+F 2 "" H 7850 4000 50  0001 C CNN
+F 3 "" H 7850 4000 50  0001 C CNN
+	1    7850 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 3900 8400 3900
+Wire Wire Line
+	8400 3900 8400 4050
+Wire Wire Line
+	8000 3900 7850 3900
+Wire Wire Line
+	7850 3900 7850 4000
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B178206
+P 7650 10650
+F 0 "C?" H 7700 10850 50  0000 L CNN
+F 1 "0.1" H 7700 10750 50  0000 L CNN
+F 2 "" H 7650 10650 50  0001 C CNN
+F 3 "" H 7650 10650 50  0001 C CNN
+	1    7650 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 5B17820C
+P 7900 10650
+F 0 "C?" H 7950 10850 50  0000 L CNN
+F 1 "10.0" H 7950 10750 50  0000 L CNN
+F 2 "" H 7900 10650 50  0001 C CNN
+F 3 "" H 7900 10650 50  0001 C CNN
+	1    7900 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:GNDD #PWR050
+U 1 1 5B178218
+P 7650 10900
+F 0 "#PWR050" H 7650 10650 50  0001 C CNN
+F 1 "GNDD" H 7850 10850 50  0000 C CNN
+F 2 "" H 7650 10900 50  0001 C CNN
+F 3 "" H 7650 10900 50  0001 C CNN
+	1    7650 10900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 10750 7650 10800
+Wire Wire Line
+	7650 10800 7900 10800
+Wire Wire Line
+	7900 10800 7900 10750
+Wire Wire Line
+	7650 10300 7650 10400
+Wire Wire Line
+	7650 10400 7900 10400
+Wire Wire Line
+	7900 10400 7900 10550
+Connection ~ 7650 10400
+Connection ~ 7650 10800
+$Comp
+L amplifier-rescue:+3,3V #PWR051
+U 1 1 5B178593
+P 7650 10300
+F 0 "#PWR051" H 7650 10260 30  0001 C CNN
+F 1 "+3,3V" H 7750 10400 30  0000 C CNN
+F 2 "" H 7650 10300 60  0001 C CNN
+F 3 "" H 7650 10300 60  0001 C CNN
+	1    7650 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B17A02B
+P 8250 10650
+F 0 "C?" H 8300 10850 50  0000 L CNN
+F 1 "0.1" H 8300 10750 50  0000 L CNN
+F 2 "" H 8250 10650 50  0001 C CNN
+F 3 "" H 8250 10650 50  0001 C CNN
+	1    8250 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 5B17A031
+P 8500 10650
+F 0 "C?" H 8550 10850 50  0000 L CNN
+F 1 "100.0" H 8550 10750 50  0000 L CNN
+F 2 "" H 8500 10650 50  0001 C CNN
+F 3 "" H 8500 10650 50  0001 C CNN
+	1    8500 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:GNDD #PWR052
+U 1 1 5B17A037
+P 8250 10900
+F 0 "#PWR052" H 8250 10650 50  0001 C CNN
+F 1 "GNDD" H 8450 10850 50  0000 C CNN
+F 2 "" H 8250 10900 50  0001 C CNN
+F 3 "" H 8250 10900 50  0001 C CNN
+	1    8250 10900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 10750 8250 10800
+Wire Wire Line
+	8250 10800 8500 10800
+Wire Wire Line
+	8500 10800 8500 10750
+Wire Wire Line
+	8250 10300 8250 10400
+Wire Wire Line
+	8250 10400 8500 10400
+Wire Wire Line
+	8500 10400 8500 10550
+Connection ~ 8250 10400
+Connection ~ 8250 10800
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5B17AD8B
+P 8850 10650
+F 0 "C?" H 8900 10850 50  0000 L CNN
+F 1 "0.1" H 8900 10750 50  0000 L CNN
+F 2 "" H 8850 10650 50  0001 C CNN
+F 3 "" H 8850 10650 50  0001 C CNN
+	1    8850 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 5B17AD91
+P 9100 10650
+F 0 "C?" H 9150 10850 50  0000 L CNN
+F 1 "100.0" H 9150 10750 50  0000 L CNN
+F 2 "" H 9100 10650 50  0001 C CNN
+F 3 "" H 9100 10650 50  0001 C CNN
+	1    9100 10650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 10750 8850 10800
+Wire Wire Line
+	8850 10800 9100 10800
+Wire Wire Line
+	9100 10800 9100 10750
+Wire Wire Line
+	8850 10300 8850 10400
+Wire Wire Line
+	8850 10400 9100 10400
+Wire Wire Line
+	9100 10400 9100 10550
+Connection ~ 8850 10400
+Connection ~ 8850 10800
+$Comp
+L amplifier-rescue:AGND #PWR055
+U 1 1 5B17B7F2
+P 8850 10950
+F 0 "#PWR055" H 8850 10950 40  0001 C CNN
+F 1 "AGND" H 9050 10950 50  0000 C CNN
+F 2 "" H 8850 10950 60  0001 C CNN
+F 3 "" H 8850 10950 60  0001 C CNN
+	1    8850 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:INDUCTOR_SMALL L?
+U 1 1 5B17E6A7
+P 8100 7800
+F 0 "L?" H 7950 7900 50  0000 C CNN
+F 1 "4.7uH" H 8200 7900 50  0000 C CNN
+F 2 "" H 8100 7800 60  0001 C CNN
+F 3 "" H 8100 7800 60  0001 C CNN
+	1    8100 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 8100 7800 8000
+Connection ~ 7800 7800
+Wire Wire Line
+	8400 7700 8400 7800
+Wire Wire Line
+	8400 7800 8350 7800
+$Comp
+L amplifier-rescue:INDUCTOR_SMALL L?
+U 1 1 5B17F5FB
+P 8100 7200
+F 0 "L?" H 7950 7300 50  0000 C CNN
+F 1 "4.7uH" H 8200 7300 50  0000 C CNN
+F 2 "" H 8100 7200 60  0001 C CNN
+F 3 "" H 8100 7200 60  0001 C CNN
+	1    8100 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 7100 8400 7200
+Wire Wire Line
+	8400 7200 8350 7200
+Wire Wire Line
+	7800 7300 7800 7200
+Connection ~ 7800 7200
+$Comp
+L amplifier-rescue:INDUCTOR_SMALL L?
+U 1 1 5B181997
+P 8100 6550
+F 0 "L?" H 7950 6650 50  0000 C CNN
+F 1 "4.7uH" H 8200 6650 50  0000 C CNN
+F 2 "" H 8100 6550 60  0001 C CNN
+F 3 "" H 8100 6550 60  0001 C CNN
+	1    8100 6550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7800 6550
+Wire Wire Line
+	8350 6550 8400 6550
+Wire Wire Line
+	8400 6550 8400 6450
+$Comp
+L amplifier-rescue:INDUCTOR_SMALL L?
+U 1 1 5B18287A
+P 8100 5900
+F 0 "L?" H 7950 6000 50  0000 C CNN
+F 1 "4.7uH" H 8200 6000 50  0000 C CNN
+F 2 "" H 8100 5900 60  0001 C CNN
+F 3 "" H 8100 5900 60  0001 C CNN
+	1    8100 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 6000 7800 5900
+Connection ~ 7800 5900
+Wire Wire Line
+	8350 5900 8400 5900
+Wire Wire Line
+	8400 5900 8400 5800
+$Comp
+L amplifier-rescue:INDUCTOR_SMALL L?
+U 1 1 5B183944
 P 8100 5250
-F 0 "#PWR?" H 8100 5000 50  0001 C CNN
-F 1 "GNDD" H 7950 5100 50  0000 C CNN
-F 2 "" H 8100 5250 50  0001 C CNN
-F 3 "" H 8100 5250 50  0001 C CNN
+F 0 "L?" H 7950 5350 50  0000 C CNN
+F 1 "4.7uH" H 8200 5350 50  0000 C CNN
+F 2 "" H 8100 5250 60  0001 C CNN
+F 3 "" H 8100 5250 60  0001 C CNN
 	1    8100 5250
 	1    0    0    -1  
 $EndComp
-$Comp
-L ATMEGA88A-PU U?
-U 1 1 5B058D71
-P 3500 9150
-F 0 "U?" H 3550 10517 50  0000 C CNN
-F 1 "ATMEGA88A-PU" H 3550 10426 50  0000 C CNN
-F 2 "DIL28" H 3500 9150 50  0001 C CIN
-F 3 "" H 3500 9150 50  0001 C CNN
-	1    3500 9150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #PWR?
-U 1 1 5B059729
-P 3550 5250
-F 0 "#PWR?" H 3550 5000 50  0001 C CNN
-F 1 "GNDD" H 3555 5077 50  0000 C CNN
-F 2 "" H 3550 5250 50  0001 C CNN
-F 3 "" H 3550 5250 50  0001 C CNN
-	1    3550 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #PWR?
-U 1 1 5B059F24
-P 6800 5250
-F 0 "#PWR?" H 6800 5000 50  0001 C CNN
-F 1 "GNDD" H 6950 5150 50  0000 C CNN
-F 2 "" H 6800 5250 50  0001 C CNN
-F 3 "" H 6800 5250 50  0001 C CNN
-	1    6800 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper_NC_Small JP?
-U 1 1 5B05A60E
-P 7250 3000
-F 0 "JP?" H 7400 3050 50  0000 C CNN
-F 1 "DAC ON" H 7700 3050 50  0000 C CNN
-F 2 "" H 7250 3000 50  0001 C CNN
-F 3 "" H 7250 3000 50  0001 C CNN
-	1    7250 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper_NC_Small JP?
-U 1 1 5B05A7AF
-P 7250 3100
-F 0 "JP?" H 7400 3150 50  0000 C CNN
-F 1 "DAC ON" H 7700 3150 50  0000 C CNN
-F 2 "" H 7250 3100 50  0001 C CNN
-F 3 "" H 7250 3100 50  0001 C CNN
-	1    7250 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper_NC_Small JP?
-U 1 1 5B05A8D6
-P 7250 3200
-F 0 "JP?" H 7400 3250 50  0000 C CNN
-F 1 "DAC ON" H 7700 3250 50  0000 C CNN
-F 2 "" H 7250 3200 50  0001 C CNN
-F 3 "" H 7250 3200 50  0001 C CNN
-	1    7250 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L R-RESCUE-amplifier R?
-U 1 1 5B07D3AE
-P 8450 2800
-F 0 "R?" V 8400 2350 50  0000 C CNN
-F 1 "75" V 8400 2550 50  0000 C CNN
-F 2 "" V 8380 2800 50  0001 C CNN
-F 3 "" H 8450 2800 50  0001 C CNN
-	1    8450 2800
-	0    1    1    0   
-$EndComp
-$Comp
-L R-RESCUE-amplifier R?
-U 1 1 5B07D4F2
-P 8450 2900
-F 0 "R?" V 8400 2450 50  0000 C CNN
-F 1 "75" V 8400 2650 50  0000 C CNN
-F 2 "" V 8380 2900 50  0001 C CNN
-F 3 "" H 8450 2900 50  0001 C CNN
-	1    8450 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L R-RESCUE-amplifier R?
-U 1 1 5B07D5AA
-P 8450 3000
-F 0 "R?" V 8400 2550 50  0000 C CNN
-F 1 "75" V 8400 2750 50  0000 C CNN
-F 2 "" V 8380 3000 50  0001 C CNN
-F 3 "" H 8450 3000 50  0001 C CNN
-	1    8450 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L CONN_01X04 J?
-U 1 1 5B07EC49
-P 7050 3850
-F 0 "J?" V 6900 4100 50  0000 L CNN
-F 1 "To external DAC" V 7200 3650 50  0000 L CNN
-F 2 "" H 7050 3850 50  0001 C CNN
-F 3 "" H 7050 3850 50  0001 C CNN
-	1    7050 3850
-	0    1    1    0   
-$EndComp
-$Comp
-L GNDD #PWR?
-U 1 1 5B081C63
-P 1950 7900
-F 0 "#PWR?" H 1950 7650 50  0001 C CNN
-F 1 "GNDD" H 1955 7727 50  0000 C CNN
-F 2 "" H 1950 7900 50  0001 C CNN
-F 3 "" H 1950 7900 50  0001 C CNN
-	1    1950 7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X12 J?
-U 1 1 5B07ED58
-P 7050 2050
-F 0 "J?" H 7000 2800 50  0000 L CNN
-F 1 "SRC Pins" H 6900 2700 50  0000 L CNN
-F 2 "" H 7050 2050 50  0001 C CNN
-F 3 "" H 7050 2050 50  0001 C CNN
-	1    7050 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X05 J?
-U 1 1 5B07F3A1
-P 10600 2400
-F 0 "J?" H 10550 2800 50  0000 L CNN
-F 1 "DAC Pins" H 10450 2700 50  0000 L CNN
-F 2 "" H 10600 2400 50  0001 C CNN
-F 3 "" H 10600 2400 50  0001 C CNN
-	1    10600 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X04 J?
-U 1 1 5B07EEE9
-P 1650 4000
-F 0 "J?" H 1650 3650 50  0000 C CNN
-F 1 "DSD Input" H 1650 3750 50  0000 C CNN
-F 2 "" H 1650 4000 50  0001 C CNN
-F 3 "" H 1650 4000 50  0001 C CNN
-	1    1650 4000
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X04 J?
-U 1 1 5B07F035
-P 1650 3050
-F 0 "J?" H 1650 2700 50  0000 C CNN
-F 1 "PCM Input" H 1650 2800 50  0000 C CNN
-F 2 "" H 1650 3050 50  0001 C CNN
-F 3 "" H 1650 3050 50  0001 C CNN
-	1    1650 3050
-	-1   0    0    1   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B0818E3
-P 3250 1300
-F 0 "C?" V 3100 1200 50  0000 C CNN
-F 1 "0.1" V 3200 1200 50  0000 C CNN
-F 2 "" H 3250 1300 50  0001 C CNN
-F 3 "" H 3250 1300 50  0001 C CNN
-	1    3250 1300
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B081A3A
-P 3550 1400
-F 0 "C?" V 3500 1500 50  0000 C CNN
-F 1 "0.1" V 3500 1700 50  0000 C CNN
-F 2 "" H 3550 1400 50  0001 C CNN
-F 3 "" H 3550 1400 50  0001 C CNN
-	1    3550 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B081AB8
-P 3250 1500
-F 0 "C?" V 3100 1400 50  0000 C CNN
-F 1 "0.1" V 3200 1400 50  0000 C CNN
-F 2 "" H 3250 1500 50  0001 C CNN
-F 3 "" H 3250 1500 50  0001 C CNN
-	1    3250 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B081B1B
-P 3550 1600
-F 0 "C?" V 3500 1700 50  0000 C CNN
-F 1 "0.1" V 3500 1900 50  0000 C CNN
-F 2 "" H 3550 1600 50  0001 C CNN
-F 3 "" H 3550 1600 50  0001 C CNN
-	1    3550 1600
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B081B69
-P 3250 1700
-F 0 "C?" V 3100 1600 50  0000 C CNN
-F 1 "0.1" V 3200 1600 50  0000 C CNN
-F 2 "" H 3250 1700 50  0001 C CNN
-F 3 "" H 3250 1700 50  0001 C CNN
-	1    3250 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B081BB3
-P 3550 1800
-F 0 "C?" V 3500 1900 50  0000 C CNN
-F 1 "0.1" V 3500 2100 50  0000 C CNN
-F 2 "" H 3550 1800 50  0001 C CNN
-F 3 "" H 3550 1800 50  0001 C CNN
-	1    3550 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B081BFD
-P 3250 1900
-F 0 "C?" V 3100 1800 50  0000 C CNN
-F 1 "0.1" V 3200 1800 50  0000 C CNN
-F 2 "" H 3250 1900 50  0001 C CNN
-F 3 "" H 3250 1900 50  0001 C CNN
-	1    3250 1900
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B081C4D
-P 3550 2000
-F 0 "C?" V 3500 2100 50  0000 C CNN
-F 1 "0.1" V 3500 2300 50  0000 C CNN
-F 2 "" H 3550 2000 50  0001 C CNN
-F 3 "" H 3550 2000 50  0001 C CNN
-	1    3550 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L CONN_01X05 J?
-U 1 1 5B07F925
-P 1650 1800
-F 0 "J?" H 1650 1400 50  0000 C CNN
-F 1 "SPDIF Inputs" H 1650 1500 50  0000 C CNN
-F 2 "" H 1650 1800 50  0001 C CNN
-F 3 "" H 1650 1800 50  0001 C CNN
-	1    1650 1800
-	-1   0    0    1   
-$EndComp
-$Comp
-L R-RESCUE-amplifier R?
-U 1 1 5B0808B8
-P 2750 2250
-F 0 "R?" H 2550 2300 50  0000 C CNN
-F 1 "75" H 2550 2200 50  0000 C CNN
-F 2 "" V 2680 2250 50  0001 C CNN
-F 3 "" H 2750 2250 50  0001 C CNN
-	1    2750 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R-RESCUE-amplifier R?
-U 1 1 5B080B0F
-P 2850 2250
-F 0 "R?" H 2750 1900 50  0000 C CNN
-F 1 "75" H 2750 1800 50  0000 C CNN
-F 2 "" V 2780 2250 50  0001 C CNN
-F 3 "" H 2850 2250 50  0001 C CNN
-	1    2850 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R-RESCUE-amplifier R?
-U 1 1 5B080B5B
-P 2950 2250
-F 0 "R?" H 2950 1900 50  0000 C CNN
-F 1 "75" H 2950 1800 50  0000 C CNN
-F 2 "" V 2880 2250 50  0001 C CNN
-F 3 "" H 2950 2250 50  0001 C CNN
-	1    2950 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R-RESCUE-amplifier R?
-U 1 1 5B080BA9
-P 3050 2250
-F 0 "R?" H 3200 2300 50  0000 C CNN
-F 1 "75" H 3200 2200 50  0000 C CNN
-F 2 "" V 2980 2250 50  0001 C CNN
-F 3 "" H 3050 2250 50  0001 C CNN
-	1    3050 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X05 J?
-U 1 1 5B08D492
-P 1650 7600
-F 0 "J?" H 1650 7200 50  0000 C CNN
-F 1 "Input select" H 1650 7300 50  0000 C CNN
-F 2 "" H 1650 7600 50  0001 C CNN
-F 3 "" H 1650 7600 50  0001 C CNN
-	1    1650 7600
-	-1   0    0    1   
-$EndComp
-$Comp
-L LP5900 DA?
-U 1 1 5B0D4E9E
-P 8050 8050
-F 0 "DA?" H 7800 8250 60  0000 C CNN
-F 1 "LP5900" H 8250 8250 60  0000 C CNN
-F 2 "" H 8050 7900 60  0001 C CNN
-F 3 "" H 8050 7900 60  0001 C CNN
-	1    8050 8050
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #PWR?
-U 1 1 5B0D84F8
-P 7450 9050
-F 0 "#PWR?" H 7450 8800 50  0001 C CNN
-F 1 "GNDD" H 7650 9000 50  0000 C CNN
-F 2 "" H 7450 9050 50  0001 C CNN
-F 3 "" H 7450 9050 50  0001 C CNN
-	1    7450 9050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R-RESCUE-amplifier R?
-U 1 1 5B0D892D
-P 6150 3800
-F 0 "R?" V 6000 3650 50  0000 C CNN
-F 1 "10" V 6000 3850 50  0000 C CNN
-F 2 "" V 6080 3800 50  0001 C CNN
-F 3 "" H 6150 3800 50  0001 C CNN
-	1    6150 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L CP_Small C?
-U 1 1 5B0DAA10
-P 6550 3300
-F 0 "C?" V 6400 3200 50  0000 C CNN
-F 1 "10.0" V 6400 3400 50  0000 C CNN
-F 2 "" H 6550 3300 50  0001 C CNN
-F 3 "" H 6550 3300 50  0001 C CNN
-	1    6550 3300
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B0DB12D
-P 6550 3800
-F 0 "C?" V 6400 3700 50  0000 C CNN
-F 1 "0.1" V 6400 3850 50  0000 C CNN
-F 2 "" H 6550 3800 50  0001 C CNN
-F 3 "" H 6550 3800 50  0001 C CNN
-	1    6550 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B0DCD0B
-P 8850 10550
-F 0 "C?" H 8900 10750 50  0000 L CNN
-F 1 "0.1" H 8900 10650 50  0000 L CNN
-F 2 "" H 8850 10550 50  0001 C CNN
-F 3 "" H 8850 10550 50  0001 C CNN
-	1    8850 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B0DD4F0
-P 7200 8300
-F 0 "C?" V 7100 8200 50  0000 C CNN
-F 1 "1.0" V 7100 8400 50  0000 C CNN
-F 2 "" H 7200 8300 50  0001 C CNN
-F 3 "" H 7200 8300 50  0001 C CNN
-	1    7200 8300
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B0DD5F1
-P 8850 8150
-F 0 "C?" H 8950 8050 50  0000 L CNN
-F 1 "1.0" H 8950 8150 50  0000 L CNN
-F 2 "" H 8850 8150 50  0001 C CNN
-F 3 "" H 8850 8150 50  0001 C CNN
-	1    8850 8150
-	1    0    0    1   
-$EndComp
-$Comp
-L LP5900 DA?
-U 1 1 5B0E1829
-P 8050 8700
-F 0 "DA?" H 7800 8900 60  0000 C CNN
-F 1 "LP5900" H 8250 8900 60  0000 C CNN
-F 2 "" H 8050 8550 60  0001 C CNN
-F 3 "" H 8050 8550 60  0001 C CNN
-	1    8050 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B0E1851
-P 8100 10550
-F 0 "C?" H 8150 10750 50  0000 L CNN
-F 1 "0.1" H 8150 10650 50  0000 L CNN
-F 2 "" H 8100 10550 50  0001 C CNN
-F 3 "" H 8100 10550 50  0001 C CNN
-	1    8100 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B0E1858
-P 7200 7650
-F 0 "C?" V 7100 7550 50  0000 C CNN
-F 1 "1.0" V 7100 7750 50  0000 C CNN
-F 2 "" H 7200 7650 50  0001 C CNN
-F 3 "" H 7200 7650 50  0001 C CNN
-	1    7200 7650
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B0E185F
-P 8850 7500
-F 0 "C?" H 8950 7600 50  0000 L CNN
-F 1 "1.0" H 8950 7500 50  0000 L CNN
-F 2 "" H 8850 7500 50  0001 C CNN
-F 3 "" H 8850 7500 50  0001 C CNN
-	1    8850 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L +1V8 #PWR?
-U 1 1 5B0E5BBE
-P 5500 2900
-F 0 "#PWR?" H 5500 2750 50  0001 C CNN
-F 1 "+1V8" H 5500 3100 50  0000 C CNN
-F 2 "" H 5500 2900 50  0001 C CNN
-F 3 "" H 5500 2900 50  0001 C CNN
-	1    5500 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR?
-U 1 1 5B0E6A26
-P 9450 7200
-F 0 "#PWR?" H 9450 7050 50  0001 C CNN
-F 1 "+3V3" H 9465 7373 50  0000 C CNN
-F 2 "" H 9450 7200 50  0001 C CNN
-F 3 "" H 9450 7200 50  0001 C CNN
-	1    9450 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +1V8 #PWR?
-U 1 1 5B0E6B12
-P 9450 7850
-F 0 "#PWR?" H 9450 7700 50  0001 C CNN
-F 1 "+1V8" H 9465 8023 50  0000 C CNN
-F 2 "" H 9450 7850 50  0001 C CNN
-F 3 "" H 9450 7850 50  0001 C CNN
-	1    9450 7850
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR?
-U 1 1 5B0E6E93
-P 5650 2900
-F 0 "#PWR?" H 5650 2750 50  0001 C CNN
-F 1 "+3V3" H 5650 3050 50  0000 C CNN
-F 2 "" H 5650 2900 50  0001 C CNN
-F 3 "" H 5650 2900 50  0001 C CNN
-	1    5650 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP_Small C?
-U 1 1 5B0E6722
-P 8350 10550
-F 0 "C?" H 8400 10750 50  0000 L CNN
-F 1 "10.0" H 8400 10650 50  0000 L CNN
-F 2 "" H 8350 10550 50  0001 C CNN
-F 3 "" H 8350 10550 50  0001 C CNN
-	1    8350 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP_Small C?
-U 1 1 5B0E6C4E
-P 9100 10550
-F 0 "C?" H 9150 10750 50  0000 L CNN
-F 1 "10.0" H 9150 10650 50  0000 L CNN
-F 2 "" H 9100 10550 50  0001 C CNN
-F 3 "" H 9100 10550 50  0001 C CNN
-	1    9100 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR?
-U 1 1 5B0E77CF
-P 8100 10200
-F 0 "#PWR?" H 8100 10050 50  0001 C CNN
-F 1 "+3V3" H 8250 10300 50  0000 C CNN
-F 2 "" H 8100 10200 50  0001 C CNN
-F 3 "" H 8100 10200 50  0001 C CNN
-	1    8100 10200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +1V8 #PWR?
-U 1 1 5B0E78BD
-P 8850 10200
-F 0 "#PWR?" H 8850 10050 50  0001 C CNN
-F 1 "+1V8" H 9000 10300 50  0000 C CNN
-F 2 "" H 8850 10200 50  0001 C CNN
-F 3 "" H 8850 10200 50  0001 C CNN
-	1    8850 10200
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #PWR?
-U 1 1 5B0E7965
-P 8100 10800
-F 0 "#PWR?" H 8100 10550 50  0001 C CNN
-F 1 "GNDD" H 8300 10750 50  0000 C CNN
-F 2 "" H 8100 10800 50  0001 C CNN
-F 3 "" H 8100 10800 50  0001 C CNN
-	1    8100 10800
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #PWR?
-U 1 1 5B0E7AA4
-P 8850 10800
-F 0 "#PWR?" H 8850 10550 50  0001 C CNN
-F 1 "GNDD" H 9050 10750 50  0000 C CNN
-F 2 "" H 8850 10800 50  0001 C CNN
-F 3 "" H 8850 10800 50  0001 C CNN
-	1    8850 10800
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #PWR?
-U 1 1 5B0EA727
-P 2650 5250
-F 0 "#PWR?" H 2650 5000 50  0001 C CNN
-F 1 "GNDD" H 2655 5077 50  0000 C CNN
-F 2 "" H 2650 5250 50  0001 C CNN
-F 3 "" H 2650 5250 50  0001 C CNN
-	1    2650 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X03 J?
-U 1 1 5B0ED8A9
-P 1650 6300
-F 0 "J?" H 1650 6000 50  0000 C CNN
-F 1 "MUTE/~RST" H 1650 6100 50  0000 C CNN
-F 2 "" H 1650 6300 50  0001 C CNN
-F 3 "" H 1650 6300 50  0001 C CNN
-	1    1650 6300
-	-1   0    0    1   
-$EndComp
-$Comp
-L LP5900 DA?
-U 1 1 5B0F6990
-P 8050 9450
-F 0 "DA?" H 7800 9650 60  0000 C CNN
-F 1 "LP5900" H 8250 9650 60  0000 C CNN
-F 2 "" H 8050 9300 60  0001 C CNN
-F 3 "" H 8050 9300 60  0001 C CNN
-	1    8050 9450
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B0F699D
-P 7200 7000
-F 0 "C?" V 7100 6900 50  0000 C CNN
-F 1 "1.0" V 7100 7100 50  0000 C CNN
-F 2 "" H 7200 7000 50  0001 C CNN
-F 3 "" H 7200 7000 50  0001 C CNN
-	1    7200 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B0F69A4
-P 8850 6850
-F 0 "C?" H 8950 6950 50  0000 L CNN
-F 1 "1.0" H 8950 6850 50  0000 L CNN
-F 2 "" H 8850 6850 50  0001 C CNN
-F 3 "" H 8850 6850 50  0001 C CNN
-	1    8850 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V-RESCUE-amplifier #PWR?
-U 1 1 5B0F7816
-P 9450 6550
-AR Path="/5B0F7816" Ref="#PWR?"  Part="1" 
-AR Path="/59424E93/5B0F7816" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9450 6510 30  0001 C CNN
-F 1 "+3.3V" H 9459 6688 30  0000 C CNN
-F 2 "" H 9450 6550 60  0001 C CNN
-F 3 "" H 9450 6550 60  0001 C CNN
-	1    9450 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X04 J?
-U 1 1 5B0F9FFA
-P 1650 6950
-F 0 "J?" H 1650 6600 50  0000 C CNN
-F 1 "PCM/DSD Fs select" H 1750 6700 50  0000 C CNN
-F 2 "" H 1650 6950 50  0001 C CNN
-F 3 "" H 1650 6950 50  0001 C CNN
-	1    1650 6950
-	-1   0    0    1   
-$EndComp
-$Comp
-L CP_Small C?
-U 1 1 5B0E67F7
-P 8600 10550
-F 0 "C?" H 8650 10750 50  0000 L CNN
-F 1 "10.0" H 8650 10650 50  0000 L CNN
-F 2 "" H 8600 10550 50  0001 C CNN
-F 3 "" H 8600 10550 50  0001 C CNN
-	1    8600 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L KC7050 DD??
-U 1 1 5B116018
-P 4650 5400
-F 0 "DD??" H 4400 5550 60  0000 C CNN
-F 1 "KC7050" H 4850 5550 60  0000 C CNN
-F 2 "" H 4650 5300 60  0001 C CNN
-F 3 "" H 4650 5300 60  0001 C CNN
-	1    4650 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L KC7050 DD??
-U 1 1 5B1160F3
-P 4650 5750
-F 0 "DD??" H 4400 5900 60  0000 C CNN
-F 1 "KC7050" H 4850 5900 60  0000 C CNN
-F 2 "" H 4650 5650 60  0001 C CNN
-F 3 "" H 4650 5650 60  0001 C CNN
-	1    4650 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V-RESCUE-amplifier #PWR?
-U 1 1 5B1193F9
-P 4050 5200
-F 0 "#PWR?" H 4050 5160 30  0001 C CNN
-F 1 "+3.3V" H 4059 5338 30  0000 C CNN
-F 2 "" H 4050 5200 60  0001 C CNN
-F 3 "" H 4050 5200 60  0001 C CNN
-	1    4050 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L DGND #PWR?
-U 1 1 5B1198E7
-P 5250 6050
-F 0 "#PWR?" H 5250 6050 40  0001 C CNN
-F 1 "DGND" H 5250 6117 40  0000 C CNN
-F 2 "" H 5250 6050 60  0001 C CNN
-F 3 "" H 5250 6050 60  0001 C CNN
-	1    5250 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B11D648
-P 6900 10550
-F 0 "C?" H 6950 10750 50  0000 L CNN
-F 1 "0.1" H 6950 10650 50  0000 L CNN
-F 2 "" H 6900 10550 50  0001 C CNN
-F 3 "" H 6900 10550 50  0001 C CNN
-	1    6900 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #PWR?
-U 1 1 5B11D65E
-P 7150 10800
-F 0 "#PWR?" H 7150 10550 50  0001 C CNN
-F 1 "GNDD" H 7350 10750 50  0000 C CNN
-F 2 "" H 7150 10800 50  0001 C CNN
-F 3 "" H 7150 10800 50  0001 C CNN
-	1    7150 10800
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V-RESCUE-amplifier #PWR?
-U 1 1 5B11D937
-P 7150 10200
-F 0 "#PWR?" H 7150 10160 30  0001 C CNN
-F 1 "+3.3V" H 7250 10300 30  0000 C CNN
-F 2 "" H 7150 10200 60  0001 C CNN
-F 3 "" H 7150 10200 60  0001 C CNN
-	1    7150 10200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B11DCA9
-P 7150 10550
-F 0 "C?" H 7200 10750 50  0000 L CNN
-F 1 "0.1" H 7200 10650 50  0000 L CNN
-F 2 "" H 7150 10550 50  0001 C CNN
-F 3 "" H 7150 10550 50  0001 C CNN
-	1    7150 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B11DD3A
-P 7850 10550
-F 0 "C?" H 7900 10750 50  0000 L CNN
-F 1 "0.1" H 7900 10650 50  0000 L CNN
-F 2 "" H 7850 10550 50  0001 C CNN
-F 3 "" H 7850 10550 50  0001 C CNN
-	1    7850 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP_Small C?
-U 1 1 5B11E895
-P 7400 10550
-F 0 "C?" H 7450 10750 50  0000 L CNN
-F 1 "4.7" H 7450 10650 50  0000 L CNN
-F 2 "" H 7400 10550 50  0001 C CNN
-F 3 "" H 7400 10550 50  0001 C CNN
-	1    7400 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP_Small C?
-U 1 1 5B11EC2C
-P 7650 10550
-F 0 "C?" H 7700 10750 50  0000 L CNN
-F 1 "4.7" H 7700 10650 50  0000 L CNN
-F 2 "" H 7650 10550 50  0001 C CNN
-F 3 "" H 7650 10550 50  0001 C CNN
-	1    7650 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L AD8066 DA??
-U 1 1 5B12377F
-P 11650 2150
-F 0 "DA??" H 11650 2500 60  0000 C CNN
-F 1 "AD8066" H 11650 2400 60  0000 C CNN
-F 2 "" H 11550 2100 60  0001 C CNN
-F 3 "" H 11550 2100 60  0001 C CNN
-	1    11650 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L AD8066 DA??
-U 2 1 5B123836
-P 11650 2950
-F 0 "DA??" H 11650 3300 60  0000 C CNN
-F 1 "AD8066" H 11650 3200 60  0000 C CNN
-F 2 "" H 11550 2900 60  0001 C CNN
-F 3 "" H 11550 2900 60  0001 C CNN
-	2    11650 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR?
-U 1 1 5B15244D
-P 6500 5250
-F 0 "#PWR?" H 6500 5100 50  0001 C CNN
-F 1 "+3V3" H 6515 5423 50  0000 C CNN
-F 2 "" H 6500 5250 50  0001 C CNN
-F 3 "" H 6500 5250 50  0001 C CNN
-	1    6500 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L LDK220 DA?
-U 1 1 5B15AD3E
-P 8050 6750
-F 0 "DA?" H 7800 6950 60  0000 C CNN
-F 1 "LDK220" H 8200 6950 60  0000 C CNN
-F 2 "" H 8100 6650 60  0001 C CNN
-F 3 "" H 8100 6650 60  0001 C CNN
-	1    8050 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L LDK220 DA?
-U 1 1 5B15B753
-P 8050 7400
-F 0 "DA?" H 7800 7600 60  0000 C CNN
-F 1 "LDK220" H 8200 7600 60  0000 C CNN
-F 2 "" H 8100 7300 60  0001 C CNN
-F 3 "" H 8100 7300 60  0001 C CNN
-	1    8050 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR?
-U 1 1 5B15D195
-P 7000 8000
-F 0 "#PWR?" H 7000 7850 50  0001 C CNN
-F 1 "+3V3" H 7015 8173 50  0000 C CNN
-F 2 "" H 7000 8000 50  0001 C CNN
-F 3 "" H 7000 8000 50  0001 C CNN
-	1    7000 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L +9V #PWR?
-U 1 1 5B15D516
-P 7000 8600
-F 0 "#PWR?" H 7000 8570 20  0001 C CNN
-F 1 "+9V" H 7000 8710 30  0000 C CNN
-F 2 "" H 7000 8600 60  0001 C CNN
-F 3 "" H 7000 8600 60  0001 C CNN
-	1    7000 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 5B15DFBF
-P 7000 5850
-F 0 "#PWR?" H 7000 5940 20  0001 C CNN
-F 1 "+5V" H 7000 5940 30  0000 C CNN
-F 2 "" H 7000 5850 60  0001 C CNN
-F 3 "" H 7000 5850 60  0001 C CNN
-	1    7000 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L AGND #PWR?
-U 1 1 5B15EA6B
-P 7450 9850
-F 0 "#PWR?" H 7450 9850 40  0001 C CNN
-F 1 "AGND" H 7650 9850 50  0000 C CNN
-F 2 "" H 7450 9850 60  0001 C CNN
-F 3 "" H 7450 9850 60  0001 C CNN
-	1    7450 9850
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5VD #PWR?
-U 1 1 5B15F8CD
-P 9450 8500
-F 0 "#PWR?" H 9450 8450 20  0001 C CNN
-F 1 "+5VD" H 9450 8600 30  0000 C CNN
-F 2 "" H 9450 8500 60  0001 C CNN
-F 3 "" H 9450 8500 60  0001 C CNN
-	1    9450 8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5VA #PWR?
-U 1 1 5B15FEC9
-P 9450 9250
-F 0 "#PWR?" H 9450 9380 20  0001 C CNN
-F 1 "+5VA" H 9450 9350 30  0000 C CNN
-F 2 "" H 9450 9250 60  0001 C CNN
-F 3 "" H 9450 9250 60  0001 C CNN
-	1    9450 9250
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B160485
-P 8850 9550
-F 0 "C?" H 8950 9450 50  0000 L CNN
-F 1 "1.0" H 8950 9550 50  0000 L CNN
-F 2 "" H 8850 9550 50  0001 C CNN
-F 3 "" H 8850 9550 50  0001 C CNN
-	1    8850 9550
-	1    0    0    1   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B161038
-P 8850 8800
-F 0 "C?" H 8950 8700 50  0000 L CNN
-F 1 "1.0" H 8950 8800 50  0000 L CNN
-F 2 "" H 8850 8800 50  0001 C CNN
-F 3 "" H 8850 8800 50  0001 C CNN
-	1    8850 8800
-	1    0    0    1   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B1646BC
-P 7200 8950
-F 0 "C?" V 7100 8850 50  0000 C CNN
-F 1 "1.0" V 7100 9050 50  0000 C CNN
-F 2 "" H 7200 8950 50  0001 C CNN
-F 3 "" H 7200 8950 50  0001 C CNN
-	1    7200 8950
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B164C5F
-P 7200 9700
-F 0 "C?" V 7100 9600 50  0000 C CNN
-F 1 "1.0" V 7100 9800 50  0000 C CNN
-F 2 "" H 7200 9700 50  0001 C CNN
-F 3 "" H 7200 9700 50  0001 C CNN
-	1    7200 9700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7900 3100 7900 2800
-Wire Wire Line
-	7900 3700 8650 3700
-Wire Wire Line
-	3900 2700 3750 2700
-Wire Wire Line
-	5200 2200 6850 2200
-Wire Wire Line
-	5200 2300 6850 2300
-Wire Wire Line
-	5200 2400 6850 2400
-Wire Wire Line
-	5200 2500 6850 2500
-Wire Wire Line
-	5200 1400 6500 1400
-Wire Wire Line
-	5200 1300 6600 1300
-Wire Wire Line
-	5200 2600 6850 2600
-Wire Wire Line
-	8200 4550 8200 3600
-Wire Wire Line
-	8200 3600 8650 3600
-Wire Wire Line
-	8200 5250 8200 4850
-Wire Wire Line
-	9950 3500 10350 3500
-Wire Wire Line
-	9950 3400 10250 3400
-Wire Wire Line
-	8100 3100 8650 3100
-Wire Wire Line
-	8100 2200 8100 5250
-Wire Wire Line
-	8100 3500 8650 3500
-Connection ~ 8100 3500
-Wire Wire Line
-	5200 2800 5300 2800
-Wire Wire Line
-	3550 2100 3550 5250
-Wire Wire Line
-	3550 2300 3900 2300
-Wire Wire Line
-	5200 3500 7200 3500
-Wire Wire Line
-	6800 1500 6800 5250
-Wire Wire Line
-	6800 4000 5200 4000
-Wire Wire Line
-	5200 3700 6800 3700
-Connection ~ 6800 3700
-Wire Wire Line
-	5200 3400 6800 3400
-Wire Wire Line
-	5200 4100 6800 4100
-Connection ~ 6800 4000
-Wire Wire Line
-	5200 3000 7150 3000
-Wire Wire Line
-	5200 3100 7150 3100
-Wire Wire Line
-	5200 3200 7150 3200
-Wire Wire Line
-	7500 3200 7350 3200
-Wire Wire Line
-	7350 3100 7900 3100
-Wire Wire Line
-	7500 2900 7500 3200
-Wire Wire Line
-	8650 3000 8600 3000
-Wire Wire Line
-	8650 2900 8600 2900
-Wire Wire Line
-	8650 2800 8600 2800
-Wire Wire Line
-	7350 3000 8300 3000
-Wire Wire Line
-	7500 2900 8300 2900
-Wire Wire Line
-	7900 2800 8300 2800
-Wire Wire Line
-	3900 3000 3550 3000
-Connection ~ 3550 3000
-Connection ~ 6800 3500
-Wire Wire Line
-	7100 3200 7100 3650
-Connection ~ 7100 3200
-Wire Wire Line
-	7000 3100 7000 3650
-Connection ~ 7000 3100
-Wire Wire Line
-	6900 3000 6900 3650
-Connection ~ 6900 3000
-Wire Wire Line
-	7900 3700 7900 4750
-Wire Wire Line
-	7900 4750 3650 4750
-Wire Wire Line
-	3650 2200 3900 2200
-Wire Wire Line
-	8000 4850 8000 3800
-Wire Wire Line
-	3750 4850 8000 4850
-Wire Wire Line
-	3750 2700 3750 6200
-Wire Wire Line
-	1850 2900 3900 2900
-Wire Wire Line
-	2650 3200 1850 3200
-Wire Wire Line
-	1850 2000 3450 2000
-Wire Wire Line
-	2650 2000 2650 5250
-Wire Wire Line
-	1950 6400 1950 7900
-Wire Wire Line
-	2650 4150 1850 4150
-Wire Wire Line
-	1850 4050 2950 4050
-Wire Wire Line
-	2950 4050 2950 4450
-Wire Wire Line
-	2950 4450 7600 4450
-Wire Wire Line
-	7600 4450 7600 3200
-Wire Wire Line
-	7600 3200 8650 3200
-Wire Wire Line
-	7700 3300 8650 3300
-Wire Wire Line
-	7700 3300 7700 4550
-Wire Wire Line
-	7700 4550 2850 4550
-Wire Wire Line
-	2850 4550 2850 3950
-Wire Wire Line
-	2850 3950 1850 3950
-Wire Wire Line
-	7800 3400 8650 3400
-Wire Wire Line
-	7800 3400 7800 4650
-Wire Wire Line
-	7800 4650 2750 4650
-Wire Wire Line
-	2750 4650 2750 3850
-Wire Wire Line
-	2750 3850 1850 3850
-Wire Wire Line
-	8000 3800 8650 3800
-Wire Wire Line
-	7200 3500 7200 3650
-Wire Wire Line
-	5200 2100 6850 2100
-Wire Wire Line
-	5200 2000 6850 2000
-Wire Wire Line
-	5200 1900 6850 1900
-Wire Wire Line
-	5200 1800 6850 1800
-Wire Wire Line
-	6850 1500 6800 1500
-Wire Wire Line
-	6850 1600 6600 1600
-Wire Wire Line
-	6600 1600 6600 1300
-Wire Wire Line
-	6500 1400 6500 1700
-Wire Wire Line
-	6500 1700 6850 1700
-Wire Wire Line
-	10400 2600 10350 2600
-Wire Wire Line
-	10350 2600 10350 3500
-Wire Wire Line
-	10250 3400 10250 2500
-Wire Wire Line
-	10250 2500 10400 2500
-Wire Wire Line
-	10400 2400 10150 2400
-Wire Wire Line
-	10150 2400 10150 3100
-Wire Wire Line
-	10150 3100 9950 3100
-Wire Wire Line
-	10400 2300 10050 2300
-Wire Wire Line
-	10050 2300 10050 3000
-Wire Wire Line
-	10050 3000 9950 3000
-Wire Wire Line
-	8100 2200 10400 2200
-Connection ~ 8100 3100
-Wire Wire Line
-	5200 2700 5400 2700
-Wire Wire Line
-	5400 2700 5400 4350
-Wire Wire Line
-	5400 4350 3050 4350
-Wire Wire Line
-	3050 4350 3050 3100
-Wire Wire Line
-	3050 3100 1850 3100
-Wire Wire Line
-	5300 2800 5300 4250
-Wire Wire Line
-	5300 4250 3150 4250
-Wire Wire Line
-	3150 4250 3150 3000
-Wire Wire Line
-	3150 3000 1850 3000
-Connection ~ 2650 3200
-Wire Wire Line
-	3900 1300 3350 1300
-Wire Wire Line
-	3900 1500 3350 1500
-Wire Wire Line
-	3350 1700 3900 1700
-Wire Wire Line
-	3350 1900 3900 1900
-Wire Wire Line
-	3650 1400 3900 1400
-Wire Wire Line
-	3900 1600 3650 1600
-Wire Wire Line
-	3900 1800 3650 1800
-Wire Wire Line
-	3900 2000 3650 2000
-Wire Wire Line
-	3450 1400 3400 1400
-Wire Wire Line
-	3400 1400 3400 2000
-Wire Wire Line
-	3450 1600 3400 1600
-Connection ~ 3400 1600
-Wire Wire Line
-	3450 1800 3400 1800
-Connection ~ 3400 1800
-Connection ~ 3400 2000
-Wire Wire Line
-	2850 1500 3150 1500
-Wire Wire Line
-	2950 1700 3150 1700
-Wire Wire Line
-	1850 1900 3150 1900
-Connection ~ 2650 2000
-Wire Wire Line
-	1850 1800 2950 1800
-Wire Wire Line
-	2950 1700 2950 2100
-Wire Wire Line
-	2850 1500 2850 2100
-Wire Wire Line
-	2850 1700 1850 1700
-Wire Wire Line
-	1850 1600 2750 1600
-Wire Wire Line
-	2750 1300 2750 2100
-Wire Wire Line
-	2750 1300 3150 1300
-Wire Wire Line
-	2750 2400 2750 2500
-Wire Wire Line
-	2650 2500 3050 2500
-Connection ~ 2650 2500
-Wire Wire Line
-	3050 2500 3050 2400
-Connection ~ 2750 2500
-Wire Wire Line
-	2850 2400 2850 2500
-Connection ~ 2850 2500
-Wire Wire Line
-	2950 2400 2950 2500
-Connection ~ 2950 2500
-Wire Wire Line
-	3050 2100 3050 1900
-Connection ~ 3050 1900
-Connection ~ 2950 1800
-Connection ~ 2850 1700
-Connection ~ 2750 1600
-Wire Wire Line
-	3650 2200 3650 6300
-Wire Wire Line
-	3900 2800 3850 2800
-Wire Wire Line
-	3850 2800 3850 4950
-Wire Wire Line
-	8300 4950 8300 4200
-Wire Wire Line
-	8300 4200 8650 4200
-Wire Wire Line
-	5750 9850 4500 9850
-Wire Wire Line
-	5750 1700 5750 9850
-Wire Wire Line
-	5750 1700 5200 1700
-Wire Wire Line
-	8650 4000 8400 4000
-Wire Wire Line
-	8650 4100 8600 4100
-Wire Wire Line
-	3900 2400 3450 2400
-Wire Wire Line
-	3900 2600 3350 2600
-Wire Wire Line
-	3900 2500 3250 2500
-Wire Wire Line
-	4500 9950 5950 9950
-Wire Wire Line
-	5950 9950 5950 1500
-Wire Wire Line
-	5950 1500 5200 1500
-Wire Wire Line
-	1850 7700 4550 7700
-Wire Wire Line
-	1850 7600 4650 7600
-Wire Wire Line
-	1850 7500 4750 7500
-Wire Wire Line
-	1850 7400 7500 7400
-Wire Wire Line
-	1850 7800 1950 7800
-Wire Wire Line
-	7000 8150 7500 8150
-Wire Wire Line
-	7450 7950 7500 7950
-Wire Wire Line
-	7450 6000 7450 9050
-Wire Wire Line
-	7300 8300 8850 8300
-Wire Wire Line
-	8650 8050 8650 8300
-Wire Wire Line
-	8650 8050 8600 8050
-Wire Wire Line
-	8600 7950 8900 7950
-Connection ~ 7450 8300
-Wire Wire Line
-	6300 3800 6450 3800
-Wire Wire Line
-	6350 3800 6350 3300
-Wire Wire Line
-	5200 3300 6450 3300
-Wire Wire Line
-	5200 3800 6000 3800
-Wire Wire Line
-	5650 3900 5200 3900
-Connection ~ 6800 4100
-Connection ~ 6800 3400
-Wire Wire Line
-	6650 3300 6800 3300
-Connection ~ 6800 3300
-Connection ~ 6350 3300
-Connection ~ 6350 3800
-Wire Wire Line
-	6650 3800 6800 3800
-Connection ~ 6800 3800
-Wire Wire Line
-	7000 8300 7100 8300
-Wire Wire Line
-	7000 5850 7000 7650
-Wire Wire Line
-	7000 8000 7000 8300
-Wire Wire Line
-	8650 7650 8650 7400
-Wire Wire Line
-	8650 7400 8600 7400
-Wire Wire Line
-	8600 7300 8900 7300
-Wire Wire Line
-	8850 7650 8850 7600
-Wire Wire Line
-	7000 7650 7100 7650
-Wire Wire Line
-	5650 2900 5650 3900
-Connection ~ 5650 3800
-Connection ~ 8650 8300
-Wire Wire Line
-	8600 8150 8650 8150
-Connection ~ 8650 8150
-Wire Wire Line
-	5500 2900 5500 3600
-Wire Wire Line
-	5500 3600 5200 3600
-Wire Wire Line
-	7300 7650 8850 7650
-Connection ~ 7450 7650
-Connection ~ 8650 7650
-Wire Wire Line
-	8850 7300 8850 7400
-Wire Wire Line
-	8850 8300 8850 8250
-Wire Wire Line
-	8100 10200 8100 10450
-Wire Wire Line
-	7850 10300 8600 10300
-Wire Wire Line
-	8600 10300 8600 10450
-Wire Wire Line
-	8350 10450 8350 10300
-Connection ~ 8350 10300
-Wire Wire Line
-	8100 10650 8100 10800
-Wire Wire Line
-	7850 10700 8600 10700
-Wire Wire Line
-	8600 10700 8600 10650
-Wire Wire Line
-	8350 10650 8350 10700
-Connection ~ 8350 10700
-Wire Wire Line
-	8850 10650 8850 10800
-Wire Wire Line
-	8850 10700 9100 10700
-Wire Wire Line
-	9100 10700 9100 10650
-Wire Wire Line
-	8850 10200 8850 10450
-Wire Wire Line
-	8850 10300 9100 10300
-Wire Wire Line
-	9100 10300 9100 10450
-Connection ~ 8100 10300
-Connection ~ 8100 10700
-Connection ~ 8850 10300
-Connection ~ 8850 10700
-Connection ~ 2650 4150
-Wire Wire Line
-	3900 2100 3550 2100
-Connection ~ 3550 2300
-Wire Wire Line
-	6900 6100 6900 9450
-Connection ~ 6900 7400
-Wire Wire Line
-	1850 6400 1950 6400
-Connection ~ 1950 7800
-Wire Wire Line
-	3650 6300 1850 6300
-Connection ~ 3650 4750
-Wire Wire Line
-	3750 6200 1850 6200
-Connection ~ 3750 4850
-Connection ~ 7450 7950
-Wire Wire Line
-	7000 6650 7500 6650
-Wire Wire Line
-	8650 7000 8650 6750
-Wire Wire Line
-	8650 6750 8600 6750
-Wire Wire Line
-	8600 6650 8900 6650
-Wire Wire Line
-	8850 7000 8850 6950
-Wire Wire Line
-	7300 7000 8850 7000
-Connection ~ 8650 7000
-Wire Wire Line
-	7000 7300 7500 7300
-Wire Wire Line
-	7100 7000 7000 7000
-Connection ~ 7000 7000
-Wire Wire Line
-	7500 6750 6900 6750
-Wire Wire Line
-	1850 7100 1950 7100
-Connection ~ 1950 7100
-Wire Wire Line
-	1850 7000 5350 7000
-Wire Wire Line
-	1850 6900 5450 6900
-Wire Wire Line
-	1850 6800 5550 6800
-Wire Wire Line
-	4100 5450 4050 5450
-Wire Wire Line
-	4050 5200 4050 5800
-Wire Wire Line
-	4050 5800 4100 5800
-Wire Wire Line
-	5200 5450 5250 5450
-Wire Wire Line
-	5250 5450 5250 6050
-Wire Wire Line
-	5250 5800 5200 5800
-Wire Wire Line
-	3850 5350 4100 5350
-Wire Wire Line
-	3950 5700 4100 5700
-Wire Wire Line
-	5150 8650 4500 8650
-Wire Wire Line
-	5250 8750 4500 8750
-Wire Wire Line
-	5350 5700 5200 5700
-Wire Wire Line
-	5350 4950 5350 5700
-Wire Wire Line
-	5350 5350 5200 5350
-Connection ~ 4050 5450
-Connection ~ 5250 5800
-Wire Wire Line
-	3850 6400 5150 6400
-Wire Wire Line
-	5150 6400 5150 8650
-Wire Wire Line
-	3950 5700 3950 6300
-Wire Wire Line
-	3950 6300 5250 6300
-Wire Wire Line
-	5250 6300 5250 8750
-Wire Wire Line
-	3850 6400 3850 5350
-Wire Wire Line
-	3850 4950 4650 4950
-Wire Wire Line
-	4950 4950 7000 4950
-Wire Wire Line
-	7300 4950 8300 4950
-Connection ~ 5350 4950
-Connection ~ 5350 5350
-Wire Wire Line
-	7150 10200 7150 10450
-Wire Wire Line
-	7150 10650 7150 10800
-Wire Wire Line
-	7400 10700 7400 10650
-Wire Wire Line
-	6900 10700 7650 10700
-Connection ~ 7150 10700
-Wire Wire Line
-	7400 10300 7400 10450
-Wire Wire Line
-	6900 10300 7650 10300
-Connection ~ 7150 10300
-Wire Wire Line
-	7850 10450 7850 10300
-Wire Wire Line
-	7850 10650 7850 10700
-Wire Wire Line
-	6900 10300 6900 10450
-Wire Wire Line
-	6900 10650 6900 10700
-Wire Wire Line
-	7650 10300 7650 10450
-Connection ~ 7400 10300
-Wire Wire Line
-	7650 10700 7650 10650
-Connection ~ 7400 10700
-Wire Wire Line
-	6100 6500 5750 6500
-Connection ~ 5750 6500
-Wire Wire Line
-	6100 5500 6100 5900
-Wire Wire Line
-	6100 6200 6100 6500
-Wire Wire Line
-	6500 5250 6500 5700
-Wire Wire Line
-	6500 5700 6100 5700
-Connection ~ 6100 5700
-Wire Wire Line
-	6100 4850 6100 5200
-Connection ~ 6100 4850
-Wire Wire Line
-	4500 9500 5650 9500
-Wire Wire Line
-	5650 9500 5650 4850
-Connection ~ 5650 4850
-Connection ~ 7000 8150
-Wire Wire Line
-	7000 8600 7000 8950
-Wire Wire Line
-	7000 9300 7000 9700
-Wire Wire Line
-	7000 8800 7500 8800
-Wire Wire Line
-	7000 9550 7500 9550
-Connection ~ 7000 8800
-Wire Wire Line
-	8600 8700 8650 8700
-Wire Wire Line
-	8600 9450 8650 9450
-Wire Wire Line
-	8650 9450 8650 9700
-Wire Wire Line
-	8600 9350 9450 9350
-Wire Wire Line
-	8850 9700 8850 9650
-Wire Wire Line
-	8600 8600 8900 8600
-Wire Wire Line
-	8850 8950 8850 8900
-Wire Wire Line
-	7300 8950 8850 8950
-Wire Wire Line
-	6900 8700 7500 8700
-Wire Wire Line
-	6900 9450 7500 9450
-Connection ~ 6900 8700
-Wire Wire Line
-	7450 8600 7500 8600
-Wire Wire Line
-	8650 8700 8650 8950
-Connection ~ 8650 8950
-Connection ~ 7450 8600
-Connection ~ 7450 8950
-Wire Wire Line
-	7000 8950 7100 8950
-Wire Wire Line
-	7000 9700 7100 9700
-Connection ~ 7000 9550
-$Comp
-L +9VA #PWR?
-U 1 1 5B166F80
-P 7000 9300
-F 0 "#PWR?" H 7000 9270 20  0001 C CNN
-F 1 "+9VA" H 7000 9410 30  0000 C CNN
-F 2 "" H 7000 9300 60  0001 C CNN
-F 3 "" H 7000 9300 60  0001 C CNN
-	1    7000 9300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8600 8800 8650 8800
-Connection ~ 8650 8800
-Wire Wire Line
-	8600 9550 8650 9550
-Connection ~ 8650 9550
-Wire Wire Line
-	7500 9350 7450 9350
-Wire Wire Line
-	7450 9350 7450 9850
-Wire Wire Line
-	7300 9700 8850 9700
-Connection ~ 7450 9700
-Connection ~ 8650 9700
-Connection ~ 7000 7300
-Connection ~ 7000 6650
-Connection ~ 7450 7000
-$Comp
-L C_Small C?
-U 1 1 5B16D3E1
-P 7200 6350
-F 0 "C?" V 7100 6250 50  0000 C CNN
-F 1 "1.0" V 7100 6450 50  0000 C CNN
-F 2 "" H 7200 6350 50  0001 C CNN
-F 3 "" H 7200 6350 50  0001 C CNN
-	1    7200 6350
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B16DF18
-P 8850 6200
-F 0 "C?" H 8950 6300 50  0000 L CNN
-F 1 "1.0" H 8950 6200 50  0000 L CNN
-F 2 "" H 8850 6200 50  0001 C CNN
-F 3 "" H 8850 6200 50  0001 C CNN
-	1    8850 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8850 6350 8850 6300
-Wire Wire Line
-	7300 6350 8850 6350
-Wire Wire Line
-	8600 6100 8650 6100
-Wire Wire Line
-	8650 6100 8650 6350
-Connection ~ 8650 6350
-Wire Wire Line
-	8850 6000 8850 6100
-Wire Wire Line
-	8600 6000 8900 6000
-Wire Wire Line
-	7500 6100 6900 6100
-Connection ~ 6900 6750
-Wire Wire Line
-	7100 6350 7000 6350
-Connection ~ 7000 6350
-Connection ~ 7450 6350
-$Comp
-L +3,3V #PWR?
-U 1 1 5B16EF92
-P 9450 5900
-F 0 "#PWR?" H 9450 5860 30  0001 C CNN
-F 1 "+3,3V" H 9450 6010 30  0000 C CNN
-F 2 "" H 9450 5900 60  0001 C CNN
-F 3 "" H 9450 5900 60  0001 C CNN
-	1    9450 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3,3V #PWR?
-U 1 1 5B16FB19
-P 2550 7900
-F 0 "#PWR?" H 2550 7860 30  0001 C CNN
-F 1 "+3,3V" H 2550 8010 30  0000 C CNN
-F 2 "" H 2550 7900 60  0001 C CNN
-F 3 "" H 2550 7900 60  0001 C CNN
-	1    2550 7900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 7900 2550 8050
-Wire Wire Line
-	2550 8050 2600 8050
-$Comp
-L GNDD #PWR?
-U 1 1 5B1704F4
-P 2550 10550
-F 0 "#PWR?" H 2550 10300 50  0001 C CNN
-F 1 "GNDD" H 2555 10377 50  0000 C CNN
-F 2 "" H 2550 10550 50  0001 C CNN
-F 3 "" H 2550 10550 50  0001 C CNN
-	1    2550 10550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 10250 2550 10250
-Wire Wire Line
-	2550 10250 2550 10550
-Wire Wire Line
-	2600 10350 2550 10350
-Connection ~ 2550 10350
-$Comp
-L +5VD #PWR?
-U 1 1 5B171DF6
-P 10100 3700
-F 0 "#PWR?" H 10100 3650 20  0001 C CNN
-F 1 "+5VD" H 10100 3800 30  0000 C CNN
-F 2 "" H 10100 3700 60  0001 C CNN
-F 3 "" H 10100 3700 60  0001 C CNN
-	1    10100 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5VA #PWR?
-U 1 1 5B17251D
-P 10250 3700
-F 0 "#PWR?" H 10250 3830 20  0001 C CNN
-F 1 "+5VA" H 10250 3800 30  0000 C CNN
-F 2 "" H 10250 3700 60  0001 C CNN
-F 3 "" H 10250 3700 60  0001 C CNN
-	1    10250 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10100 3700 10100 3800
-Wire Wire Line
-	10100 3800 9950 3800
-Wire Wire Line
-	9950 4000 10250 4000
-Wire Wire Line
-	10250 4000 10250 3700
-Wire Wire Line
-	9950 3900 10150 3900
-Wire Wire Line
-	10150 3900 10150 4400
-Wire Wire Line
-	10150 4100 9950 4100
-$Comp
-L AGND #PWR?
-U 1 1 5B173203
-P 10150 4400
-F 0 "#PWR?" H 10150 4400 40  0001 C CNN
-F 1 "AGND" H 10300 4350 50  0000 C CNN
-F 2 "" H 10150 4400 60  0001 C CNN
-F 3 "" H 10150 4400 60  0001 C CNN
-	1    10150 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #PWR?
-U 1 1 5B173AD8
-P 10000 4350
-F 0 "#PWR?" H 10000 4100 50  0001 C CNN
-F 1 "GNDD" H 9800 4250 50  0000 C CNN
-F 2 "" H 10000 4350 50  0001 C CNN
-F 3 "" H 10000 4350 50  0001 C CNN
-	1    10000 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9950 4200 10000 4200
-Wire Wire Line
-	10000 4200 10000 4350
-Connection ~ 10150 4100
-$Comp
-L R-RESCUE-amplifier R?
-U 1 1 5B175F29
-P 9200 4450
-F 0 "R?" V 9100 4300 50  0000 C CNN
-F 1 "75" V 9100 4550 50  0000 C CNN
-F 2 "" V 9130 4450 50  0001 C CNN
-F 3 "" H 9200 4450 50  0001 C CNN
-	1    9200 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L AGND #PWR?
-U 1 1 5B176395
-P 9450 4600
-F 0 "#PWR?" H 9450 4600 40  0001 C CNN
-F 1 "AGND" H 9600 4600 50  0000 C CNN
-F 2 "" H 9450 4600 60  0001 C CNN
-F 3 "" H 9450 4600 60  0001 C CNN
-	1    9450 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #PWR?
-U 1 1 5B17639B
-P 8900 4550
-F 0 "#PWR?" H 8900 4300 50  0001 C CNN
-F 1 "GNDD" H 9050 4500 50  0000 C CNN
-F 2 "" H 8900 4550 50  0001 C CNN
-F 3 "" H 8900 4550 50  0001 C CNN
-	1    8900 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9350 4450 9450 4450
-Wire Wire Line
-	9450 4450 9450 4600
-Wire Wire Line
-	9050 4450 8900 4450
-Wire Wire Line
-	8900 4450 8900 4550
-$Comp
-L C_Small C?
-U 1 1 5B178206
-P 9350 10550
-F 0 "C?" H 9400 10750 50  0000 L CNN
-F 1 "0.1" H 9400 10650 50  0000 L CNN
-F 2 "" H 9350 10550 50  0001 C CNN
-F 3 "" H 9350 10550 50  0001 C CNN
-	1    9350 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP_Small C?
-U 1 1 5B17820C
-P 9600 10550
-F 0 "C?" H 9650 10750 50  0000 L CNN
-F 1 "10.0" H 9650 10650 50  0000 L CNN
-F 2 "" H 9600 10550 50  0001 C CNN
-F 3 "" H 9600 10550 50  0001 C CNN
-	1    9600 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #PWR?
-U 1 1 5B178218
-P 9350 10800
-F 0 "#PWR?" H 9350 10550 50  0001 C CNN
-F 1 "GNDD" H 9550 10750 50  0000 C CNN
-F 2 "" H 9350 10800 50  0001 C CNN
-F 3 "" H 9350 10800 50  0001 C CNN
-	1    9350 10800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9350 10650 9350 10800
-Wire Wire Line
-	9350 10700 9600 10700
-Wire Wire Line
-	9600 10700 9600 10650
-Wire Wire Line
-	9350 10200 9350 10450
-Wire Wire Line
-	9350 10300 9600 10300
-Wire Wire Line
-	9600 10300 9600 10450
-Connection ~ 9350 10300
-Connection ~ 9350 10700
-$Comp
-L +3,3V #PWR?
-U 1 1 5B178593
-P 9350 10200
-F 0 "#PWR?" H 9350 10160 30  0001 C CNN
-F 1 "+3,3V" H 9450 10300 30  0000 C CNN
-F 2 "" H 9350 10200 60  0001 C CNN
-F 3 "" H 9350 10200 60  0001 C CNN
-	1    9350 10200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B17A02B
-P 9850 10550
-F 0 "C?" H 9900 10750 50  0000 L CNN
-F 1 "0.1" H 9900 10650 50  0000 L CNN
-F 2 "" H 9850 10550 50  0001 C CNN
-F 3 "" H 9850 10550 50  0001 C CNN
-	1    9850 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP_Small C?
-U 1 1 5B17A031
-P 10100 10550
-F 0 "C?" H 10150 10750 50  0000 L CNN
-F 1 "100.0" H 10150 10650 50  0000 L CNN
-F 2 "" H 10100 10550 50  0001 C CNN
-F 3 "" H 10100 10550 50  0001 C CNN
-	1    10100 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #PWR?
-U 1 1 5B17A037
-P 9850 10800
-F 0 "#PWR?" H 9850 10550 50  0001 C CNN
-F 1 "GNDD" H 10050 10750 50  0000 C CNN
-F 2 "" H 9850 10800 50  0001 C CNN
-F 3 "" H 9850 10800 50  0001 C CNN
-	1    9850 10800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9850 10650 9850 10800
-Wire Wire Line
-	9850 10700 10100 10700
-Wire Wire Line
-	10100 10700 10100 10650
-Wire Wire Line
-	9850 10200 9850 10450
-Wire Wire Line
-	9850 10300 10100 10300
-Wire Wire Line
-	10100 10300 10100 10450
-Connection ~ 9850 10300
-Connection ~ 9850 10700
-$Comp
-L +5VD #PWR?
-U 1 1 5B17A770
-P 9850 10200
-F 0 "#PWR?" H 9850 10150 20  0001 C CNN
-F 1 "+5VD" H 9950 10300 30  0000 C CNN
-F 2 "" H 9850 10200 60  0001 C CNN
-F 3 "" H 9850 10200 60  0001 C CNN
-	1    9850 10200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5B17AD8B
-P 10450 10550
-F 0 "C?" H 10500 10750 50  0000 L CNN
-F 1 "0.1" H 10500 10650 50  0000 L CNN
-F 2 "" H 10450 10550 50  0001 C CNN
-F 3 "" H 10450 10550 50  0001 C CNN
-	1    10450 10550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP_Small C?
-U 1 1 5B17AD91
-P 10700 10550
-F 0 "C?" H 10750 10750 50  0000 L CNN
-F 1 "100.0" H 10750 10650 50  0000 L CNN
-F 2 "" H 10700 10550 50  0001 C CNN
-F 3 "" H 10700 10550 50  0001 C CNN
-	1    10700 10550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10450 10650 10450 10850
-Wire Wire Line
-	10450 10700 10700 10700
-Wire Wire Line
-	10700 10700 10700 10650
-Wire Wire Line
-	10450 10200 10450 10450
-Wire Wire Line
-	10450 10300 10700 10300
-Wire Wire Line
-	10700 10300 10700 10450
-Connection ~ 10450 10300
-Connection ~ 10450 10700
-$Comp
-L +5VA #PWR?
-U 1 1 5B17B014
-P 10450 10200
-F 0 "#PWR?" H 10450 10330 20  0001 C CNN
-F 1 "+5VA" H 10550 10300 30  0000 C CNN
-F 2 "" H 10450 10200 60  0001 C CNN
-F 3 "" H 10450 10200 60  0001 C CNN
-	1    10450 10200
-	1    0    0    -1  
-$EndComp
-$Comp
-L AGND #PWR?
-U 1 1 5B17B7F2
-P 10450 10850
-F 0 "#PWR?" H 10450 10850 40  0001 C CNN
-F 1 "AGND" H 10650 10850 50  0000 C CNN
-F 2 "" H 10450 10850 60  0001 C CNN
-F 3 "" H 10450 10850 60  0001 C CNN
-	1    10450 10850
-	1    0    0    -1  
-$EndComp
-$Comp
-L INDUCTOR_SMALL L?
-U 1 1 5B17E6A7
-P 9150 8600
-F 0 "L?" H 9000 8700 50  0000 C CNN
-F 1 "4.7uH" H 9250 8700 50  0000 C CNN
-F 2 "" H 9150 8600 60  0001 C CNN
-F 3 "" H 9150 8600 60  0001 C CNN
-	1    9150 8600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8850 8700 8850 8600
-Connection ~ 8850 8600
-Wire Wire Line
-	9450 8500 9450 8600
-Wire Wire Line
-	9450 8600 9400 8600
-$Comp
-L INDUCTOR_SMALL L?
-U 1 1 5B17F5FB
-P 9150 7950
-F 0 "L?" H 9000 8050 50  0000 C CNN
-F 1 "4.7uH" H 9250 8050 50  0000 C CNN
-F 2 "" H 9150 7950 60  0001 C CNN
-F 3 "" H 9150 7950 60  0001 C CNN
-	1    9150 7950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 7850 9450 7950
-Wire Wire Line
-	9450 7950 9400 7950
-Wire Wire Line
-	8850 8050 8850 7950
-Connection ~ 8850 7950
-Wire Wire Line
-	9450 9350 9450 9250
-Wire Wire Line
-	8850 9450 8850 9350
-Connection ~ 8850 9350
-$Comp
-L INDUCTOR_SMALL L?
-U 1 1 5B181997
-P 9150 7300
-F 0 "L?" H 9000 7400 50  0000 C CNN
-F 1 "4.7uH" H 9250 7400 50  0000 C CNN
-F 2 "" H 9150 7300 60  0001 C CNN
-F 3 "" H 9150 7300 60  0001 C CNN
-	1    9150 7300
-	1    0    0    -1  
-$EndComp
-Connection ~ 8850 7300
-Wire Wire Line
-	9400 7300 9450 7300
-Wire Wire Line
-	9450 7300 9450 7200
-$Comp
-L INDUCTOR_SMALL L?
-U 1 1 5B18287A
-P 9150 6650
-F 0 "L?" H 9000 6750 50  0000 C CNN
-F 1 "4.7uH" H 9250 6750 50  0000 C CNN
-F 2 "" H 9150 6650 60  0001 C CNN
-F 3 "" H 9150 6650 60  0001 C CNN
-	1    9150 6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8850 6750 8850 6650
-Connection ~ 8850 6650
-Wire Wire Line
-	9400 6650 9450 6650
-Wire Wire Line
-	9450 6650 9450 6550
-$Comp
-L INDUCTOR_SMALL L?
-U 1 1 5B183944
-P 9150 6000
-F 0 "L?" H 9000 6100 50  0000 C CNN
-F 1 "4.7uH" H 9250 6100 50  0000 C CNN
-F 2 "" H 9150 6000 60  0001 C CNN
-F 3 "" H 9150 6000 60  0001 C CNN
-	1    9150 6000
-	1    0    0    -1  
-$EndComp
-Connection ~ 8850 6000
+Connection ~ 7800 5250
 Wire Wire Line
-	9400 6000 9450 6000
+	8350 5250 8400 5250
 Wire Wire Line
-	9450 6000 9450 5900
+	8400 5250 8400 5150
 Wire Wire Line
-	8650 3900 8500 3900
+	7600 3350 7450 3350
 $Comp
-L R-RESCUE-amplifier R?
+L amplifier-rescue:R-RESCUE-amplifier R?
 U 1 1 5B198532
-P 7150 4950
-F 0 "R?" V 7100 5150 50  0000 C CNN
-F 1 "75" V 7100 5350 50  0000 C CNN
-F 2 "" V 7080 4950 50  0001 C CNN
-F 3 "" H 7150 4950 50  0001 C CNN
-	1    7150 4950
+P 6100 4400
+F 0 "R?" V 6050 4600 50  0000 C CNN
+F 1 "75" V 6050 4800 50  0000 C CNN
+F 2 "" V 6030 4400 50  0001 C CNN
+F 3 "" H 6100 4400 50  0001 C CNN
+	1    6100 4400
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-amplifier R?
+L amplifier-rescue:R-RESCUE-amplifier R?
 U 1 1 5B1986B2
-P 4800 4950
-F 0 "R?" V 4750 5150 50  0000 C CNN
-F 1 "75" V 4750 5350 50  0000 C CNN
-F 2 "" V 4730 4950 50  0001 C CNN
-F 3 "" H 4800 4950 50  0001 C CNN
-	1    4800 4950
+P 3750 4400
+F 0 "R?" V 3700 4600 50  0000 C CNN
+F 1 "75" V 3700 4800 50  0000 C CNN
+F 2 "" V 3680 4400 50  0001 C CNN
+F 3 "" H 3750 4400 50  0001 C CNN
+	1    3750 4400
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-amplifier R?
+L amplifier-rescue:R-RESCUE-amplifier R?
 U 1 1 5B19A06B
-P 6100 5350
-F 0 "R?" H 6200 5400 50  0000 L CNN
-F 1 "10k" H 6200 5300 50  0000 L CNN
-F 2 "" V 6030 5350 50  0001 C CNN
-F 3 "" H 6100 5350 50  0001 C CNN
-	1    6100 5350
+P 5050 4800
+F 0 "R?" H 5150 4850 50  0000 L CNN
+F 1 "10k" H 5150 4750 50  0000 L CNN
+F 2 "" V 4980 4800 50  0001 C CNN
+F 3 "" H 5050 4800 50  0001 C CNN
+	1    5050 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-amplifier R?
+L amplifier-rescue:R-RESCUE-amplifier R?
 U 1 1 5B19A2CA
-P 6100 6050
-F 0 "R?" H 6200 6100 50  0000 L CNN
-F 1 "10k" H 6200 6000 50  0000 L CNN
-F 2 "" V 6030 6050 50  0001 C CNN
-F 3 "" H 6100 6050 50  0001 C CNN
-	1    6100 6050
+P 5050 5500
+F 0 "R?" H 5150 5550 50  0000 L CNN
+F 1 "10k" H 5150 5450 50  0000 L CNN
+F 2 "" V 4980 5500 50  0001 C CNN
+F 3 "" H 5050 5500 50  0001 C CNN
+	1    5050 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 2500 3250 7300
+	2200 1950 2200 6750
 Wire Wire Line
-	3250 7300 6800 7300
+	2200 6750 3800 6750
 Wire Wire Line
-	4850 7300 4850 8550
+	3800 6750 3800 8000
 Wire Wire Line
-	4850 8550 4500 8550
+	3800 8000 3450 8000
 Wire Wire Line
-	8600 4100 8600 5700
+	7550 3550 7550 5000
 Wire Wire Line
-	8600 5700 6800 5700
+	7550 5000 5750 5000
 Wire Wire Line
-	6800 5700 6800 7300
-Connection ~ 4850 7300
+	5750 5000 5750 6750
+Connection ~ 3800 6750
 Wire Wire Line
-	8500 3900 8500 5600
+	7450 3350 7450 4900
 Wire Wire Line
-	8500 5600 6700 5600
+	7450 4900 5650 4900
 Wire Wire Line
-	3350 2600 3350 7200
+	2300 2050 2300 6650
 Wire Wire Line
-	3350 7200 6700 7200
+	2300 6650 3900 6650
 Wire Wire Line
-	6700 7200 6700 5600
+	5650 6650 5650 4900
 Wire Wire Line
-	4950 7200 4950 8350
+	3900 6650 3900 7800
 Wire Wire Line
-	4950 8350 4500 8350
-Connection ~ 4950 7200
+	3900 7800 3450 7800
+Connection ~ 3900 6650
 Wire Wire Line
-	3450 2400 3450 7100
+	2400 1850 2400 6550
 Wire Wire Line
-	3450 7100 5050 7100
+	2400 6550 4000 6550
 Wire Wire Line
-	5050 7100 5050 8250
+	4000 6550 4000 7700
 Wire Wire Line
-	5050 8250 4500 8250
+	4000 7700 3450 7700
 Wire Wire Line
-	5200 1600 5850 1600
+	4150 1050 4800 1050
 Wire Wire Line
-	5850 1600 5850 8450
+	4800 1050 4800 7900
 Wire Wire Line
-	5850 8450 4500 8450
+	4800 7900 3450 7900
 Wire Wire Line
-	4500 8150 6600 8150
+	3450 7600 5550 7600
 Wire Wire Line
-	6600 8150 6600 5500
+	5550 7600 5550 4800
 Wire Wire Line
-	6600 5500 8400 5500
+	5550 4800 7350 4800
 Wire Wire Line
-	8400 5500 8400 4000
+	7350 4800 7350 3450
 Wire Wire Line
-	4550 7700 4550 8900
+	3500 7150 3500 8350
 Wire Wire Line
-	4550 8900 4500 8900
+	3500 8350 3450 8350
 Wire Wire Line
-	4650 7600 4650 9000
+	3600 7050 3600 8450
 Wire Wire Line
-	4650 9000 4500 9000
+	3600 8450 3450 8450
 Wire Wire Line
-	4750 7500 4750 9100
+	3700 6950 3700 8550
 Wire Wire Line
-	4750 9100 4500 9100
+	3700 8550 3450 8550
 Wire Wire Line
-	5350 7000 5350 9200
+	4300 6450 4300 8650
 Wire Wire Line
-	5350 9200 4500 9200
+	4300 8650 3450 8650
 Wire Wire Line
-	5450 6900 5450 9300
+	4400 6350 4400 8750
 Wire Wire Line
-	5450 9300 4500 9300
+	4400 8750 3450 8750
 Wire Wire Line
-	5550 6800 5550 9400
+	4500 6250 4500 8850
 Wire Wire Line
-	5550 9400 4500 9400
+	4500 8850 3450 8850
 $Comp
-L LP5900 DA?
+L amplifier-rescue:LP5900 DA?
 U 1 1 5B20B269
-P 8050 6100
-F 0 "DA?" H 7800 6300 60  0000 C CNN
-F 1 "LP5900" H 8200 6300 60  0000 C CNN
-F 2 "" H 8050 5950 60  0001 C CNN
-F 3 "" H 8050 5950 60  0001 C CNN
-	1    8050 6100
+P 7000 5350
+F 0 "DA?" H 6750 5550 60  0000 C CNN
+F 1 "LP5900" H 7150 5550 60  0000 C CNN
+F 2 "" H 7000 5200 60  0001 C CNN
+F 3 "" H 7000 5200 60  0001 C CNN
+	1    7000 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 6200 8650 6200
-Connection ~ 8650 6200
+	7550 5450 7600 5450
+Connection ~ 7600 5450
 Wire Wire Line
-	7500 6200 7000 6200
-Connection ~ 7000 6200
+	6450 5450 5950 5450
+Connection ~ 5950 5450
 Wire Wire Line
-	7500 6000 7450 6000
+	6450 5250 6400 5250
+Wire Wire Line
+	7050 2950 7050 4550
+Wire Wire Line
+	5750 3150 5750 3250
+Wire Wire Line
+	5750 3450 5750 3550
+Wire Wire Line
+	2500 2450 2500 4550
+Wire Wire Line
+	5750 2950 6150 2950
+Wire Wire Line
+	5750 2950 5750 3150
+Wire Wire Line
+	6050 2650 6100 2650
+Wire Wire Line
+	5950 2550 6100 2550
+Wire Wire Line
+	5850 2450 6100 2450
+Wire Wire Line
+	7050 2550 7050 2950
+Wire Wire Line
+	1600 2650 1600 3600
+Wire Wire Line
+	2350 1050 2350 1250
+Wire Wire Line
+	2350 1250 2350 1450
+Wire Wire Line
+	2350 1450 2400 1450
+Wire Wire Line
+	1600 1450 2350 1450
+Wire Wire Line
+	1600 1950 1600 2650
+Wire Wire Line
+	1700 1950 1800 1950
+Wire Wire Line
+	1800 1950 1900 1950
+Wire Wire Line
+	1900 1950 2000 1950
+Wire Wire Line
+	2000 1350 2100 1350
+Wire Wire Line
+	1900 1250 1900 1550
+Wire Wire Line
+	1800 1150 1800 1550
+Wire Wire Line
+	1700 1050 1700 1550
+Wire Wire Line
+	6400 7550 7600 7550
+Wire Wire Line
+	5750 3550 5750 4550
+Wire Wire Line
+	5750 2850 5750 2950
+Wire Wire Line
+	5750 2750 5750 2850
+Wire Wire Line
+	5300 2750 5400 2750
+Wire Wire Line
+	5300 3250 5400 3250
+Wire Wire Line
+	5750 3250 5750 3450
+Wire Wire Line
+	4600 3250 4950 3250
+Wire Wire Line
+	4600 3250 4600 3350
+Wire Wire Line
+	7600 7550 7800 7550
+Wire Wire Line
+	7600 7400 7600 7550
+Wire Wire Line
+	6400 6900 6400 7200
+Wire Wire Line
+	6400 6900 7600 6900
+Wire Wire Line
+	7600 6900 7800 6900
+Wire Wire Line
+	6650 10400 6900 10400
+Wire Wire Line
+	6650 10800 6900 10800
+Wire Wire Line
+	6400 10400 6400 10550
+Wire Wire Line
+	6400 10400 6650 10400
+Wire Wire Line
+	6400 10800 6400 10900
+Wire Wire Line
+	6400 10800 6650 10800
+Wire Wire Line
+	7150 10400 7150 10550
+Wire Wire Line
+	7150 10800 7150 10900
+Wire Wire Line
+	1600 3600 1600 4550
+Wire Wire Line
+	2500 1750 2500 2450
+Wire Wire Line
+	1250 7250 1250 7350
+Wire Wire Line
+	2600 4200 2600 5750
+Wire Wire Line
+	2700 4300 2700 5650
+Wire Wire Line
+	6400 7200 6400 7550
+Wire Wire Line
+	7600 6250 7800 6250
+Wire Wire Line
+	1250 6550 1250 7250
+Wire Wire Line
+	3000 4900 3000 5250
+Wire Wire Line
+	4200 5250 4200 5500
+Wire Wire Line
+	4300 4400 5950 4400
+Wire Wire Line
+	4300 4800 4300 5150
+Wire Wire Line
+	5450 10800 5450 10900
+Wire Wire Line
+	5450 10800 5700 10800
+Wire Wire Line
+	5450 10400 5450 10550
+Wire Wire Line
+	5450 10400 5700 10400
+Wire Wire Line
+	5700 10400 5950 10400
+Wire Wire Line
+	5700 10800 5950 10800
+Wire Wire Line
+	4700 5950 4700 9300
+Wire Wire Line
+	5050 5150 5050 5350
+Wire Wire Line
+	5050 4300 6950 4300
+Wire Wire Line
+	4600 4300 5050 4300
+Wire Wire Line
+	5950 7400 5950 7550
+Wire Wire Line
+	5950 5900 5950 6250
+Wire Wire Line
+	6400 6250 6400 6550
+Wire Wire Line
+	6400 6250 7600 6250
+Wire Wire Line
+	7600 5600 7800 5600
+Wire Wire Line
+	5850 6000 5850 6650
+Wire Wire Line
+	5950 5600 5950 5900
+Wire Wire Line
+	6400 5600 6400 6250
+Wire Wire Line
+	6400 5600 7600 5600
+Wire Wire Line
+	1500 9800 1500 10000
+Wire Wire Line
+	9100 3550 9100 3850
+Wire Wire Line
+	7650 10400 7650 10550
+Wire Wire Line
+	7650 10800 7650 10900
+Wire Wire Line
+	8250 10400 8250 10550
+Wire Wire Line
+	8250 10800 8250 10900
+Wire Wire Line
+	8850 10400 8850 10550
+Wire Wire Line
+	8850 10800 8850 10950
+Wire Wire Line
+	7800 7800 7850 7800
+Wire Wire Line
+	7800 7200 7850 7200
+Wire Wire Line
+	7800 6550 7850 6550
+Wire Wire Line
+	7800 5900 7850 5900
+Wire Wire Line
+	7800 5250 7850 5250
+Wire Wire Line
+	3800 6750 5750 6750
+Wire Wire Line
+	3900 6650 5650 6650
+Wire Wire Line
+	7600 5450 7600 5600
+Wire Wire Line
+	5950 5450 5950 5600
+$Comp
+L amplifier-rescue:LP5900 DA?
+U 1 1 5D312CEA
+P 7000 6650
+F 0 "DA?" H 6750 6850 60  0000 C CNN
+F 1 "LP5900" H 7150 6850 60  0000 C CNN
+F 2 "" H 7000 6500 60  0001 C CNN
+F 3 "" H 7000 6500 60  0001 C CNN
+	1    7000 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 6750 7600 6750
+Connection ~ 7600 6750
+Wire Wire Line
+	7600 6750 7600 6650
+Wire Wire Line
+	5950 6250 5950 6750
+Wire Wire Line
+	6450 6550 6400 6550
+Connection ~ 6400 6550
+Wire Wire Line
+	6400 6550 6400 6900
+Wire Wire Line
+	6450 6750 5950 6750
+Connection ~ 5950 6750
+Wire Wire Line
+	5950 6750 5950 6900
+$Comp
+L Regulator_Linear:MIC5205YM5 U?
+U 1 1 5D220FCA
+P 6850 7900
+F 0 "U?" H 6600 8150 50  0000 C CNN
+F 1 "MIC5205YM5" H 6950 8150 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6850 8225 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf" H 6850 7900 50  0001 C CNN
+	1    6850 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 7550 6400 8400
+Wire Wire Line
+	5950 7750 5950 7800
+Wire Wire Line
+	5850 6850 5850 7900
+Wire Wire Line
+	6550 7900 5850 7900
+Connection ~ 5850 7900
+Wire Wire Line
+	6550 7800 6500 7800
+$Comp
+L Device:R R?
+U 1 1 5D4A7E00
+P 7600 8000
+F 0 "R?" V 7850 8000 50  0000 C CNN
+F 1 "33k" V 7700 8000 50  0000 C CNN
+F 2 "" V 7530 8000 50  0001 C CNN
+F 3 "~" H 7600 8000 50  0001 C CNN
+	1    7600 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D527AA1
+P 7200 8200
+F 0 "R?" H 7250 8650 50  0000 C CNN
+F 1 "100k" H 7250 8500 50  0000 C CNN
+F 2 "" V 7130 8200 50  0001 C CNN
+F 3 "~" H 7200 8200 50  0001 C CNN
+	1    7200 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 8400 6500 8400
+Wire Wire Line
+	7800 8300 7800 8400
+Wire Wire Line
+	7200 8350 7200 8400
+Connection ~ 7200 8400
+Wire Wire Line
+	7200 8400 7400 8400
+Wire Wire Line
+	7150 8000 7200 8000
+Wire Wire Line
+	7200 8050 7200 8000
+Connection ~ 7200 8000
+Wire Wire Line
+	7200 8000 7400 8000
+Wire Wire Line
+	7150 7800 7800 7800
+Wire Wire Line
+	7750 8000 7800 8000
+Connection ~ 7800 8000
+Wire Wire Line
+	7800 8000 7800 7800
+Wire Wire Line
+	6500 8300 6500 8400
+Connection ~ 6500 8400
+Wire Wire Line
+	6500 8400 6850 8400
+Wire Wire Line
+	6500 8100 6500 7800
+Connection ~ 6500 7800
+Wire Wire Line
+	6500 7800 5950 7800
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5DA57F89
+P 7800 9050
+F 0 "C?" H 7900 8950 50  0000 L CNN
+F 1 "4.7" H 7900 9050 50  0000 L CNN
+F 2 "" H 7800 9050 50  0001 C CNN
+F 3 "" H 7800 9050 50  0001 C CNN
+	1    7800 9050
+	1    0    0    1   
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 5DA57F90
+P 6500 9050
+F 0 "C?" H 6650 8900 50  0000 C CNN
+F 1 "1.0" H 6650 9000 50  0000 C CNN
+F 2 "" H 6500 9050 50  0001 C CNN
+F 3 "" H 6500 9050 50  0001 C CNN
+	1    6500 9050
+	-1   0    0    1   
+$EndComp
+$Comp
+L amplifier-rescue:INDUCTOR_SMALL L?
+U 1 1 5DA57F97
+P 8100 8650
+F 0 "L?" H 7950 8750 50  0000 C CNN
+F 1 "4.7uH" H 8200 8750 50  0000 C CNN
+F 2 "" H 8100 8650 60  0001 C CNN
+F 3 "" H 8100 8650 60  0001 C CNN
+	1    8100 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 8950 7800 8850
+Connection ~ 7800 8650
+Wire Wire Line
+	8400 8650 8350 8650
+Wire Wire Line
+	7800 8650 7850 8650
+$Comp
+L Regulator_Linear:MIC5205YM5 U?
+U 1 1 5DA57FA3
+P 6850 8750
+F 0 "U?" H 6600 9000 50  0000 C CNN
+F 1 "MIC5205YM5" H 6950 9000 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6850 9075 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf" H 6850 8750 50  0001 C CNN
+	1    6850 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 8750 5850 8750
+Wire Wire Line
+	6550 8650 6500 8650
+$Comp
+L Device:R R?
+U 1 1 5DA57FAD
+P 7600 8850
+F 0 "R?" V 7850 8850 50  0000 C CNN
+F 1 "33k" V 7700 8850 50  0000 C CNN
+F 2 "" V 7530 8850 50  0001 C CNN
+F 3 "~" H 7600 8850 50  0001 C CNN
+	1    7600 8850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DA57FB4
+P 7200 9050
+F 0 "R?" H 7250 9500 50  0000 C CNN
+F 1 "100k" H 7250 9350 50  0000 C CNN
+F 2 "" V 7130 9050 50  0001 C CNN
+F 3 "~" H 7200 9050 50  0001 C CNN
+	1    7200 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 9150 7800 9250
+Wire Wire Line
+	7200 9200 7200 9250
+Wire Wire Line
+	7150 8850 7200 8850
+Wire Wire Line
+	7200 8900 7200 8850
+Connection ~ 7200 8850
+Wire Wire Line
+	7200 8850 7400 8850
+Wire Wire Line
+	7150 8650 7800 8650
+Wire Wire Line
+	7750 8850 7800 8850
+Connection ~ 7800 8850
+Wire Wire Line
+	7800 8850 7800 8650
+Wire Wire Line
+	6500 9150 6500 9250
+Wire Wire Line
+	6500 8950 6500 8650
+Connection ~ 6500 8650
+Wire Wire Line
+	6500 8650 5950 8650
+Wire Wire Line
+	6450 6650 5850 6650
+Connection ~ 5850 6650
+Wire Wire Line
+	5850 6650 5850 6850
+Wire Wire Line
+	8400 8550 8400 8650
+Wire Wire Line
+	5950 8650 5950 8550
+Wire Wire Line
+	5850 7900 5850 8750
+Wire Wire Line
+	6500 8450 6500 8400
+Wire Wire Line
+	7800 9250 7400 9250
+Wire Wire Line
+	7200 9250 6850 9250
+Connection ~ 7200 9250
+Wire Wire Line
+	6500 9350 6500 9250
+Connection ~ 6500 9250
+Wire Wire Line
+	6850 9050 6850 9250
+Connection ~ 6850 9250
+Wire Wire Line
+	6850 9250 6500 9250
+Wire Wire Line
+	6850 8200 6850 8400
+Connection ~ 6850 8400
+Wire Wire Line
+	6850 8400 7200 8400
+$Comp
+L Device:C C?
+U 1 1 5E41682F
+P 7400 9050
+F 0 "C?" H 7515 9096 50  0000 L CNN
+F 1 "470" H 7515 9005 50  0000 L CNN
+F 2 "" H 7438 8900 50  0001 C CNN
+F 3 "~" H 7400 9050 50  0001 C CNN
+	1    7400 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 9200 7400 9250
+Connection ~ 7400 9250
+Wire Wire Line
+	7400 9250 7200 9250
+Wire Wire Line
+	7400 8900 7400 8850
+Connection ~ 7400 8850
+Wire Wire Line
+	7400 8850 7450 8850
+$Comp
+L Device:C C?
+U 1 1 5E629F31
+P 7400 8200
+F 0 "C?" H 7515 8246 50  0000 L CNN
+F 1 "470" H 7515 8155 50  0000 L CNN
+F 2 "" H 7438 8050 50  0001 C CNN
+F 3 "~" H 7400 8200 50  0001 C CNN
+	1    7400 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 8350 7400 8400
+Connection ~ 7400 8400
+Wire Wire Line
+	7400 8400 7800 8400
+Wire Wire Line
+	7400 8050 7400 8000
+Connection ~ 7400 8000
+Wire Wire Line
+	7400 8000 7450 8000
+$Comp
+L ad825:AD825 DA?
+U 1 1 5E786959
+P 13900 2200
+F 0 "DA?" H 13900 2575 50  0000 C CNN
+F 1 "AD825" H 13900 2484 50  0000 C CNN
+F 2 "" H 13900 2200 50  0001 C CNN
+F 3 "" H 13900 2200 50  0001 C CNN
+	1    13900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 2150 10700 2150
+Wire Wire Line
+	10250 3150 10700 3150
+$Comp
+L Device:C C?
+U 1 1 5E9ECB18
+P 10700 2350
+F 0 "C?" H 10450 2250 50  0000 L CNN
+F 1 "100" H 10450 2150 50  0000 L CNN
+F 2 "" H 10738 2200 50  0001 C CNN
+F 3 "~" H 10700 2350 50  0001 C CNN
+	1    10700 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 10700 2150
+Wire Wire Line
+	10700 2150 10500 2150
+Connection ~ 10700 3150
+Wire Wire Line
+	10700 3150 10950 3150
+$Comp
+L Device:C C?
+U 1 1 5EABA3EA
+P 11450 1800
+F 0 "C?" V 11300 1650 50  0000 C CNN
+F 1 "100" V 11300 1900 50  0000 C CNN
+F 2 "" H 11488 1650 50  0001 C CNN
+F 3 "~" H 11450 1800 50  0001 C CNN
+	1    11450 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EABA645
+P 11450 1550
+F 0 "R?" V 11350 1400 50  0000 C CNN
+F 1 "2k" V 11350 1650 50  0000 C CNN
+F 2 "" V 11380 1550 50  0001 C CNN
+F 3 "~" H 11450 1550 50  0001 C CNN
+	1    11450 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11300 1550 10700 1550
+Wire Wire Line
+	10700 1550 10700 1800
+Wire Wire Line
+	11300 1800 10700 1800
+Connection ~ 10700 1800
+Wire Wire Line
+	10700 1800 10700 2150
+Wire Wire Line
+	11600 1800 12000 1800
+Wire Wire Line
+	12000 2050 11950 2050
+Wire Wire Line
+	11600 1550 12000 1550
+Connection ~ 12000 1800
+$Comp
+L Device:C C?
+U 1 1 5EC61445
+P 11450 2800
+F 0 "C?" V 11300 2650 50  0000 C CNN
+F 1 "100" V 11300 2900 50  0000 C CNN
+F 2 "" H 11488 2650 50  0001 C CNN
+F 3 "~" H 11450 2800 50  0001 C CNN
+	1    11450 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EC6144C
+P 11450 2550
+F 0 "R?" V 11350 2400 50  0000 C CNN
+F 1 "2k" V 11350 2650 50  0000 C CNN
+F 2 "" V 11380 2550 50  0001 C CNN
+F 3 "~" H 11450 2550 50  0001 C CNN
+	1    11450 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11300 2550 10700 2550
+Wire Wire Line
+	11300 2800 10700 2800
+Wire Wire Line
+	11600 2800 12000 2800
+Wire Wire Line
+	12000 2800 12000 3050
+Wire Wire Line
+	11600 2550 12000 2550
+Wire Wire Line
+	12000 2550 12000 2800
+Connection ~ 12000 2800
+Connection ~ 10700 2800
+Wire Wire Line
+	10700 2800 10700 3150
+Wire Wire Line
+	10700 2550 10700 2800
+Wire Wire Line
+	10700 2200 10700 2150
+Wire Wire Line
+	10700 2500 10700 2550
+Connection ~ 10700 2550
+$Comp
+L Device:R R?
+U 1 1 5EFC12B6
+P 10500 1950
+F 0 "R?" H 10570 1996 50  0000 L CNN
+F 1 "2k" H 10570 1905 50  0000 L CNN
+F 2 "" V 10430 1950 50  0001 C CNN
+F 3 "~" H 10500 1950 50  0001 C CNN
+	1    10500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EFC147D
+P 10250 1950
+F 0 "R?" H 10320 1996 50  0000 L CNN
+F 1 "2k" H 10320 1905 50  0000 L CNN
+F 2 "" V 10180 1950 50  0001 C CNN
+F 3 "~" H 10250 1950 50  0001 C CNN
+	1    10250 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 2100 10500 2150
+$Comp
+L power:+12VA #PWR?
+U 1 1 5F09CB4A
+P 10500 1700
+F 0 "#PWR?" H 10500 1550 50  0001 C CNN
+F 1 "+12VA" H 10515 1873 50  0000 C CNN
+F 2 "" H 10500 1700 50  0001 C CNN
+F 3 "" H 10500 1700 50  0001 C CNN
+	1    10500 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 1800 10500 1750
+Wire Wire Line
+	10250 1800 10250 1750
+Wire Wire Line
+	10250 1750 10500 1750
+Connection ~ 10500 1750
+Wire Wire Line
+	10500 1750 10500 1700
+Wire Wire Line
+	12000 1800 12000 2050
+Wire Wire Line
+	12000 1550 12000 1800
+Wire Wire Line
+	10950 2050 10900 2050
+Wire Wire Line
+	10900 3050 10950 3050
+$Comp
+L Device:R R?
+U 1 1 5F3CD8D6
+P 9650 3450
+F 0 "R?" V 9443 3450 50  0000 C CNN
+F 1 "2.21k" V 9534 3450 50  0000 C CNN
+F 2 "" V 9580 3450 50  0001 C CNN
+F 3 "~" H 9650 3450 50  0001 C CNN
+	1    9650 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F3CDDA4
+P 9850 3650
+F 0 "R?" H 9600 3700 50  0000 L CNN
+F 1 "2.8k" H 9600 3600 50  0000 L CNN
+F 2 "" V 9780 3650 50  0001 C CNN
+F 3 "~" H 9850 3650 50  0001 C CNN
+	1    9850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F3CDF29
+P 10050 3650
+F 0 "C?" H 10000 4050 50  0000 L CNN
+F 1 "10n" H 10000 3950 50  0000 L CNN
+F 2 "" H 10088 3500 50  0001 C CNN
+F 3 "~" H 10050 3650 50  0001 C CNN
+	1    10050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5F3CE27F
+P 10300 3650
+F 0 "C?" H 10250 4050 50  0000 L CNN
+F 1 "100.0" H 10200 3950 50  0000 L CNN
+F 2 "" H 10338 3500 50  0001 C CNN
+F 3 "~" H 10300 3650 50  0001 C CNN
+	1    10300 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 3450 9200 3450
+Connection ~ 9200 3450
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 5F418B7C
+P 9850 3850
+F 0 "#PWR?" H 9850 3850 40  0001 C CNN
+F 1 "AGND" H 9700 3800 50  0000 C CNN
+F 2 "" H 9850 3850 60  0001 C CNN
+F 3 "" H 9850 3850 60  0001 C CNN
+	1    9850 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 3800 9850 3850
+Wire Wire Line
+	9800 3450 9850 3450
+Wire Wire Line
+	10300 3450 10300 3500
+Wire Wire Line
+	10050 3500 10050 3450
+Connection ~ 10050 3450
+Wire Wire Line
+	10050 3450 10300 3450
+Wire Wire Line
+	9850 3500 9850 3450
+Connection ~ 9850 3450
+Wire Wire Line
+	9850 3450 10050 3450
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 5F590639
+P 10050 3850
+F 0 "#PWR?" H 10050 3850 40  0001 C CNN
+F 1 "AGND" H 9950 3800 50  0000 C CNN
+F 2 "" H 10050 3850 60  0001 C CNN
+F 3 "" H 10050 3850 60  0001 C CNN
+	1    10050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 3800 10050 3850
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 5F5DC850
+P 10300 3850
+F 0 "#PWR?" H 10300 3850 40  0001 C CNN
+F 1 "AGND" H 10200 3800 50  0000 C CNN
+F 2 "" H 10300 3850 60  0001 C CNN
+F 3 "" H 10300 3850 60  0001 C CNN
+	1    10300 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 3800 10300 3850
+$Comp
+L Device:R R?
+U 1 1 5F70F487
+P 10700 3450
+F 0 "R?" V 10600 3350 50  0000 C CNN
+F 1 "100" V 10600 3550 50  0000 C CNN
+F 2 "" V 10630 3450 50  0001 C CNN
+F 3 "~" H 10700 3450 50  0001 C CNN
+	1    10700 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12000 3050 11950 3050
+Wire Wire Line
+	10900 2050 10900 3050
+Wire Wire Line
+	10900 3050 10900 3450
+Wire Wire Line
+	10900 3450 10850 3450
+Connection ~ 10900 3050
+Wire Wire Line
+	10550 3450 10500 3450
+Connection ~ 10300 3450
+$Comp
+L power:+12VA #PWR?
+U 1 1 5FB4B07C
+P 12000 2350
+F 0 "#PWR?" H 12000 2200 50  0001 C CNN
+F 1 "+12VA" V 12015 2478 50  0000 L CNN
+F 2 "" H 12000 2350 50  0001 C CNN
+F 3 "" H 12000 2350 50  0001 C CNN
+	1    12000 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:-12VA #PWR?
+U 1 1 5FE01D2B
+P 12000 2250
+F 0 "#PWR?" H 12000 2100 50  0001 C CNN
+F 1 "-12VA" V 12015 2378 50  0000 L CNN
+F 2 "" H 12000 2250 50  0001 C CNN
+F 3 "" H 12000 2250 50  0001 C CNN
+	1    12000 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12000 2250 11950 2250
+Wire Wire Line
+	12000 2350 11950 2350
+$Comp
+L amplifier-rescue:AD8066 DA?
+U 1 1 5FF38DB7
+P 11450 4600
+F 0 "DA?" H 11250 4850 60  0000 C CNN
+F 1 "AD8066" H 11600 4850 60  0000 C CNN
+F 2 "" H 11350 4550 60  0001 C CNN
+F 3 "" H 11350 4550 60  0001 C CNN
+	1    11450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:AD8066 DA?
+U 2 1 5FF38DBE
+P 11450 5600
+F 0 "DA?" H 11250 5850 60  0000 C CNN
+F 1 "AD8066" H 11600 5850 60  0000 C CNN
+F 2 "" H 11350 5550 60  0001 C CNN
+F 3 "" H 11350 5550 60  0001 C CNN
+	2    11450 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 4550 10700 4550
+Wire Wire Line
+	10250 4650 10250 5550
+Wire Wire Line
+	10250 5550 10700 5550
+$Comp
+L Device:C C?
+U 1 1 5FF38DC9
+P 10700 4750
+F 0 "C?" H 10450 4800 50  0000 L CNN
+F 1 "100" H 10450 4700 50  0000 L CNN
+F 2 "" H 10738 4600 50  0001 C CNN
+F 3 "~" H 10700 4750 50  0001 C CNN
+	1    10700 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 10700 4550
+Wire Wire Line
+	10700 4550 10500 4550
+Connection ~ 10700 5550
+Wire Wire Line
+	10700 5550 10950 5550
+$Comp
+L Device:C C?
+U 1 1 5FF38DD4
+P 11450 4200
+F 0 "C?" V 11300 4050 50  0000 C CNN
+F 1 "100" V 11300 4300 50  0000 C CNN
+F 2 "" H 11488 4050 50  0001 C CNN
+F 3 "~" H 11450 4200 50  0001 C CNN
+	1    11450 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FF38DDB
+P 11450 3950
+F 0 "R?" V 11350 3800 50  0000 C CNN
+F 1 "2k" V 11350 4050 50  0000 C CNN
+F 2 "" V 11380 3950 50  0001 C CNN
+F 3 "~" H 11450 3950 50  0001 C CNN
+	1    11450 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11300 3950 10700 3950
+Wire Wire Line
+	10700 3950 10700 4200
+Wire Wire Line
+	11300 4200 10700 4200
+Connection ~ 10700 4200
+Wire Wire Line
+	10700 4200 10700 4550
+Wire Wire Line
+	11600 4200 12000 4200
+Wire Wire Line
+	12000 4450 11950 4450
+Wire Wire Line
+	11600 3950 12000 3950
+Connection ~ 12000 4200
+$Comp
+L Device:C C?
+U 1 1 5FF38DEB
+P 11450 5200
+F 0 "C?" V 11300 5050 50  0000 C CNN
+F 1 "100" V 11300 5300 50  0000 C CNN
+F 2 "" H 11488 5050 50  0001 C CNN
+F 3 "~" H 11450 5200 50  0001 C CNN
+	1    11450 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FF38DF2
+P 11450 4950
+F 0 "R?" V 11350 4800 50  0000 C CNN
+F 1 "2k" V 11350 5050 50  0000 C CNN
+F 2 "" V 11380 4950 50  0001 C CNN
+F 3 "~" H 11450 4950 50  0001 C CNN
+	1    11450 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11300 4950 10700 4950
+Wire Wire Line
+	11300 5200 10700 5200
+Wire Wire Line
+	11600 5200 12000 5200
+Wire Wire Line
+	12000 5200 12000 5450
+Wire Wire Line
+	11600 4950 12000 4950
+Wire Wire Line
+	12000 4950 12000 5200
+Connection ~ 12000 5200
+Connection ~ 10700 5200
+Wire Wire Line
+	10700 5200 10700 5550
+Wire Wire Line
+	10700 4950 10700 5200
+Wire Wire Line
+	10700 4600 10700 4550
+Wire Wire Line
+	10700 4900 10700 4950
+Connection ~ 10700 4950
+$Comp
+L Device:R R?
+U 1 1 5FF38E06
+P 10500 4350
+F 0 "R?" H 10570 4396 50  0000 L CNN
+F 1 "2k" H 10570 4305 50  0000 L CNN
+F 2 "" V 10430 4350 50  0001 C CNN
+F 3 "~" H 10500 4350 50  0001 C CNN
+	1    10500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FF38E0D
+P 10250 4350
+F 0 "R?" H 10320 4396 50  0000 L CNN
+F 1 "2k" H 10320 4305 50  0000 L CNN
+F 2 "" V 10180 4350 50  0001 C CNN
+F 3 "~" H 10250 4350 50  0001 C CNN
+	1    10250 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 4500 10500 4550
+Connection ~ 10500 4550
+Wire Wire Line
+	10500 4550 9450 4550
+Wire Wire Line
+	10250 4650 10250 4500
+Connection ~ 10250 4650
+$Comp
+L power:+12VA #PWR?
+U 1 1 5FF38E19
+P 10500 4100
+F 0 "#PWR?" H 10500 3950 50  0001 C CNN
+F 1 "+12VA" H 10515 4273 50  0000 C CNN
+F 2 "" H 10500 4100 50  0001 C CNN
+F 3 "" H 10500 4100 50  0001 C CNN
+	1    10500 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 4200 10500 4150
+Wire Wire Line
+	10250 4200 10250 4150
+Wire Wire Line
+	10250 4150 10500 4150
+Connection ~ 10500 4150
+Wire Wire Line
+	10500 4150 10500 4100
+Wire Wire Line
+	12000 4200 12000 4450
+Wire Wire Line
+	12000 3950 12000 4200
+Wire Wire Line
+	10950 4450 10900 4450
+Wire Wire Line
+	10900 5450 10950 5450
+Wire Wire Line
+	12000 5450 11950 5450
+Wire Wire Line
+	10900 4450 10900 5450
+$Comp
+L power:+12VA #PWR?
+U 1 1 5FF38E2C
+P 12000 4750
+F 0 "#PWR?" H 12000 4600 50  0001 C CNN
+F 1 "+12VA" V 12015 4878 50  0000 L CNN
+F 2 "" H 12000 4750 50  0001 C CNN
+F 3 "" H 12000 4750 50  0001 C CNN
+	1    12000 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:-12VA #PWR?
+U 1 1 5FF38E32
+P 12000 4650
+F 0 "#PWR?" H 12000 4500 50  0001 C CNN
+F 1 "-12VA" V 12015 4778 50  0000 L CNN
+F 2 "" H 12000 4650 50  0001 C CNN
+F 3 "" H 12000 4650 50  0001 C CNN
+	1    12000 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12000 4650 11950 4650
+Wire Wire Line
+	12000 4750 11950 4750
+Wire Wire Line
+	9350 4650 10250 4650
+$Comp
+L Device:R R?
+U 1 1 6009584B
+P 10700 3700
+F 0 "R?" V 10600 3600 50  0000 C CNN
+F 1 "100" V 10600 3800 50  0000 C CNN
+F 2 "" V 10630 3700 50  0001 C CNN
+F 3 "~" H 10700 3700 50  0001 C CNN
+	1    10700 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10850 3700 10900 3700
+Wire Wire Line
+	10900 3700 10900 4450
+Connection ~ 10900 4450
+Wire Wire Line
+	10550 3700 10500 3700
+Wire Wire Line
+	10500 3700 10500 3450
+Connection ~ 10500 3450
+Wire Wire Line
+	10500 3450 10300 3450
+Wire Wire Line
+	10250 2100 10250 2250
+Wire Wire Line
+	8900 2250 10250 2250
+Connection ~ 10250 2250
+Wire Wire Line
+	10250 2250 10250 3150
+Wire Wire Line
+	8900 2350 10500 2350
+Wire Wire Line
+	10500 2350 10500 2150
+Connection ~ 10500 2150
+Wire Wire Line
+	13400 2150 13350 2150
+Wire Wire Line
+	13350 2150 13350 3050
+Wire Wire Line
+	13350 3050 13150 3050
+Connection ~ 12000 3050
+Wire Wire Line
+	13400 2050 13150 2050
+Connection ~ 12000 2050
+Wire Wire Line
+	8900 2750 9350 2750
+Wire Wire Line
+	9350 2750 9350 4650
+Wire Wire Line
+	9450 2650 8900 2650
+Wire Wire Line
+	9450 2650 9450 4550
+$Comp
+L Device:C C?
+U 1 1 608F4D43
+P 8600 1550
+F 0 "C?" H 8650 1750 50  0000 L CNN
+F 1 "10n" H 8650 1650 50  0000 L CNN
+F 2 "" H 8638 1400 50  0001 C CNN
+F 3 "~" H 8600 1550 50  0001 C CNN
+	1    8600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 608F4F08
+P 8250 1550
+F 0 "C?" H 8300 1750 50  0000 L CNN
+F 1 "100.0" H 8300 1650 50  0000 L CNN
+F 2 "" H 8288 1400 50  0001 C CNN
+F 3 "~" H 8250 1550 50  0001 C CNN
+	1    8250 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 608F50F3
+P 7900 1550
+F 0 "C?" H 7950 1750 50  0000 L CNN
+F 1 "10n" H 7950 1650 50  0000 L CNN
+F 2 "" H 7938 1400 50  0001 C CNN
+F 3 "~" H 7900 1550 50  0001 C CNN
+	1    7900 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 608F50FA
+P 7550 1550
+F 0 "C?" H 7600 1750 50  0000 L CNN
+F 1 "100.0" H 7600 1650 50  0000 L CNN
+F 2 "" H 7588 1400 50  0001 C CNN
+F 3 "~" H 7550 1550 50  0001 C CNN
+	1    7550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 609A8EFB
+P 7900 1750
+F 0 "#PWR?" H 7900 1750 40  0001 C CNN
+F 1 "AGND" H 7750 1700 50  0000 C CNN
+F 2 "" H 7900 1750 60  0001 C CNN
+F 3 "" H 7900 1750 60  0001 C CNN
+	1    7900 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 1700 7900 1750
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 609A8F02
+P 8250 1750
+F 0 "#PWR?" H 8250 1750 40  0001 C CNN
+F 1 "AGND" H 8150 1700 50  0000 C CNN
+F 2 "" H 8250 1750 60  0001 C CNN
+F 3 "" H 8250 1750 60  0001 C CNN
+	1    8250 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1700 8250 1750
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 609A8F09
+P 8600 1750
+F 0 "#PWR?" H 8600 1750 40  0001 C CNN
+F 1 "AGND" H 8500 1700 50  0000 C CNN
+F 2 "" H 8600 1750 60  0001 C CNN
+F 3 "" H 8600 1750 60  0001 C CNN
+	1    8600 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 1700 8600 1750
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 60AB8428
+P 7550 1750
+F 0 "#PWR?" H 7550 1750 40  0001 C CNN
+F 1 "AGND" H 7400 1700 50  0000 C CNN
+F 2 "" H 7550 1750 60  0001 C CNN
+F 3 "" H 7550 1750 60  0001 C CNN
+	1    7550 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1700 7550 1750
+Wire Wire Line
+	8950 1150 7900 1150
+Wire Wire Line
+	7550 1150 7550 1400
+Connection ~ 8950 1150
+Wire Wire Line
+	7900 1400 7900 1150
+Connection ~ 7900 1150
+Wire Wire Line
+	7900 1150 7550 1150
+Wire Wire Line
+	9050 1250 8600 1250
+Wire Wire Line
+	8250 1250 8250 1400
+Connection ~ 9050 1250
+Wire Wire Line
+	8600 1400 8600 1250
+Connection ~ 8600 1250
+Wire Wire Line
+	8600 1250 8250 1250
+$Comp
+L Device:R R?
+U 1 1 60D41AAC
+P 12250 2050
+F 0 "R?" V 12043 2050 50  0000 C CNN
+F 1 "6.8k" V 12134 2050 50  0000 C CNN
+F 2 "" V 12180 2050 50  0001 C CNN
+F 3 "~" H 12250 2050 50  0001 C CNN
+	1    12250 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12100 2050 12000 2050
+$Comp
+L Device:R R?
+U 1 1 60D41CD7
+P 12250 3050
+F 0 "R?" V 12043 3050 50  0000 C CNN
+F 1 "6.8k" V 12134 3050 50  0000 C CNN
+F 2 "" V 12180 3050 50  0001 C CNN
+F 3 "~" H 12250 3050 50  0001 C CNN
+	1    12250 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12100 3050 12000 3050
+$Comp
+L Device:R R?
+U 1 1 60D9F733
+P 12950 2050
+F 0 "R?" V 12743 2050 50  0000 C CNN
+F 1 "3.3k" V 12834 2050 50  0000 C CNN
+F 2 "" V 12880 2050 50  0001 C CNN
+F 3 "~" H 12950 2050 50  0001 C CNN
+	1    12950 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12800 2050 12750 2050
+$Comp
+L Device:R R?
+U 1 1 60DFD512
+P 12950 3050
+F 0 "R?" V 12743 3050 50  0000 C CNN
+F 1 "3.3k" V 12834 3050 50  0000 C CNN
+F 2 "" V 12880 3050 50  0001 C CNN
+F 3 "~" H 12950 3050 50  0001 C CNN
+	1    12950 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12800 3050 12750 3050
+$Comp
+L Device:C C?
+U 1 1 60F17A73
+P 12500 2250
+F 0 "C?" H 12500 2650 50  0000 L CNN
+F 1 "560" H 12500 2550 50  0000 L CNN
+F 2 "" H 12538 2100 50  0001 C CNN
+F 3 "~" H 12500 2250 50  0001 C CNN
+	1    12500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60F17C23
+P 12500 3250
+F 0 "C?" H 12500 3650 50  0000 L CNN
+F 1 "560" H 12500 3550 50  0000 L CNN
+F 2 "" H 12538 3100 50  0001 C CNN
+F 3 "~" H 12500 3250 50  0001 C CNN
+	1    12500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F17E0F
+P 12750 2250
+F 0 "R?" H 12820 2296 50  0000 L CNN
+F 1 "2.2k" H 12820 2205 50  0000 L CNN
+F 2 "" V 12680 2250 50  0001 C CNN
+F 3 "~" H 12750 2250 50  0001 C CNN
+	1    12750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61032661
+P 12750 3250
+F 0 "R?" H 12820 3296 50  0000 L CNN
+F 1 "2.2k" H 12820 3205 50  0000 L CNN
+F 2 "" V 12680 3250 50  0001 C CNN
+F 3 "~" H 12750 3250 50  0001 C CNN
+	1    12750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61032ED6
+P 13150 2250
+F 0 "C?" H 13200 2650 50  0000 L CNN
+F 1 "270" H 13200 2550 50  0000 L CNN
+F 2 "" H 13188 2100 50  0001 C CNN
+F 3 "~" H 13150 2250 50  0001 C CNN
+	1    13150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61033098
+P 13150 3250
+F 0 "C?" H 13150 3650 50  0000 L CNN
+F 1 "270" H 13150 3550 50  0000 L CNN
+F 2 "" H 13188 3100 50  0001 C CNN
+F 3 "~" H 13150 3250 50  0001 C CNN
+	1    13150 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 2100 12500 2050
+Connection ~ 12500 2050
+Wire Wire Line
+	12500 2050 12400 2050
+Wire Wire Line
+	12750 2100 12750 2050
+Connection ~ 12750 2050
+Wire Wire Line
+	12750 2050 12500 2050
+Wire Wire Line
+	13150 2100 13150 2050
+Connection ~ 13150 2050
+Wire Wire Line
+	13150 2050 13100 2050
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 6114FF07
+P 12500 2450
+F 0 "#PWR?" H 12500 2450 40  0001 C CNN
+F 1 "AGND" H 12350 2400 50  0000 C CNN
+F 2 "" H 12500 2450 60  0001 C CNN
+F 3 "" H 12500 2450 60  0001 C CNN
+	1    12500 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 2400 12500 2450
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 6114FF0E
+P 12750 2450
+F 0 "#PWR?" H 12750 2450 40  0001 C CNN
+F 1 "AGND" H 12650 2400 50  0000 C CNN
+F 2 "" H 12750 2450 60  0001 C CNN
+F 3 "" H 12750 2450 60  0001 C CNN
+	1    12750 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 2400 12750 2450
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 6114FF15
+P 13150 2450
+F 0 "#PWR?" H 13150 2450 40  0001 C CNN
+F 1 "AGND" H 13050 2400 50  0000 C CNN
+F 2 "" H 13150 2450 60  0001 C CNN
+F 3 "" H 13150 2450 60  0001 C CNN
+	1    13150 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 2400 13150 2450
+Wire Wire Line
+	12500 3100 12500 3050
+Connection ~ 12500 3050
+Wire Wire Line
+	12500 3050 12400 3050
+Wire Wire Line
+	12750 3100 12750 3050
+Connection ~ 12750 3050
+Wire Wire Line
+	12750 3050 12500 3050
+Wire Wire Line
+	13150 3100 13150 3050
+Connection ~ 13150 3050
+Wire Wire Line
+	13150 3050 13100 3050
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 61392013
+P 12500 3450
+F 0 "#PWR?" H 12500 3450 40  0001 C CNN
+F 1 "AGND" H 12350 3400 50  0000 C CNN
+F 2 "" H 12500 3450 60  0001 C CNN
+F 3 "" H 12500 3450 60  0001 C CNN
+	1    12500 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 3400 12500 3450
+Wire Wire Line
+	12750 3400 12750 3450
+Wire Wire Line
+	12750 3450 13150 3450
+Wire Wire Line
+	13150 3450 13150 3400
+Wire Wire Line
+	13150 3450 14650 3450
+Wire Wire Line
+	14650 3450 14650 2050
+Wire Wire Line
+	14650 2050 14400 2050
+Connection ~ 13150 3450
+$Comp
+L Device:R R?
+U 1 1 61BB448B
+P 14850 2050
+F 0 "R?" V 14643 2050 50  0000 C CNN
+F 1 "22" V 14734 2050 50  0000 C CNN
+F 2 "" V 14780 2050 50  0001 C CNN
+F 3 "~" H 14850 2050 50  0001 C CNN
+	1    14850 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61BB46F4
+P 15250 2050
+F 0 "R?" V 15457 2050 50  0000 C CNN
+F 1 "22" V 15366 2050 50  0000 C CNN
+F 2 "" V 15180 2050 50  0001 C CNN
+F 3 "~" H 15250 2050 50  0001 C CNN
+	1    15250 2050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61BB4958
+P 15050 2250
+F 0 "C?" H 15165 2296 50  0000 L CNN
+F 1 "100" H 15165 2205 50  0000 L CNN
+F 2 "" H 15088 2100 50  0001 C CNN
+F 3 "~" H 15050 2250 50  0001 C CNN
+	1    15050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 61BB4DA0
+P 15050 2450
+F 0 "#PWR?" H 15050 2450 40  0001 C CNN
+F 1 "AGND" H 14950 2400 50  0000 C CNN
+F 2 "" H 15050 2450 60  0001 C CNN
+F 3 "" H 15050 2450 60  0001 C CNN
+	1    15050 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 2400 15050 2450
+Wire Wire Line
+	14650 2050 14700 2050
+Connection ~ 14650 2050
+Wire Wire Line
+	15000 2050 15050 2050
+Wire Wire Line
+	15050 2100 15050 2050
+Connection ~ 15050 2050
+Wire Wire Line
+	15050 2050 15100 2050
+$Comp
+L amplifier-rescue:CONN_01X03 J?
+U 1 1 61DAA4C1
+P 15700 3200
+F 0 "J?" H 15600 3550 50  0000 L CNN
+F 1 "OUT" H 15600 3450 50  0000 L CNN
+F 2 "" H 15700 3200 50  0001 C CNN
+F 3 "" H 15700 3200 50  0001 C CNN
+	1    15700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ad825:AD825 DA?
+U 1 1 61E0F9C1
+P 13900 4600
+F 0 "DA?" H 13900 4975 50  0000 C CNN
+F 1 "AD825" H 13900 4884 50  0000 C CNN
+F 2 "" H 13900 4600 50  0001 C CNN
+F 3 "" H 13900 4600 50  0001 C CNN
+	1    13900 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13400 4550 13350 4550
+Wire Wire Line
+	13350 4550 13350 5450
+Wire Wire Line
+	13350 5450 13150 5450
+Wire Wire Line
+	13400 4450 13150 4450
+$Comp
+L Device:R R?
+U 1 1 61E0F9CC
+P 12250 4450
+F 0 "R?" V 12043 4450 50  0000 C CNN
+F 1 "6.8k" V 12134 4450 50  0000 C CNN
+F 2 "" V 12180 4450 50  0001 C CNN
+F 3 "~" H 12250 4450 50  0001 C CNN
+	1    12250 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61E0F9D3
+P 12250 5450
+F 0 "R?" V 12043 5450 50  0000 C CNN
+F 1 "6.8k" V 12134 5450 50  0000 C CNN
+F 2 "" V 12180 5450 50  0001 C CNN
+F 3 "~" H 12250 5450 50  0001 C CNN
+	1    12250 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61E0F9DA
+P 12950 4450
+F 0 "R?" V 12743 4450 50  0000 C CNN
+F 1 "3.3k" V 12834 4450 50  0000 C CNN
+F 2 "" V 12880 4450 50  0001 C CNN
+F 3 "~" H 12950 4450 50  0001 C CNN
+	1    12950 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12800 4450 12750 4450
+$Comp
+L Device:R R?
+U 1 1 61E0F9E2
+P 12950 5450
+F 0 "R?" V 12743 5450 50  0000 C CNN
+F 1 "3.3k" V 12834 5450 50  0000 C CNN
+F 2 "" V 12880 5450 50  0001 C CNN
+F 3 "~" H 12950 5450 50  0001 C CNN
+	1    12950 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12800 5450 12750 5450
+$Comp
+L Device:C C?
+U 1 1 61E0F9EA
+P 12500 4650
+F 0 "C?" H 12500 5050 50  0000 L CNN
+F 1 "560" H 12500 4950 50  0000 L CNN
+F 2 "" H 12538 4500 50  0001 C CNN
+F 3 "~" H 12500 4650 50  0001 C CNN
+	1    12500 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E0F9F1
+P 12500 5650
+F 0 "C?" H 12500 6050 50  0000 L CNN
+F 1 "560" H 12500 5950 50  0000 L CNN
+F 2 "" H 12538 5500 50  0001 C CNN
+F 3 "~" H 12500 5650 50  0001 C CNN
+	1    12500 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61E0F9F8
+P 12750 4650
+F 0 "R?" H 12820 4696 50  0000 L CNN
+F 1 "2.2k" H 12820 4605 50  0000 L CNN
+F 2 "" V 12680 4650 50  0001 C CNN
+F 3 "~" H 12750 4650 50  0001 C CNN
+	1    12750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61E0F9FF
+P 12750 5650
+F 0 "R?" H 12820 5696 50  0000 L CNN
+F 1 "2.2k" H 12820 5605 50  0000 L CNN
+F 2 "" V 12680 5650 50  0001 C CNN
+F 3 "~" H 12750 5650 50  0001 C CNN
+	1    12750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E0FA06
+P 13150 4650
+F 0 "C?" H 13200 5050 50  0000 L CNN
+F 1 "270" H 13200 4950 50  0000 L CNN
+F 2 "" H 13188 4500 50  0001 C CNN
+F 3 "~" H 13150 4650 50  0001 C CNN
+	1    13150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E0FA0D
+P 13150 5650
+F 0 "C?" H 13150 6050 50  0000 L CNN
+F 1 "270" H 13150 5950 50  0000 L CNN
+F 2 "" H 13188 5500 50  0001 C CNN
+F 3 "~" H 13150 5650 50  0001 C CNN
+	1    13150 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 4500 12500 4450
+Connection ~ 12500 4450
+Wire Wire Line
+	12500 4450 12400 4450
+Wire Wire Line
+	12750 4500 12750 4450
+Connection ~ 12750 4450
+Wire Wire Line
+	12750 4450 12500 4450
+Wire Wire Line
+	13150 4500 13150 4450
+Connection ~ 13150 4450
+Wire Wire Line
+	13150 4450 13100 4450
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 61E0FA1D
+P 12500 4850
+F 0 "#PWR?" H 12500 4850 40  0001 C CNN
+F 1 "AGND" H 12350 4800 50  0000 C CNN
+F 2 "" H 12500 4850 60  0001 C CNN
+F 3 "" H 12500 4850 60  0001 C CNN
+	1    12500 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 4800 12500 4850
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 61E0FA24
+P 12750 4850
+F 0 "#PWR?" H 12750 4850 40  0001 C CNN
+F 1 "AGND" H 12650 4800 50  0000 C CNN
+F 2 "" H 12750 4850 60  0001 C CNN
+F 3 "" H 12750 4850 60  0001 C CNN
+	1    12750 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 4800 12750 4850
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 61E0FA2B
+P 13150 4850
+F 0 "#PWR?" H 13150 4850 40  0001 C CNN
+F 1 "AGND" H 13050 4800 50  0000 C CNN
+F 2 "" H 13150 4850 60  0001 C CNN
+F 3 "" H 13150 4850 60  0001 C CNN
+	1    13150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 4800 13150 4850
+Wire Wire Line
+	12500 5500 12500 5450
+Connection ~ 12500 5450
+Wire Wire Line
+	12500 5450 12400 5450
+Wire Wire Line
+	12750 5500 12750 5450
+Connection ~ 12750 5450
+Wire Wire Line
+	12750 5450 12500 5450
+Wire Wire Line
+	13150 5500 13150 5450
+Connection ~ 13150 5450
+Wire Wire Line
+	13150 5450 13100 5450
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 61E0FA3B
+P 12500 5850
+F 0 "#PWR?" H 12500 5850 40  0001 C CNN
+F 1 "AGND" H 12350 5800 50  0000 C CNN
+F 2 "" H 12500 5850 60  0001 C CNN
+F 3 "" H 12500 5850 60  0001 C CNN
+	1    12500 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 5800 12500 5850
+Wire Wire Line
+	12750 5800 12750 5850
+Wire Wire Line
+	12750 5850 13150 5850
+Wire Wire Line
+	13150 5850 13150 5800
+Wire Wire Line
+	13150 5850 14650 5850
+Wire Wire Line
+	14650 5850 14650 4450
+Wire Wire Line
+	14650 4450 14400 4450
+Connection ~ 13150 5850
+$Comp
+L Device:R R?
+U 1 1 61E0FA49
+P 14850 4450
+F 0 "R?" V 14643 4450 50  0000 C CNN
+F 1 "22" V 14734 4450 50  0000 C CNN
+F 2 "" V 14780 4450 50  0001 C CNN
+F 3 "~" H 14850 4450 50  0001 C CNN
+	1    14850 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61E0FA50
+P 15250 4450
+F 0 "R?" V 15043 4450 50  0000 C CNN
+F 1 "22" V 15134 4450 50  0000 C CNN
+F 2 "" V 15180 4450 50  0001 C CNN
+F 3 "~" H 15250 4450 50  0001 C CNN
+	1    15250 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E0FA57
+P 15050 4650
+F 0 "C?" H 15165 4696 50  0000 L CNN
+F 1 "100" H 15165 4605 50  0000 L CNN
+F 2 "" H 15088 4500 50  0001 C CNN
+F 3 "~" H 15050 4650 50  0001 C CNN
+	1    15050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 61E0FA5E
+P 15050 4850
+F 0 "#PWR?" H 15050 4850 40  0001 C CNN
+F 1 "AGND" H 14950 4800 50  0000 C CNN
+F 2 "" H 15050 4850 60  0001 C CNN
+F 3 "" H 15050 4850 60  0001 C CNN
+	1    15050 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 4800 15050 4850
+Wire Wire Line
+	14650 4450 14700 4450
+Connection ~ 14650 4450
+Wire Wire Line
+	15000 4450 15050 4450
+Wire Wire Line
+	15050 4500 15050 4450
+Connection ~ 15050 4450
+Wire Wire Line
+	15050 4450 15100 4450
+Wire Wire Line
+	12100 4450 12000 4450
+Connection ~ 12000 4450
+Wire Wire Line
+	12100 5450 12000 5450
+Connection ~ 12000 5450
+$Comp
+L power:+12VA #PWR?
+U 1 1 61F57F48
+P 14450 2250
+F 0 "#PWR?" H 14450 2100 50  0001 C CNN
+F 1 "+12VA" V 14550 2100 50  0000 L CNN
+F 2 "" H 14450 2250 50  0001 C CNN
+F 3 "" H 14450 2250 50  0001 C CNN
+	1    14450 2250
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:-12VA #PWR?
+U 1 1 61F57F4E
+P 14450 2350
+F 0 "#PWR?" H 14450 2200 50  0001 C CNN
+F 1 "-12VA" V 14350 2200 50  0000 L CNN
+F 2 "" H 14450 2350 50  0001 C CNN
+F 3 "" H 14450 2350 50  0001 C CNN
+	1    14450 2350
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	14450 2350 14400 2350
+Wire Wire Line
+	14450 2250 14400 2250
+$Comp
+L power:+12VA #PWR?
+U 1 1 62259DB3
+P 14450 4650
+F 0 "#PWR?" H 14450 4500 50  0001 C CNN
+F 1 "+12VA" V 14550 4500 50  0000 L CNN
+F 2 "" H 14450 4650 50  0001 C CNN
+F 3 "" H 14450 4650 50  0001 C CNN
+	1    14450 4650
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:-12VA #PWR?
+U 1 1 62259DB9
+P 14450 4750
+F 0 "#PWR?" H 14450 4600 50  0001 C CNN
+F 1 "-12VA" V 14350 4600 50  0000 L CNN
+F 2 "" H 14450 4750 50  0001 C CNN
+F 3 "" H 14450 4750 50  0001 C CNN
+	1    14450 4750
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	14450 4750 14400 4750
+Wire Wire Line
+	14450 4650 14400 4650
+Wire Wire Line
+	15400 2050 15450 2050
+Wire Wire Line
+	15450 2050 15450 3100
+Wire Wire Line
+	15450 3100 15500 3100
+Wire Wire Line
+	15500 3300 15450 3300
+Wire Wire Line
+	15450 3300 15450 4450
+Wire Wire Line
+	15450 4450 15400 4450
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 626B1C3C
+P 15200 3300
+F 0 "#PWR?" H 15200 3300 40  0001 C CNN
+F 1 "AGND" H 15100 3250 50  0000 C CNN
+F 2 "" H 15200 3300 60  0001 C CNN
+F 3 "" H 15200 3300 60  0001 C CNN
+	1    15200 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 3200 15200 3200
+Wire Wire Line
+	15200 3200 15200 3300
+$Comp
+L amplifier-rescue:+5VA #PWR054
+U 1 1 5B17B014
+P 8850 10300
+F 0 "#PWR054" H 8850 10430 20  0001 C CNN
+F 1 "+5VA" H 8950 10400 30  0000 C CNN
+F 2 "" H 8850 10300 60  0001 C CNN
+F 3 "" H 8850 10300 60  0001 C CNN
+	1    8850 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:+5VD #PWR053
+U 1 1 5B17A770
+P 8250 10300
+F 0 "#PWR053" H 8250 10250 20  0001 C CNN
+F 1 "+5VD" H 8350 10400 30  0000 C CNN
+F 2 "" H 8250 10300 60  0001 C CNN
+F 3 "" H 8250 10300 60  0001 C CNN
+	1    8250 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 629D9389
+P 9500 9700
+F 0 "C?" H 9550 9900 50  0000 L CNN
+F 1 "0.1" H 9550 9800 50  0000 L CNN
+F 2 "" H 9500 9700 50  0001 C CNN
+F 3 "" H 9500 9700 50  0001 C CNN
+	1    9500 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 629D9390
+P 9750 9700
+F 0 "C?" H 9800 9900 50  0000 L CNN
+F 1 "47.0" H 9800 9800 50  0000 L CNN
+F 2 "" H 9750 9700 50  0001 C CNN
+F 3 "" H 9750 9700 50  0001 C CNN
+	1    9750 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 9800 9500 9850
+Wire Wire Line
+	9500 9850 9750 9850
+Wire Wire Line
+	9750 9850 9750 9800
+Wire Wire Line
+	9500 9350 9500 9450
+Wire Wire Line
+	9500 9450 9750 9450
+Wire Wire Line
+	9750 9450 9750 9600
+Connection ~ 9500 9450
+Connection ~ 9500 9850
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 629D93A5
+P 9500 10650
+F 0 "C?" H 9550 10450 50  0000 L CNN
+F 1 "0.1" H 9550 10550 50  0000 L CNN
+F 2 "" H 9500 10650 50  0001 C CNN
+F 3 "" H 9500 10650 50  0001 C CNN
+	1    9500 10650
+	1    0    0    1   
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 629D93AC
+P 9750 10650
+F 0 "C?" H 9800 10450 50  0000 L CNN
+F 1 "47.0" H 9800 10550 50  0000 L CNN
+F 2 "" H 9750 10650 50  0001 C CNN
+F 3 "" H 9750 10650 50  0001 C CNN
+	1    9750 10650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9500 10750 9500 10800
+Wire Wire Line
+	9500 10800 9750 10800
+Wire Wire Line
+	9750 10800 9750 10750
+Wire Wire Line
+	9500 10300 9500 10400
+Wire Wire Line
+	9500 10400 9750 10400
+Wire Wire Line
+	9750 10400 9750 10550
+Connection ~ 9500 10400
+Connection ~ 9500 10800
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 629D93BB
+P 9500 10950
+F 0 "#PWR?" H 9500 10950 40  0001 C CNN
+F 1 "AGND" H 9700 10950 50  0000 C CNN
+F 2 "" H 9500 10950 60  0001 C CNN
+F 3 "" H 9500 10950 60  0001 C CNN
+	1    9500 10950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 9450 9500 9600
+Wire Wire Line
+	9500 10400 9500 10550
+Wire Wire Line
+	9500 10800 9500 10950
+$Comp
+L power:+12VA #PWR?
+U 1 1 629D93C5
+P 9500 9350
+F 0 "#PWR?" H 9500 9200 50  0001 C CNN
+F 1 "+12VA" H 9200 9450 50  0000 L CNN
+F 2 "" H 9500 9350 50  0001 C CNN
+F 3 "" H 9500 9350 50  0001 C CNN
+	1    9500 9350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:-12VA #PWR?
+U 1 1 629D93CB
+P 9500 10300
+F 0 "#PWR?" H 9500 10150 50  0001 C CNN
+F 1 "-12VA" H 9200 10400 50  0000 L CNN
+F 2 "" H 9500 10300 50  0001 C CNN
+F 3 "" H 9500 10300 50  0001 C CNN
+	1    9500 10300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 62A4EC8B
+P 10000 9700
+F 0 "C?" H 10050 9900 50  0000 L CNN
+F 1 "0.1" H 10050 9800 50  0000 L CNN
+F 2 "" H 10000 9700 50  0001 C CNN
+F 3 "" H 10000 9700 50  0001 C CNN
+	1    10000 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 62A4EC92
+P 10250 9700
+F 0 "C?" H 10300 9900 50  0000 L CNN
+F 1 "47.0" H 10300 9800 50  0000 L CNN
+F 2 "" H 10250 9700 50  0001 C CNN
+F 3 "" H 10250 9700 50  0001 C CNN
+	1    10250 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 9800 10000 9850
+Wire Wire Line
+	10000 9850 10250 9850
+Wire Wire Line
+	10250 9850 10250 9800
+Wire Wire Line
+	10000 9450 10250 9450
+Wire Wire Line
+	10250 9450 10250 9600
+Wire Wire Line
+	10000 9450 10000 9600
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 62B3E063
+P 10500 9700
+F 0 "C?" H 10550 9900 50  0000 L CNN
+F 1 "0.1" H 10550 9800 50  0000 L CNN
+F 2 "" H 10500 9700 50  0001 C CNN
+F 3 "" H 10500 9700 50  0001 C CNN
+	1    10500 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 62B3E06A
+P 10750 9700
+F 0 "C?" H 10800 9900 50  0000 L CNN
+F 1 "47.0" H 10800 9800 50  0000 L CNN
+F 2 "" H 10750 9700 50  0001 C CNN
+F 3 "" H 10750 9700 50  0001 C CNN
+	1    10750 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 9800 10500 9850
+Wire Wire Line
+	10500 9850 10750 9850
+Wire Wire Line
+	10750 9850 10750 9800
+Wire Wire Line
+	10500 9450 10750 9450
+Wire Wire Line
+	10750 9450 10750 9600
+Wire Wire Line
+	10500 9450 10500 9600
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 62BB6983
+P 11000 9700
+F 0 "C?" H 11050 9900 50  0000 L CNN
+F 1 "0.1" H 11050 9800 50  0000 L CNN
+F 2 "" H 11000 9700 50  0001 C CNN
+F 3 "" H 11000 9700 50  0001 C CNN
+	1    11000 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 62BB698A
+P 11250 9700
+F 0 "C?" H 11300 9900 50  0000 L CNN
+F 1 "47.0" H 11300 9800 50  0000 L CNN
+F 2 "" H 11250 9700 50  0001 C CNN
+F 3 "" H 11250 9700 50  0001 C CNN
+	1    11250 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 9800 11000 9850
+Wire Wire Line
+	11000 9850 11250 9850
+Wire Wire Line
+	11250 9850 11250 9800
+Wire Wire Line
+	11000 9450 11250 9450
+Wire Wire Line
+	11250 9450 11250 9600
+Wire Wire Line
+	11000 9450 11000 9600
+Wire Wire Line
+	9750 9450 10000 9450
+Connection ~ 9750 9450
+Connection ~ 10000 9450
+Wire Wire Line
+	10250 9450 10500 9450
+Connection ~ 10250 9450
+Connection ~ 10500 9450
+Wire Wire Line
+	10750 9450 11000 9450
+Connection ~ 10750 9450
+Connection ~ 11000 9450
+Wire Wire Line
+	11000 9850 10750 9850
+Connection ~ 11000 9850
+Connection ~ 10750 9850
+Wire Wire Line
+	10500 9850 10250 9850
+Connection ~ 10500 9850
+Connection ~ 10250 9850
+Wire Wire Line
+	10000 9850 9750 9850
+Connection ~ 10000 9850
+Connection ~ 9750 9850
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 630109E4
+P 10000 10650
+F 0 "C?" H 10050 10450 50  0000 L CNN
+F 1 "0.1" H 10050 10550 50  0000 L CNN
+F 2 "" H 10000 10650 50  0001 C CNN
+F 3 "" H 10000 10650 50  0001 C CNN
+	1    10000 10650
+	1    0    0    1   
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 630109EB
+P 10250 10650
+F 0 "C?" H 10300 10450 50  0000 L CNN
+F 1 "47.0" H 10300 10550 50  0000 L CNN
+F 2 "" H 10250 10650 50  0001 C CNN
+F 3 "" H 10250 10650 50  0001 C CNN
+	1    10250 10650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10000 10750 10000 10800
+Wire Wire Line
+	10000 10800 10250 10800
+Wire Wire Line
+	10250 10800 10250 10750
+Wire Wire Line
+	10000 10400 10250 10400
+Wire Wire Line
+	10250 10400 10250 10550
+Wire Wire Line
+	10000 10400 10000 10550
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 630109F8
+P 10500 10650
+F 0 "C?" H 10550 10450 50  0000 L CNN
+F 1 "0.1" H 10550 10550 50  0000 L CNN
+F 2 "" H 10500 10650 50  0001 C CNN
+F 3 "" H 10500 10650 50  0001 C CNN
+	1    10500 10650
+	1    0    0    1   
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 630109FF
+P 10750 10650
+F 0 "C?" H 10800 10450 50  0000 L CNN
+F 1 "47.0" H 10800 10550 50  0000 L CNN
+F 2 "" H 10750 10650 50  0001 C CNN
+F 3 "" H 10750 10650 50  0001 C CNN
+	1    10750 10650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10500 10750 10500 10800
+Wire Wire Line
+	10500 10800 10750 10800
+Wire Wire Line
+	10750 10800 10750 10750
+Wire Wire Line
+	10500 10400 10750 10400
+Wire Wire Line
+	10750 10400 10750 10550
+Wire Wire Line
+	10500 10400 10500 10550
+$Comp
+L amplifier-rescue:C_Small C?
+U 1 1 63010A0C
+P 11000 10650
+F 0 "C?" H 11050 10450 50  0000 L CNN
+F 1 "0.1" H 11050 10550 50  0000 L CNN
+F 2 "" H 11000 10650 50  0001 C CNN
+F 3 "" H 11000 10650 50  0001 C CNN
+	1    11000 10650
+	1    0    0    1   
+$EndComp
+$Comp
+L amplifier-rescue:CP_Small C?
+U 1 1 63010A13
+P 11250 10650
+F 0 "C?" H 11300 10450 50  0000 L CNN
+F 1 "47.0" H 11300 10550 50  0000 L CNN
+F 2 "" H 11250 10650 50  0001 C CNN
+F 3 "" H 11250 10650 50  0001 C CNN
+	1    11250 10650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	11000 10750 11000 10800
+Wire Wire Line
+	11000 10800 11250 10800
+Wire Wire Line
+	11250 10800 11250 10750
+Wire Wire Line
+	11000 10400 11250 10400
+Wire Wire Line
+	11250 10400 11250 10550
+Wire Wire Line
+	11000 10400 11000 10550
+Wire Wire Line
+	9750 10400 10000 10400
+Connection ~ 10000 10400
+Wire Wire Line
+	10250 10400 10500 10400
+Connection ~ 10250 10400
+Connection ~ 10500 10400
+Wire Wire Line
+	10750 10400 11000 10400
+Connection ~ 10750 10400
+Connection ~ 11000 10400
+Wire Wire Line
+	11000 10800 10750 10800
+Connection ~ 11000 10800
+Connection ~ 10750 10800
+Wire Wire Line
+	10500 10800 10250 10800
+Connection ~ 10500 10800
+Connection ~ 10250 10800
+Wire Wire Line
+	10000 10800 9750 10800
+Connection ~ 10000 10800
+$Comp
+L amplifier-rescue:AGND #PWR?
+U 1 1 6311C339
+P 9500 10000
+F 0 "#PWR?" H 9500 10000 40  0001 C CNN
+F 1 "AGND" H 9700 10000 50  0000 C CNN
+F 2 "" H 9500 10000 60  0001 C CNN
+F 3 "" H 9500 10000 60  0001 C CNN
+	1    9500 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 9850 9500 10000
+Connection ~ 9750 10400
+Connection ~ 9750 10800
+$Comp
+L Regulator_Linear:LM317L_SO8 U?
+U 1 1 633B9F12
+P 12100 7200
+F 0 "U?" H 12100 7442 50  0000 C CNN
+F 1 "LM317L_SO8" H 12100 7351 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 12100 7400 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf" H 12100 7000 50  0001 C CNN
+	1    12100 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM337L_SO8 U?
+U 1 1 633BA8BE
+P 12100 8200
+F 0 "U?" H 12100 8050 50  0000 C CNN
+F 1 "LM337L_SO8" H 12100 7959 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 12100 8000 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm337l.pdf" H 12100 8200 50  0001 C CNN
+	1    12100 8200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
