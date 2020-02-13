@@ -1,0 +1,4027 @@
+EESchema Schematic File Version 4
+LIBS:amplifier-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D3
+U 1 1 5C9982A0
+P 4750 2900
+F 0 "D3" V 4850 2800 39  0000 C CNN
+F 1 "warm white led" V 4750 2850 50  0001 C CNN
+F 2 "" H 4750 2900 50  0001 C CNN
+F 3 "~" H 4750 2900 50  0001 C CNN
+	1    4750 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 2750 4750 2700
+Connection ~ 4750 2700
+Wire Wire Line
+	4750 2700 5050 2700
+Wire Wire Line
+	4750 3050 4750 3100
+Wire Wire Line
+	4750 3100 4650 3100
+Wire Wire Line
+	4650 3100 4650 3550
+$Comp
+L Device:LED D19
+U 1 1 5C998D40
+P 5050 2900
+F 0 "D19" V 5150 2800 39  0000 C CNN
+F 1 "warm white led" V 5050 2850 50  0001 C CNN
+F 2 "" H 5050 2900 50  0001 C CNN
+F 3 "~" H 5050 2900 50  0001 C CNN
+	1    5050 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 2750 5050 2700
+Wire Wire Line
+	5050 3050 5050 3100
+Wire Wire Line
+	5050 3100 4950 3100
+Wire Wire Line
+	4150 4050 4750 4050
+Wire Wire Line
+	4950 3100 4950 3550
+Connection ~ 5050 2700
+Wire Wire Line
+	5050 2700 5350 2700
+$Comp
+L Device:LED D35
+U 1 1 5C99D605
+P 5350 2900
+F 0 "D35" V 5450 2800 39  0000 C CNN
+F 1 "warm white led" V 5350 2850 50  0001 C CNN
+F 2 "" H 5350 2900 50  0001 C CNN
+F 3 "~" H 5350 2900 50  0001 C CNN
+	1    5350 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 2750 5350 2700
+Wire Wire Line
+	5350 3050 5350 3100
+Wire Wire Line
+	5350 3100 5250 3100
+$Comp
+L Device:LED D51
+U 1 1 5C99DBC6
+P 5650 2900
+F 0 "D51" V 5750 2800 39  0000 C CNN
+F 1 "warm white led" V 5650 2850 50  0001 C CNN
+F 2 "" H 5650 2900 50  0001 C CNN
+F 3 "~" H 5650 2900 50  0001 C CNN
+	1    5650 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 2750 5650 2700
+Wire Wire Line
+	5650 3050 5650 3100
+Wire Wire Line
+	5650 3100 5550 3100
+$Comp
+L Device:LED D67
+U 1 1 5C99E261
+P 5950 2900
+F 0 "D67" V 6050 2800 39  0000 C CNN
+F 1 "warm white led" V 5950 2850 50  0001 C CNN
+F 2 "" H 5950 2900 50  0001 C CNN
+F 3 "~" H 5950 2900 50  0001 C CNN
+	1    5950 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 2750 5950 2700
+Wire Wire Line
+	5950 3050 5950 3100
+Wire Wire Line
+	5950 3100 5850 3100
+$Comp
+L Device:LED D83
+U 1 1 5C99E9DF
+P 6250 2900
+F 0 "D83" V 6350 2800 39  0000 C CNN
+F 1 "warm white led" V 6250 2850 50  0001 C CNN
+F 2 "" H 6250 2900 50  0001 C CNN
+F 3 "~" H 6250 2900 50  0001 C CNN
+	1    6250 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 2750 6250 2700
+Wire Wire Line
+	6250 3050 6250 3100
+Wire Wire Line
+	6250 3100 6150 3100
+$Comp
+L Device:LED D99
+U 1 1 5C99F268
+P 6550 2900
+F 0 "D99" V 6650 2800 39  0000 C CNN
+F 1 "warm white led" V 6550 2850 50  0001 C CNN
+F 2 "" H 6550 2900 50  0001 C CNN
+F 3 "~" H 6550 2900 50  0001 C CNN
+	1    6550 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 2750 6550 2700
+Wire Wire Line
+	6550 3050 6550 3100
+Wire Wire Line
+	6550 3100 6450 3100
+$Comp
+L Device:LED D115
+U 1 1 5C99FBD3
+P 6850 2900
+F 0 "D115" V 6950 2800 39  0000 C CNN
+F 1 "warm white led" V 6850 2850 50  0001 C CNN
+F 2 "" H 6850 2900 50  0001 C CNN
+F 3 "~" H 6850 2900 50  0001 C CNN
+	1    6850 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 2750 6850 2700
+Wire Wire Line
+	6850 3050 6850 3100
+Wire Wire Line
+	6850 3100 6750 3100
+$Comp
+L Device:LED D131
+U 1 1 5C9A0636
+P 7150 2900
+F 0 "D131" V 7250 2800 39  0000 C CNN
+F 1 "warm white led" V 7150 2850 50  0001 C CNN
+F 2 "" H 7150 2900 50  0001 C CNN
+F 3 "~" H 7150 2900 50  0001 C CNN
+	1    7150 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 2750 7150 2700
+Wire Wire Line
+	7150 3050 7150 3100
+Wire Wire Line
+	7150 3100 7050 3100
+$Comp
+L Device:LED D147
+U 1 1 5C9A11A2
+P 7450 2900
+F 0 "D147" V 7550 2800 39  0000 C CNN
+F 1 "warm white led" V 7450 2850 50  0001 C CNN
+F 2 "" H 7450 2900 50  0001 C CNN
+F 3 "~" H 7450 2900 50  0001 C CNN
+	1    7450 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 2750 7450 2700
+Wire Wire Line
+	7450 3050 7450 3100
+Wire Wire Line
+	7450 3100 7350 3100
+$Comp
+L Device:LED D4
+U 1 1 5C9A1E28
+P 4750 3350
+F 0 "D4" V 4850 3250 39  0000 C CNN
+F 1 "warm white led" V 4750 3300 50  0001 C CNN
+F 2 "" H 4750 3350 50  0001 C CNN
+F 3 "~" H 4750 3350 50  0001 C CNN
+	1    4750 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 3200 4750 3150
+Wire Wire Line
+	4750 3500 4750 3550
+Wire Wire Line
+	4750 3550 4650 3550
+$Comp
+L Device:LED D20
+U 1 1 5C9A2C91
+P 5050 3350
+F 0 "D20" V 5150 3250 39  0000 C CNN
+F 1 "warm white led" V 5050 3300 50  0001 C CNN
+F 2 "" H 5050 3350 50  0001 C CNN
+F 3 "~" H 5050 3350 50  0001 C CNN
+	1    5050 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 3200 5050 3150
+Wire Wire Line
+	5050 3500 5050 3550
+Wire Wire Line
+	5050 3550 4950 3550
+$Comp
+L Device:LED D36
+U 1 1 5C9A3CD0
+P 5350 3350
+F 0 "D36" V 5450 3250 39  0000 C CNN
+F 1 "warm white led" V 5350 3300 50  0001 C CNN
+F 2 "" H 5350 3350 50  0001 C CNN
+F 3 "~" H 5350 3350 50  0001 C CNN
+	1    5350 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 3200 5350 3150
+Wire Wire Line
+	5350 3500 5350 3550
+Wire Wire Line
+	5350 3550 5250 3550
+$Comp
+L Device:LED D52
+U 1 1 5C9A4EE3
+P 5650 3350
+F 0 "D52" V 5750 3250 39  0000 C CNN
+F 1 "warm white led" V 5650 3300 50  0001 C CNN
+F 2 "" H 5650 3350 50  0001 C CNN
+F 3 "~" H 5650 3350 50  0001 C CNN
+	1    5650 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 3200 5650 3150
+Wire Wire Line
+	5650 3500 5650 3550
+Wire Wire Line
+	5650 3550 5550 3550
+$Comp
+L Device:LED D68
+U 1 1 5C9A62C4
+P 5950 3350
+F 0 "D68" V 6050 3250 39  0000 C CNN
+F 1 "warm white led" V 5950 3300 50  0001 C CNN
+F 2 "" H 5950 3350 50  0001 C CNN
+F 3 "~" H 5950 3350 50  0001 C CNN
+	1    5950 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 3200 5950 3150
+Wire Wire Line
+	5950 3500 5950 3550
+Wire Wire Line
+	5950 3550 5850 3550
+$Comp
+L Device:LED D84
+U 1 1 5C9A7867
+P 6250 3350
+F 0 "D84" V 6350 3250 39  0000 C CNN
+F 1 "warm white led" V 6250 3300 50  0001 C CNN
+F 2 "" H 6250 3350 50  0001 C CNN
+F 3 "~" H 6250 3350 50  0001 C CNN
+	1    6250 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 3200 6250 3150
+Wire Wire Line
+	6250 3500 6250 3550
+Wire Wire Line
+	6250 3550 6150 3550
+$Comp
+L Device:LED D100
+U 1 1 5C9A8FD0
+P 6550 3350
+F 0 "D100" V 6650 3250 39  0000 C CNN
+F 1 "warm white led" V 6550 3300 50  0001 C CNN
+F 2 "" H 6550 3350 50  0001 C CNN
+F 3 "~" H 6550 3350 50  0001 C CNN
+	1    6550 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 3200 6550 3150
+Wire Wire Line
+	6550 3500 6550 3550
+Wire Wire Line
+	6550 3550 6450 3550
+$Comp
+L Device:LED D116
+U 1 1 5C9AA8F1
+P 6850 3350
+F 0 "D116" V 6950 3250 39  0000 C CNN
+F 1 "warm white led" V 6850 3300 50  0001 C CNN
+F 2 "" H 6850 3350 50  0001 C CNN
+F 3 "~" H 6850 3350 50  0001 C CNN
+	1    6850 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 3200 6850 3150
+Wire Wire Line
+	6850 3500 6850 3550
+Wire Wire Line
+	6850 3550 6750 3550
+$Comp
+L Device:LED D132
+U 1 1 5C9AC3C8
+P 7150 3350
+F 0 "D132" V 7250 3250 39  0000 C CNN
+F 1 "warm white led" V 7150 3300 50  0001 C CNN
+F 2 "" H 7150 3350 50  0001 C CNN
+F 3 "~" H 7150 3350 50  0001 C CNN
+	1    7150 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 3200 7150 3150
+Wire Wire Line
+	7150 3500 7150 3550
+Wire Wire Line
+	7150 3550 7050 3550
+$Comp
+L Device:LED D148
+U 1 1 5C9AE049
+P 7450 3350
+F 0 "D148" V 7550 3250 39  0000 C CNN
+F 1 "warm white led" V 7450 3300 50  0001 C CNN
+F 2 "" H 7450 3350 50  0001 C CNN
+F 3 "~" H 7450 3350 50  0001 C CNN
+	1    7450 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 3200 7450 3150
+Wire Wire Line
+	7450 3500 7450 3550
+Wire Wire Line
+	7450 3550 7350 3550
+$Comp
+L Device:LED D5
+U 1 1 5C9AFF22
+P 4750 3800
+F 0 "D5" V 4850 3700 39  0000 C CNN
+F 1 "warm white led" V 4750 3750 50  0001 C CNN
+F 2 "" H 4750 3800 50  0001 C CNN
+F 3 "~" H 4750 3800 50  0001 C CNN
+	1    4750 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 3650 4750 3600
+Wire Wire Line
+	4750 3950 4750 4000
+Wire Wire Line
+	4750 4000 4650 4000
+$Comp
+L Device:LED D21
+U 1 1 5C9B2057
+P 5050 3800
+F 0 "D21" V 5150 3700 39  0000 C CNN
+F 1 "warm white led" V 5050 3750 50  0001 C CNN
+F 2 "" H 5050 3800 50  0001 C CNN
+F 3 "~" H 5050 3800 50  0001 C CNN
+	1    5050 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 3650 5050 3600
+Wire Wire Line
+	5050 3950 5050 4000
+Wire Wire Line
+	5050 4000 4950 4000
+$Comp
+L Device:LED D37
+U 1 1 5C9B4470
+P 5350 3800
+F 0 "D37" V 5450 3700 39  0000 C CNN
+F 1 "warm white led" V 5350 3750 50  0001 C CNN
+F 2 "" H 5350 3800 50  0001 C CNN
+F 3 "~" H 5350 3800 50  0001 C CNN
+	1    5350 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 3650 5350 3600
+Wire Wire Line
+	5350 3950 5350 4000
+Wire Wire Line
+	5350 4000 5250 4000
+$Comp
+L Device:LED D53
+U 1 1 5C9B6B64
+P 5650 3800
+F 0 "D53" V 5750 3700 39  0000 C CNN
+F 1 "warm white led" V 5650 3750 50  0001 C CNN
+F 2 "" H 5650 3800 50  0001 C CNN
+F 3 "~" H 5650 3800 50  0001 C CNN
+	1    5650 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 3650 5650 3600
+Wire Wire Line
+	5650 3950 5650 4000
+Wire Wire Line
+	5650 4000 5550 4000
+$Comp
+L Device:LED D69
+U 1 1 5C9B9506
+P 5950 3800
+F 0 "D69" V 6050 3700 39  0000 C CNN
+F 1 "warm white led" V 5950 3750 50  0001 C CNN
+F 2 "" H 5950 3800 50  0001 C CNN
+F 3 "~" H 5950 3800 50  0001 C CNN
+	1    5950 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 3650 5950 3600
+Wire Wire Line
+	5950 3950 5950 4000
+Wire Wire Line
+	5950 4000 5850 4000
+$Comp
+L Device:LED D85
+U 1 1 5C9BC155
+P 6250 3800
+F 0 "D85" V 6350 3700 39  0000 C CNN
+F 1 "warm white led" V 6250 3750 50  0001 C CNN
+F 2 "" H 6250 3800 50  0001 C CNN
+F 3 "~" H 6250 3800 50  0001 C CNN
+	1    6250 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 3650 6250 3600
+Wire Wire Line
+	6250 3950 6250 4000
+Wire Wire Line
+	6250 4000 6150 4000
+$Comp
+L Device:LED D101
+U 1 1 5C9BF03A
+P 6550 3800
+F 0 "D101" V 6650 3700 39  0000 C CNN
+F 1 "warm white led" V 6550 3750 50  0001 C CNN
+F 2 "" H 6550 3800 50  0001 C CNN
+F 3 "~" H 6550 3800 50  0001 C CNN
+	1    6550 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 3650 6550 3600
+Wire Wire Line
+	6550 3950 6550 4000
+Wire Wire Line
+	6550 4000 6450 4000
+$Comp
+L Device:LED D117
+U 1 1 5C9C2196
+P 6850 3800
+F 0 "D117" V 6950 3700 39  0000 C CNN
+F 1 "warm white led" V 6850 3750 50  0001 C CNN
+F 2 "" H 6850 3800 50  0001 C CNN
+F 3 "~" H 6850 3800 50  0001 C CNN
+	1    6850 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 3650 6850 3600
+Wire Wire Line
+	6850 3950 6850 4000
+Wire Wire Line
+	6850 4000 6750 4000
+$Comp
+L Device:LED D133
+U 1 1 5C9C555A
+P 7150 3800
+F 0 "D133" V 7250 3700 39  0000 C CNN
+F 1 "warm white led" V 7150 3750 50  0001 C CNN
+F 2 "" H 7150 3800 50  0001 C CNN
+F 3 "~" H 7150 3800 50  0001 C CNN
+	1    7150 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 3650 7150 3600
+Wire Wire Line
+	7150 3950 7150 4000
+Wire Wire Line
+	7150 4000 7050 4000
+$Comp
+L Device:LED D149
+U 1 1 5C9C8B6F
+P 7450 3800
+F 0 "D149" V 7550 3700 39  0000 C CNN
+F 1 "warm white led" V 7450 3750 50  0001 C CNN
+F 2 "" H 7450 3800 50  0001 C CNN
+F 3 "~" H 7450 3800 50  0001 C CNN
+	1    7450 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 3650 7450 3600
+Wire Wire Line
+	7450 3950 7450 4000
+Wire Wire Line
+	7450 4000 7350 4000
+$Comp
+L Device:LED D6
+U 1 1 5C9CCA72
+P 4750 4250
+F 0 "D6" V 4850 4150 39  0000 C CNN
+F 1 "warm white led" V 4750 4200 50  0001 C CNN
+F 2 "" H 4750 4250 50  0001 C CNN
+F 3 "~" H 4750 4250 50  0001 C CNN
+	1    4750 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 4100 4750 4050
+Wire Wire Line
+	4750 4400 4750 4450
+Wire Wire Line
+	4750 4450 4650 4450
+$Comp
+L Device:LED D22
+U 1 1 5C9CCA7C
+P 5050 4250
+F 0 "D22" V 5150 4150 39  0000 C CNN
+F 1 "warm white led" V 5050 4200 50  0001 C CNN
+F 2 "" H 5050 4250 50  0001 C CNN
+F 3 "~" H 5050 4250 50  0001 C CNN
+	1    5050 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 4100 5050 4050
+Wire Wire Line
+	5050 4400 5050 4450
+Wire Wire Line
+	5050 4450 4950 4450
+$Comp
+L Device:LED D38
+U 1 1 5C9CCA86
+P 5350 4250
+F 0 "D38" V 5450 4150 39  0000 C CNN
+F 1 "warm white led" V 5350 4200 50  0001 C CNN
+F 2 "" H 5350 4250 50  0001 C CNN
+F 3 "~" H 5350 4250 50  0001 C CNN
+	1    5350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 4100 5350 4050
+Wire Wire Line
+	5350 4400 5350 4450
+Wire Wire Line
+	5350 4450 5250 4450
+$Comp
+L Device:LED D54
+U 1 1 5C9CCA90
+P 5650 4250
+F 0 "D54" V 5750 4150 39  0000 C CNN
+F 1 "warm white led" V 5650 4200 50  0001 C CNN
+F 2 "" H 5650 4250 50  0001 C CNN
+F 3 "~" H 5650 4250 50  0001 C CNN
+	1    5650 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 4100 5650 4050
+Wire Wire Line
+	5650 4400 5650 4450
+Wire Wire Line
+	5650 4450 5550 4450
+$Comp
+L Device:LED D70
+U 1 1 5C9CCA9A
+P 5950 4250
+F 0 "D70" V 6050 4150 39  0000 C CNN
+F 1 "warm white led" V 5950 4200 50  0001 C CNN
+F 2 "" H 5950 4250 50  0001 C CNN
+F 3 "~" H 5950 4250 50  0001 C CNN
+	1    5950 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 4100 5950 4050
+Wire Wire Line
+	5950 4400 5950 4450
+Wire Wire Line
+	5950 4450 5850 4450
+$Comp
+L Device:LED D86
+U 1 1 5C9CCAA4
+P 6250 4250
+F 0 "D86" V 6350 4150 39  0000 C CNN
+F 1 "warm white led" V 6250 4200 50  0001 C CNN
+F 2 "" H 6250 4250 50  0001 C CNN
+F 3 "~" H 6250 4250 50  0001 C CNN
+	1    6250 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 4100 6250 4050
+Wire Wire Line
+	6250 4400 6250 4450
+Wire Wire Line
+	6250 4450 6150 4450
+$Comp
+L Device:LED D102
+U 1 1 5C9CCAAE
+P 6550 4250
+F 0 "D102" V 6650 4150 39  0000 C CNN
+F 1 "warm white led" V 6550 4200 50  0001 C CNN
+F 2 "" H 6550 4250 50  0001 C CNN
+F 3 "~" H 6550 4250 50  0001 C CNN
+	1    6550 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 4100 6550 4050
+Wire Wire Line
+	6550 4400 6550 4450
+Wire Wire Line
+	6550 4450 6450 4450
+$Comp
+L Device:LED D118
+U 1 1 5C9CCAB8
+P 6850 4250
+F 0 "D118" V 6950 4150 39  0000 C CNN
+F 1 "warm white led" V 6850 4200 50  0001 C CNN
+F 2 "" H 6850 4250 50  0001 C CNN
+F 3 "~" H 6850 4250 50  0001 C CNN
+	1    6850 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 4100 6850 4050
+Wire Wire Line
+	6850 4400 6850 4450
+Wire Wire Line
+	6850 4450 6750 4450
+$Comp
+L Device:LED D134
+U 1 1 5C9CCAC2
+P 7150 4250
+F 0 "D134" V 7250 4150 39  0000 C CNN
+F 1 "warm white led" V 7150 4200 50  0001 C CNN
+F 2 "" H 7150 4250 50  0001 C CNN
+F 3 "~" H 7150 4250 50  0001 C CNN
+	1    7150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 4100 7150 4050
+Wire Wire Line
+	7150 4400 7150 4450
+Wire Wire Line
+	7150 4450 7050 4450
+$Comp
+L Device:LED D150
+U 1 1 5C9CCACC
+P 7450 4250
+F 0 "D150" V 7550 4150 39  0000 C CNN
+F 1 "warm white led" V 7450 4200 50  0001 C CNN
+F 2 "" H 7450 4250 50  0001 C CNN
+F 3 "~" H 7450 4250 50  0001 C CNN
+	1    7450 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 4100 7450 4050
+Wire Wire Line
+	7450 4400 7450 4450
+Wire Wire Line
+	7450 4450 7350 4450
+Connection ~ 4650 4450
+Wire Wire Line
+	4650 4450 4650 4900
+Connection ~ 4750 4050
+Wire Wire Line
+	4750 4050 5050 4050
+Connection ~ 4950 4450
+Wire Wire Line
+	4950 4450 4950 4900
+Connection ~ 5050 4050
+Wire Wire Line
+	5050 4050 5350 4050
+Wire Wire Line
+	5250 4450 5250 4900
+Connection ~ 5350 4050
+Wire Wire Line
+	5350 4050 5650 4050
+Connection ~ 5550 4450
+Wire Wire Line
+	5550 4450 5550 4900
+Connection ~ 5650 4050
+Wire Wire Line
+	5650 4050 5950 4050
+Connection ~ 5850 4450
+Wire Wire Line
+	5850 4450 5850 4900
+Connection ~ 5950 4050
+Wire Wire Line
+	5950 4050 6250 4050
+Connection ~ 6150 4450
+Wire Wire Line
+	6150 4450 6150 4900
+Connection ~ 6250 4050
+Wire Wire Line
+	6250 4050 6550 4050
+Connection ~ 6450 4450
+Wire Wire Line
+	6450 4450 6450 4900
+Connection ~ 6550 4050
+Wire Wire Line
+	6550 4050 6850 4050
+Connection ~ 6750 4450
+Wire Wire Line
+	6750 4450 6750 4900
+Connection ~ 6850 4050
+Wire Wire Line
+	6850 4050 7150 4050
+Connection ~ 7050 4450
+Wire Wire Line
+	7050 4450 7050 4900
+Connection ~ 7150 4050
+Wire Wire Line
+	7150 4050 7450 4050
+Connection ~ 7350 4450
+Wire Wire Line
+	7350 4450 7350 4900
+$Comp
+L Device:LED D7
+U 1 1 5C9E2F0F
+P 4750 4700
+F 0 "D7" V 4850 4600 39  0000 C CNN
+F 1 "warm white led" V 4750 4650 50  0001 C CNN
+F 2 "" H 4750 4700 50  0001 C CNN
+F 3 "~" H 4750 4700 50  0001 C CNN
+	1    4750 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 4550 4750 4500
+Wire Wire Line
+	4750 4850 4750 4900
+Wire Wire Line
+	4750 4900 4650 4900
+$Comp
+L Device:LED D23
+U 1 1 5C9E2F19
+P 5050 4700
+F 0 "D23" V 5150 4600 39  0000 C CNN
+F 1 "warm white led" V 5050 4650 50  0001 C CNN
+F 2 "" H 5050 4700 50  0001 C CNN
+F 3 "~" H 5050 4700 50  0001 C CNN
+	1    5050 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 4550 5050 4500
+Wire Wire Line
+	5050 4850 5050 4900
+Wire Wire Line
+	5050 4900 4950 4900
+$Comp
+L Device:LED D39
+U 1 1 5C9E2F23
+P 5350 4700
+F 0 "D39" V 5450 4600 39  0000 C CNN
+F 1 "warm white led" V 5350 4650 50  0001 C CNN
+F 2 "" H 5350 4700 50  0001 C CNN
+F 3 "~" H 5350 4700 50  0001 C CNN
+	1    5350 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 4550 5350 4500
+Wire Wire Line
+	5350 4850 5350 4900
+Wire Wire Line
+	5350 4900 5250 4900
+$Comp
+L Device:LED D55
+U 1 1 5C9E2F2D
+P 5650 4700
+F 0 "D55" V 5750 4600 39  0000 C CNN
+F 1 "warm white led" V 5650 4650 50  0001 C CNN
+F 2 "" H 5650 4700 50  0001 C CNN
+F 3 "~" H 5650 4700 50  0001 C CNN
+	1    5650 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 4550 5650 4500
+Wire Wire Line
+	5650 4850 5650 4900
+Wire Wire Line
+	5650 4900 5550 4900
+$Comp
+L Device:LED D71
+U 1 1 5C9E2F37
+P 5950 4700
+F 0 "D71" V 6050 4600 39  0000 C CNN
+F 1 "warm white led" V 5950 4650 50  0001 C CNN
+F 2 "" H 5950 4700 50  0001 C CNN
+F 3 "~" H 5950 4700 50  0001 C CNN
+	1    5950 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 4550 5950 4500
+Wire Wire Line
+	5950 4850 5950 4900
+Wire Wire Line
+	5950 4900 5850 4900
+$Comp
+L Device:LED D87
+U 1 1 5C9E2F41
+P 6250 4700
+F 0 "D87" V 6350 4600 39  0000 C CNN
+F 1 "warm white led" V 6250 4650 50  0001 C CNN
+F 2 "" H 6250 4700 50  0001 C CNN
+F 3 "~" H 6250 4700 50  0001 C CNN
+	1    6250 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 4550 6250 4500
+Wire Wire Line
+	6250 4850 6250 4900
+Wire Wire Line
+	6250 4900 6150 4900
+$Comp
+L Device:LED D103
+U 1 1 5C9E2F4B
+P 6550 4700
+F 0 "D103" V 6650 4600 39  0000 C CNN
+F 1 "warm white led" V 6550 4650 50  0001 C CNN
+F 2 "" H 6550 4700 50  0001 C CNN
+F 3 "~" H 6550 4700 50  0001 C CNN
+	1    6550 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 4550 6550 4500
+Wire Wire Line
+	6550 4850 6550 4900
+Wire Wire Line
+	6550 4900 6450 4900
+$Comp
+L Device:LED D119
+U 1 1 5C9E2F55
+P 6850 4700
+F 0 "D119" V 6950 4600 39  0000 C CNN
+F 1 "warm white led" V 6850 4650 50  0001 C CNN
+F 2 "" H 6850 4700 50  0001 C CNN
+F 3 "~" H 6850 4700 50  0001 C CNN
+	1    6850 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 4550 6850 4500
+Wire Wire Line
+	6850 4850 6850 4900
+Wire Wire Line
+	6850 4900 6750 4900
+$Comp
+L Device:LED D135
+U 1 1 5C9E2F5F
+P 7150 4700
+F 0 "D135" V 7250 4600 39  0000 C CNN
+F 1 "warm white led" V 7150 4650 50  0001 C CNN
+F 2 "" H 7150 4700 50  0001 C CNN
+F 3 "~" H 7150 4700 50  0001 C CNN
+	1    7150 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 4550 7150 4500
+Wire Wire Line
+	7150 4850 7150 4900
+Wire Wire Line
+	7150 4900 7050 4900
+$Comp
+L Device:LED D151
+U 1 1 5C9E2F69
+P 7450 4700
+F 0 "D151" V 7550 4600 39  0000 C CNN
+F 1 "warm white led" V 7450 4650 50  0001 C CNN
+F 2 "" H 7450 4700 50  0001 C CNN
+F 3 "~" H 7450 4700 50  0001 C CNN
+	1    7450 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 4550 7450 4500
+Wire Wire Line
+	7450 4850 7450 4900
+Wire Wire Line
+	7450 4900 7350 4900
+$Comp
+L Device:LED D8
+U 1 1 5C9ED677
+P 4750 5150
+F 0 "D8" V 4850 5050 39  0000 C CNN
+F 1 "warm white led" V 4750 5100 50  0001 C CNN
+F 2 "" H 4750 5150 50  0001 C CNN
+F 3 "~" H 4750 5150 50  0001 C CNN
+	1    4750 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 5000 4750 4950
+Wire Wire Line
+	4750 5300 4750 5350
+Wire Wire Line
+	4750 5350 4650 5350
+$Comp
+L Device:LED D24
+U 1 1 5C9ED681
+P 5050 5150
+F 0 "D24" V 5150 5050 39  0000 C CNN
+F 1 "warm white led" V 5050 5100 50  0001 C CNN
+F 2 "" H 5050 5150 50  0001 C CNN
+F 3 "~" H 5050 5150 50  0001 C CNN
+	1    5050 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 5000 5050 4950
+Wire Wire Line
+	5050 5300 5050 5350
+Wire Wire Line
+	5050 5350 4950 5350
+$Comp
+L Device:LED D40
+U 1 1 5C9ED68B
+P 5350 5150
+F 0 "D40" V 5450 5050 39  0000 C CNN
+F 1 "warm white led" V 5350 5100 50  0001 C CNN
+F 2 "" H 5350 5150 50  0001 C CNN
+F 3 "~" H 5350 5150 50  0001 C CNN
+	1    5350 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 5000 5350 4950
+Wire Wire Line
+	5350 5300 5350 5350
+Wire Wire Line
+	5350 5350 5250 5350
+$Comp
+L Device:LED D56
+U 1 1 5C9ED695
+P 5650 5150
+F 0 "D56" V 5750 5050 39  0000 C CNN
+F 1 "warm white led" V 5650 5100 50  0001 C CNN
+F 2 "" H 5650 5150 50  0001 C CNN
+F 3 "~" H 5650 5150 50  0001 C CNN
+	1    5650 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 5000 5650 4950
+Wire Wire Line
+	5650 5300 5650 5350
+Wire Wire Line
+	5650 5350 5550 5350
+$Comp
+L Device:LED D72
+U 1 1 5C9ED69F
+P 5950 5150
+F 0 "D72" V 6050 5050 39  0000 C CNN
+F 1 "warm white led" V 5950 5100 50  0001 C CNN
+F 2 "" H 5950 5150 50  0001 C CNN
+F 3 "~" H 5950 5150 50  0001 C CNN
+	1    5950 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 5000 5950 4950
+Wire Wire Line
+	5950 5300 5950 5350
+Wire Wire Line
+	5950 5350 5850 5350
+$Comp
+L Device:LED D88
+U 1 1 5C9ED6A9
+P 6250 5150
+F 0 "D88" V 6350 5050 39  0000 C CNN
+F 1 "warm white led" V 6250 5100 50  0001 C CNN
+F 2 "" H 6250 5150 50  0001 C CNN
+F 3 "~" H 6250 5150 50  0001 C CNN
+	1    6250 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 5000 6250 4950
+Wire Wire Line
+	6250 5300 6250 5350
+Wire Wire Line
+	6250 5350 6150 5350
+$Comp
+L Device:LED D104
+U 1 1 5C9ED6B3
+P 6550 5150
+F 0 "D104" V 6650 5050 39  0000 C CNN
+F 1 "warm white led" V 6550 5100 50  0001 C CNN
+F 2 "" H 6550 5150 50  0001 C CNN
+F 3 "~" H 6550 5150 50  0001 C CNN
+	1    6550 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 5000 6550 4950
+Wire Wire Line
+	6550 5300 6550 5350
+Wire Wire Line
+	6550 5350 6450 5350
+$Comp
+L Device:LED D120
+U 1 1 5C9ED6BD
+P 6850 5150
+F 0 "D120" V 6950 5050 39  0000 C CNN
+F 1 "warm white led" V 6850 5100 50  0001 C CNN
+F 2 "" H 6850 5150 50  0001 C CNN
+F 3 "~" H 6850 5150 50  0001 C CNN
+	1    6850 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 5000 6850 4950
+Wire Wire Line
+	6850 5300 6850 5350
+Wire Wire Line
+	6850 5350 6750 5350
+$Comp
+L Device:LED D136
+U 1 1 5C9ED6C7
+P 7150 5150
+F 0 "D136" V 7250 5050 39  0000 C CNN
+F 1 "warm white led" V 7150 5100 50  0001 C CNN
+F 2 "" H 7150 5150 50  0001 C CNN
+F 3 "~" H 7150 5150 50  0001 C CNN
+	1    7150 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 5000 7150 4950
+Wire Wire Line
+	7150 5300 7150 5350
+Wire Wire Line
+	7150 5350 7050 5350
+$Comp
+L Device:LED D152
+U 1 1 5C9ED6D1
+P 7450 5150
+F 0 "D152" V 7550 5050 39  0000 C CNN
+F 1 "warm white led" V 7450 5100 50  0001 C CNN
+F 2 "" H 7450 5150 50  0001 C CNN
+F 3 "~" H 7450 5150 50  0001 C CNN
+	1    7450 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 5000 7450 4950
+Wire Wire Line
+	7450 5300 7450 5350
+Wire Wire Line
+	7450 5350 7350 5350
+$Comp
+L Device:LED D9
+U 1 1 5C9FB663
+P 4750 5600
+F 0 "D9" V 4850 5500 39  0000 C CNN
+F 1 "warm white led" V 4750 5550 50  0001 C CNN
+F 2 "" H 4750 5600 50  0001 C CNN
+F 3 "~" H 4750 5600 50  0001 C CNN
+	1    4750 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 5450 4750 5400
+Wire Wire Line
+	4750 5750 4750 5800
+Wire Wire Line
+	4750 5800 4650 5800
+$Comp
+L Device:LED D25
+U 1 1 5C9FB66D
+P 5050 5600
+F 0 "D25" V 5150 5500 39  0000 C CNN
+F 1 "warm white led" V 5050 5550 50  0001 C CNN
+F 2 "" H 5050 5600 50  0001 C CNN
+F 3 "~" H 5050 5600 50  0001 C CNN
+	1    5050 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 5450 5050 5400
+Wire Wire Line
+	5050 5750 5050 5800
+Wire Wire Line
+	5050 5800 4950 5800
+$Comp
+L Device:LED D41
+U 1 1 5C9FB677
+P 5350 5600
+F 0 "D41" V 5450 5500 39  0000 C CNN
+F 1 "warm white led" V 5350 5550 50  0001 C CNN
+F 2 "" H 5350 5600 50  0001 C CNN
+F 3 "~" H 5350 5600 50  0001 C CNN
+	1    5350 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 5450 5350 5400
+Wire Wire Line
+	5350 5750 5350 5800
+Wire Wire Line
+	5350 5800 5250 5800
+$Comp
+L Device:LED D57
+U 1 1 5C9FB681
+P 5650 5600
+F 0 "D57" V 5750 5500 39  0000 C CNN
+F 1 "warm white led" V 5650 5550 50  0001 C CNN
+F 2 "" H 5650 5600 50  0001 C CNN
+F 3 "~" H 5650 5600 50  0001 C CNN
+	1    5650 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 5450 5650 5400
+Wire Wire Line
+	5650 5750 5650 5800
+Wire Wire Line
+	5650 5800 5550 5800
+$Comp
+L Device:LED D73
+U 1 1 5C9FB68B
+P 5950 5600
+F 0 "D73" V 6050 5500 39  0000 C CNN
+F 1 "warm white led" V 5950 5550 50  0001 C CNN
+F 2 "" H 5950 5600 50  0001 C CNN
+F 3 "~" H 5950 5600 50  0001 C CNN
+	1    5950 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 5450 5950 5400
+Wire Wire Line
+	5950 5750 5950 5800
+Wire Wire Line
+	5950 5800 5850 5800
+$Comp
+L Device:LED D89
+U 1 1 5C9FB695
+P 6250 5600
+F 0 "D89" V 6350 5500 39  0000 C CNN
+F 1 "warm white led" V 6250 5550 50  0001 C CNN
+F 2 "" H 6250 5600 50  0001 C CNN
+F 3 "~" H 6250 5600 50  0001 C CNN
+	1    6250 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 5450 6250 5400
+Wire Wire Line
+	6250 5750 6250 5800
+Wire Wire Line
+	6250 5800 6150 5800
+$Comp
+L Device:LED D105
+U 1 1 5C9FB69F
+P 6550 5600
+F 0 "D105" V 6650 5500 39  0000 C CNN
+F 1 "warm white led" V 6550 5550 50  0001 C CNN
+F 2 "" H 6550 5600 50  0001 C CNN
+F 3 "~" H 6550 5600 50  0001 C CNN
+	1    6550 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 5450 6550 5400
+Wire Wire Line
+	6550 5750 6550 5800
+Wire Wire Line
+	6550 5800 6450 5800
+$Comp
+L Device:LED D121
+U 1 1 5C9FB6A9
+P 6850 5600
+F 0 "D121" V 6950 5500 39  0000 C CNN
+F 1 "warm white led" V 6850 5550 50  0001 C CNN
+F 2 "" H 6850 5600 50  0001 C CNN
+F 3 "~" H 6850 5600 50  0001 C CNN
+	1    6850 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 5450 6850 5400
+Wire Wire Line
+	6850 5750 6850 5800
+Wire Wire Line
+	6850 5800 6750 5800
+$Comp
+L Device:LED D137
+U 1 1 5C9FB6B3
+P 7150 5600
+F 0 "D137" V 7250 5500 39  0000 C CNN
+F 1 "warm white led" V 7150 5550 50  0001 C CNN
+F 2 "" H 7150 5600 50  0001 C CNN
+F 3 "~" H 7150 5600 50  0001 C CNN
+	1    7150 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 5450 7150 5400
+Wire Wire Line
+	7150 5750 7150 5800
+Wire Wire Line
+	7150 5800 7050 5800
+$Comp
+L Device:LED D153
+U 1 1 5C9FB6BD
+P 7450 5600
+F 0 "D153" V 7550 5500 39  0000 C CNN
+F 1 "warm white led" V 7450 5550 50  0001 C CNN
+F 2 "" H 7450 5600 50  0001 C CNN
+F 3 "~" H 7450 5600 50  0001 C CNN
+	1    7450 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 5450 7450 5400
+Wire Wire Line
+	7450 5750 7450 5800
+Wire Wire Line
+	7450 5800 7350 5800
+$Comp
+L Device:LED D10
+U 1 1 5CA0D90E
+P 4750 6050
+F 0 "D10" V 4850 5950 39  0000 C CNN
+F 1 "warm white led" V 4750 6000 50  0001 C CNN
+F 2 "" H 4750 6050 50  0001 C CNN
+F 3 "~" H 4750 6050 50  0001 C CNN
+	1    4750 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 5900 4750 5850
+Wire Wire Line
+	4750 6200 4750 6250
+Wire Wire Line
+	4750 6250 4650 6250
+$Comp
+L Device:LED D26
+U 1 1 5CA0D918
+P 5050 6050
+F 0 "D26" V 5150 5950 39  0000 C CNN
+F 1 "warm white led" V 5050 6000 50  0001 C CNN
+F 2 "" H 5050 6050 50  0001 C CNN
+F 3 "~" H 5050 6050 50  0001 C CNN
+	1    5050 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 5900 5050 5850
+Wire Wire Line
+	5050 6200 5050 6250
+Wire Wire Line
+	5050 6250 4950 6250
+$Comp
+L Device:LED D42
+U 1 1 5CA0D922
+P 5350 6050
+F 0 "D42" V 5450 5950 39  0000 C CNN
+F 1 "warm white led" V 5350 6000 50  0001 C CNN
+F 2 "" H 5350 6050 50  0001 C CNN
+F 3 "~" H 5350 6050 50  0001 C CNN
+	1    5350 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 5900 5350 5850
+Wire Wire Line
+	5350 6200 5350 6250
+Wire Wire Line
+	5350 6250 5250 6250
+$Comp
+L Device:LED D58
+U 1 1 5CA0D92C
+P 5650 6050
+F 0 "D58" V 5750 5950 39  0000 C CNN
+F 1 "warm white led" V 5650 6000 50  0001 C CNN
+F 2 "" H 5650 6050 50  0001 C CNN
+F 3 "~" H 5650 6050 50  0001 C CNN
+	1    5650 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 5900 5650 5850
+Wire Wire Line
+	5650 6200 5650 6250
+Wire Wire Line
+	5650 6250 5550 6250
+$Comp
+L Device:LED D74
+U 1 1 5CA0D936
+P 5950 6050
+F 0 "D74" V 6050 5950 39  0000 C CNN
+F 1 "warm white led" V 5950 6000 50  0001 C CNN
+F 2 "" H 5950 6050 50  0001 C CNN
+F 3 "~" H 5950 6050 50  0001 C CNN
+	1    5950 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 5900 5950 5850
+Wire Wire Line
+	5950 6200 5950 6250
+Wire Wire Line
+	5950 6250 5850 6250
+$Comp
+L Device:LED D90
+U 1 1 5CA0D940
+P 6250 6050
+F 0 "D90" V 6350 5950 39  0000 C CNN
+F 1 "warm white led" V 6250 6000 50  0001 C CNN
+F 2 "" H 6250 6050 50  0001 C CNN
+F 3 "~" H 6250 6050 50  0001 C CNN
+	1    6250 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 5900 6250 5850
+Wire Wire Line
+	6250 6200 6250 6250
+Wire Wire Line
+	6250 6250 6150 6250
+$Comp
+L Device:LED D106
+U 1 1 5CA0D94A
+P 6550 6050
+F 0 "D106" V 6650 5950 39  0000 C CNN
+F 1 "warm white led" V 6550 6000 50  0001 C CNN
+F 2 "" H 6550 6050 50  0001 C CNN
+F 3 "~" H 6550 6050 50  0001 C CNN
+	1    6550 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 5900 6550 5850
+Wire Wire Line
+	6550 6200 6550 6250
+Wire Wire Line
+	6550 6250 6450 6250
+$Comp
+L Device:LED D122
+U 1 1 5CA0D954
+P 6850 6050
+F 0 "D122" V 6950 5950 39  0000 C CNN
+F 1 "warm white led" V 6850 6000 50  0001 C CNN
+F 2 "" H 6850 6050 50  0001 C CNN
+F 3 "~" H 6850 6050 50  0001 C CNN
+	1    6850 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 5900 6850 5850
+Wire Wire Line
+	6850 6200 6850 6250
+Wire Wire Line
+	6850 6250 6750 6250
+$Comp
+L Device:LED D138
+U 1 1 5CA0D95E
+P 7150 6050
+F 0 "D138" V 7250 5950 39  0000 C CNN
+F 1 "warm white led" V 7150 6000 50  0001 C CNN
+F 2 "" H 7150 6050 50  0001 C CNN
+F 3 "~" H 7150 6050 50  0001 C CNN
+	1    7150 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 5900 7150 5850
+Wire Wire Line
+	7150 6200 7150 6250
+Wire Wire Line
+	7150 6250 7050 6250
+$Comp
+L Device:LED D154
+U 1 1 5CA0D968
+P 7450 6050
+F 0 "D154" V 7550 5950 39  0000 C CNN
+F 1 "warm white led" V 7450 6000 50  0001 C CNN
+F 2 "" H 7450 6050 50  0001 C CNN
+F 3 "~" H 7450 6050 50  0001 C CNN
+	1    7450 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 5900 7450 5850
+Wire Wire Line
+	7450 6200 7450 6250
+Wire Wire Line
+	7450 6250 7350 6250
+$Comp
+L Device:LED D11
+U 1 1 5CA243BB
+P 4750 6500
+F 0 "D11" V 4850 6400 39  0000 C CNN
+F 1 "warm white led" V 4750 6450 50  0001 C CNN
+F 2 "" H 4750 6500 50  0001 C CNN
+F 3 "~" H 4750 6500 50  0001 C CNN
+	1    4750 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 6350 4750 6300
+Wire Wire Line
+	4750 6650 4750 6700
+Wire Wire Line
+	4750 6700 4650 6700
+$Comp
+L Device:LED D27
+U 1 1 5CA243C5
+P 5050 6500
+F 0 "D27" V 5150 6400 39  0000 C CNN
+F 1 "warm white led" V 5050 6450 50  0001 C CNN
+F 2 "" H 5050 6500 50  0001 C CNN
+F 3 "~" H 5050 6500 50  0001 C CNN
+	1    5050 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 6350 5050 6300
+Wire Wire Line
+	5050 6650 5050 6700
+Wire Wire Line
+	5050 6700 4950 6700
+$Comp
+L Device:LED D43
+U 1 1 5CA243CF
+P 5350 6500
+F 0 "D43" V 5450 6400 39  0000 C CNN
+F 1 "warm white led" V 5350 6450 50  0001 C CNN
+F 2 "" H 5350 6500 50  0001 C CNN
+F 3 "~" H 5350 6500 50  0001 C CNN
+	1    5350 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 6350 5350 6300
+Wire Wire Line
+	5350 6650 5350 6700
+Wire Wire Line
+	5350 6700 5250 6700
+$Comp
+L Device:LED D59
+U 1 1 5CA243D9
+P 5650 6500
+F 0 "D59" V 5750 6400 39  0000 C CNN
+F 1 "warm white led" V 5650 6450 50  0001 C CNN
+F 2 "" H 5650 6500 50  0001 C CNN
+F 3 "~" H 5650 6500 50  0001 C CNN
+	1    5650 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 6350 5650 6300
+Wire Wire Line
+	5650 6650 5650 6700
+Wire Wire Line
+	5650 6700 5550 6700
+$Comp
+L Device:LED D75
+U 1 1 5CA243E3
+P 5950 6500
+F 0 "D75" V 6050 6400 39  0000 C CNN
+F 1 "warm white led" V 5950 6450 50  0001 C CNN
+F 2 "" H 5950 6500 50  0001 C CNN
+F 3 "~" H 5950 6500 50  0001 C CNN
+	1    5950 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 6350 5950 6300
+Wire Wire Line
+	5950 6650 5950 6700
+Wire Wire Line
+	5950 6700 5850 6700
+$Comp
+L Device:LED D91
+U 1 1 5CA243ED
+P 6250 6500
+F 0 "D91" V 6350 6400 39  0000 C CNN
+F 1 "warm white led" V 6250 6450 50  0001 C CNN
+F 2 "" H 6250 6500 50  0001 C CNN
+F 3 "~" H 6250 6500 50  0001 C CNN
+	1    6250 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 6350 6250 6300
+Wire Wire Line
+	6250 6650 6250 6700
+Wire Wire Line
+	6250 6700 6150 6700
+$Comp
+L Device:LED D107
+U 1 1 5CA243F7
+P 6550 6500
+F 0 "D107" V 6650 6400 39  0000 C CNN
+F 1 "warm white led" V 6550 6450 50  0001 C CNN
+F 2 "" H 6550 6500 50  0001 C CNN
+F 3 "~" H 6550 6500 50  0001 C CNN
+	1    6550 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 6350 6550 6300
+Wire Wire Line
+	6550 6650 6550 6700
+Wire Wire Line
+	6550 6700 6450 6700
+$Comp
+L Device:LED D123
+U 1 1 5CA24401
+P 6850 6500
+F 0 "D123" V 6950 6400 39  0000 C CNN
+F 1 "warm white led" V 6850 6450 50  0001 C CNN
+F 2 "" H 6850 6500 50  0001 C CNN
+F 3 "~" H 6850 6500 50  0001 C CNN
+	1    6850 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 6350 6850 6300
+Wire Wire Line
+	6850 6650 6850 6700
+Wire Wire Line
+	6850 6700 6750 6700
+$Comp
+L Device:LED D139
+U 1 1 5CA2440B
+P 7150 6500
+F 0 "D139" V 7250 6400 39  0000 C CNN
+F 1 "warm white led" V 7150 6450 50  0001 C CNN
+F 2 "" H 7150 6500 50  0001 C CNN
+F 3 "~" H 7150 6500 50  0001 C CNN
+	1    7150 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 6350 7150 6300
+Wire Wire Line
+	7150 6650 7150 6700
+Wire Wire Line
+	7150 6700 7050 6700
+$Comp
+L Device:LED D155
+U 1 1 5CA24415
+P 7450 6500
+F 0 "D155" V 7550 6400 39  0000 C CNN
+F 1 "warm white led" V 7450 6450 50  0001 C CNN
+F 2 "" H 7450 6500 50  0001 C CNN
+F 3 "~" H 7450 6500 50  0001 C CNN
+	1    7450 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 6350 7450 6300
+Wire Wire Line
+	7450 6650 7450 6700
+Wire Wire Line
+	7450 6700 7350 6700
+$Comp
+L Device:LED D12
+U 1 1 5CA400CD
+P 4750 6950
+F 0 "D12" V 4850 6850 39  0000 C CNN
+F 1 "warm white led" V 4750 6900 50  0001 C CNN
+F 2 "" H 4750 6950 50  0001 C CNN
+F 3 "~" H 4750 6950 50  0001 C CNN
+	1    4750 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 6800 4750 6750
+Wire Wire Line
+	4750 7100 4750 7150
+Wire Wire Line
+	4750 7150 4650 7150
+$Comp
+L Device:LED D28
+U 1 1 5CA400D7
+P 5050 6950
+F 0 "D28" V 5150 6850 39  0000 C CNN
+F 1 "warm white led" V 5050 6900 50  0001 C CNN
+F 2 "" H 5050 6950 50  0001 C CNN
+F 3 "~" H 5050 6950 50  0001 C CNN
+	1    5050 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 6800 5050 6750
+Wire Wire Line
+	5050 7100 5050 7150
+Wire Wire Line
+	5050 7150 4950 7150
+$Comp
+L Device:LED D44
+U 1 1 5CA400E1
+P 5350 6950
+F 0 "D44" V 5450 6850 39  0000 C CNN
+F 1 "warm white led" V 5350 6900 50  0001 C CNN
+F 2 "" H 5350 6950 50  0001 C CNN
+F 3 "~" H 5350 6950 50  0001 C CNN
+	1    5350 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 6800 5350 6750
+Wire Wire Line
+	5350 7100 5350 7150
+Wire Wire Line
+	5350 7150 5250 7150
+$Comp
+L Device:LED D60
+U 1 1 5CA400EB
+P 5650 6950
+F 0 "D60" V 5750 6850 39  0000 C CNN
+F 1 "warm white led" V 5650 6900 50  0001 C CNN
+F 2 "" H 5650 6950 50  0001 C CNN
+F 3 "~" H 5650 6950 50  0001 C CNN
+	1    5650 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 6800 5650 6750
+Wire Wire Line
+	5650 7100 5650 7150
+Wire Wire Line
+	5650 7150 5550 7150
+$Comp
+L Device:LED D76
+U 1 1 5CA400F5
+P 5950 6950
+F 0 "D76" V 6050 6850 39  0000 C CNN
+F 1 "warm white led" V 5950 6900 50  0001 C CNN
+F 2 "" H 5950 6950 50  0001 C CNN
+F 3 "~" H 5950 6950 50  0001 C CNN
+	1    5950 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 6800 5950 6750
+Wire Wire Line
+	5950 7100 5950 7150
+Wire Wire Line
+	5950 7150 5850 7150
+$Comp
+L Device:LED D92
+U 1 1 5CA400FF
+P 6250 6950
+F 0 "D92" V 6350 6850 39  0000 C CNN
+F 1 "warm white led" V 6250 6900 50  0001 C CNN
+F 2 "" H 6250 6950 50  0001 C CNN
+F 3 "~" H 6250 6950 50  0001 C CNN
+	1    6250 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 6800 6250 6750
+Wire Wire Line
+	6250 7100 6250 7150
+Wire Wire Line
+	6250 7150 6150 7150
+$Comp
+L Device:LED D108
+U 1 1 5CA40109
+P 6550 6950
+F 0 "D108" V 6650 6850 39  0000 C CNN
+F 1 "warm white led" V 6550 6900 50  0001 C CNN
+F 2 "" H 6550 6950 50  0001 C CNN
+F 3 "~" H 6550 6950 50  0001 C CNN
+	1    6550 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 6800 6550 6750
+Wire Wire Line
+	6550 7100 6550 7150
+Wire Wire Line
+	6550 7150 6450 7150
+$Comp
+L Device:LED D124
+U 1 1 5CA40113
+P 6850 6950
+F 0 "D124" V 6950 6850 39  0000 C CNN
+F 1 "warm white led" V 6850 6900 50  0001 C CNN
+F 2 "" H 6850 6950 50  0001 C CNN
+F 3 "~" H 6850 6950 50  0001 C CNN
+	1    6850 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 6800 6850 6750
+Wire Wire Line
+	6850 7100 6850 7150
+Wire Wire Line
+	6850 7150 6750 7150
+$Comp
+L Device:LED D140
+U 1 1 5CA4011D
+P 7150 6950
+F 0 "D140" V 7250 6850 39  0000 C CNN
+F 1 "warm white led" V 7150 6900 50  0001 C CNN
+F 2 "" H 7150 6950 50  0001 C CNN
+F 3 "~" H 7150 6950 50  0001 C CNN
+	1    7150 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 6800 7150 6750
+Wire Wire Line
+	7150 7100 7150 7150
+Wire Wire Line
+	7150 7150 7050 7150
+$Comp
+L Device:LED D156
+U 1 1 5CA40127
+P 7450 6950
+F 0 "D156" V 7550 6850 39  0000 C CNN
+F 1 "warm white led" V 7450 6900 50  0001 C CNN
+F 2 "" H 7450 6950 50  0001 C CNN
+F 3 "~" H 7450 6950 50  0001 C CNN
+	1    7450 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 6800 7450 6750
+Wire Wire Line
+	7450 7100 7450 7150
+Wire Wire Line
+	7450 7150 7350 7150
+$Comp
+L Device:LED D13
+U 1 1 5CA61963
+P 4750 7400
+F 0 "D13" V 4850 7300 39  0000 C CNN
+F 1 "warm white led" V 4750 7350 50  0001 C CNN
+F 2 "" H 4750 7400 50  0001 C CNN
+F 3 "~" H 4750 7400 50  0001 C CNN
+	1    4750 7400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 7250 4750 7200
+Wire Wire Line
+	4750 7550 4750 7600
+Wire Wire Line
+	4750 7600 4650 7600
+$Comp
+L Device:LED D29
+U 1 1 5CA6196D
+P 5050 7400
+F 0 "D29" V 5150 7300 39  0000 C CNN
+F 1 "warm white led" V 5050 7350 50  0001 C CNN
+F 2 "" H 5050 7400 50  0001 C CNN
+F 3 "~" H 5050 7400 50  0001 C CNN
+	1    5050 7400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 7250 5050 7200
+Wire Wire Line
+	5050 7550 5050 7600
+Wire Wire Line
+	5050 7600 4950 7600
+$Comp
+L Device:LED D45
+U 1 1 5CA61977
+P 5350 7400
+F 0 "D45" V 5450 7300 39  0000 C CNN
+F 1 "warm white led" V 5350 7350 50  0001 C CNN
+F 2 "" H 5350 7400 50  0001 C CNN
+F 3 "~" H 5350 7400 50  0001 C CNN
+	1    5350 7400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 7250 5350 7200
+Wire Wire Line
+	5350 7550 5350 7600
+Wire Wire Line
+	5350 7600 5250 7600
+$Comp
+L Device:LED D61
+U 1 1 5CA61981
+P 5650 7400
+F 0 "D61" V 5750 7300 39  0000 C CNN
+F 1 "warm white led" V 5650 7350 50  0001 C CNN
+F 2 "" H 5650 7400 50  0001 C CNN
+F 3 "~" H 5650 7400 50  0001 C CNN
+	1    5650 7400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 7250 5650 7200
+Wire Wire Line
+	5650 7550 5650 7600
+Wire Wire Line
+	5650 7600 5550 7600
+$Comp
+L Device:LED D77
+U 1 1 5CA6198B
+P 5950 7400
+F 0 "D77" V 6050 7300 39  0000 C CNN
+F 1 "warm white led" V 5950 7350 50  0001 C CNN
+F 2 "" H 5950 7400 50  0001 C CNN
+F 3 "~" H 5950 7400 50  0001 C CNN
+	1    5950 7400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 7250 5950 7200
+Wire Wire Line
+	5950 7550 5950 7600
+Wire Wire Line
+	5950 7600 5850 7600
+$Comp
+L Device:LED D93
+U 1 1 5CA61995
+P 6250 7400
+F 0 "D93" V 6350 7300 39  0000 C CNN
+F 1 "warm white led" V 6250 7350 50  0001 C CNN
+F 2 "" H 6250 7400 50  0001 C CNN
+F 3 "~" H 6250 7400 50  0001 C CNN
+	1    6250 7400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 7250 6250 7200
+Wire Wire Line
+	6250 7550 6250 7600
+Wire Wire Line
+	6250 7600 6150 7600
+$Comp
+L Device:LED D109
+U 1 1 5CA6199F
+P 6550 7400
+F 0 "D109" V 6650 7300 39  0000 C CNN
+F 1 "warm white led" V 6550 7350 50  0001 C CNN
+F 2 "" H 6550 7400 50  0001 C CNN
+F 3 "~" H 6550 7400 50  0001 C CNN
+	1    6550 7400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 7250 6550 7200
+Wire Wire Line
+	6550 7550 6550 7600
+Wire Wire Line
+	6550 7600 6450 7600
+$Comp
+L Device:LED D125
+U 1 1 5CA619A9
+P 6850 7400
+F 0 "D125" V 6950 7300 39  0000 C CNN
+F 1 "warm white led" V 6850 7350 50  0001 C CNN
+F 2 "" H 6850 7400 50  0001 C CNN
+F 3 "~" H 6850 7400 50  0001 C CNN
+	1    6850 7400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 7250 6850 7200
+Wire Wire Line
+	6850 7550 6850 7600
+Wire Wire Line
+	6850 7600 6750 7600
+$Comp
+L Device:LED D141
+U 1 1 5CA619B3
+P 7150 7400
+F 0 "D141" V 7250 7300 39  0000 C CNN
+F 1 "warm white led" V 7150 7350 50  0001 C CNN
+F 2 "" H 7150 7400 50  0001 C CNN
+F 3 "~" H 7150 7400 50  0001 C CNN
+	1    7150 7400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 7250 7150 7200
+Wire Wire Line
+	7150 7550 7150 7600
+Wire Wire Line
+	7150 7600 7050 7600
+$Comp
+L Device:LED D157
+U 1 1 5CA619BD
+P 7450 7400
+F 0 "D157" V 7550 7300 39  0000 C CNN
+F 1 "warm white led" V 7450 7350 50  0001 C CNN
+F 2 "" H 7450 7400 50  0001 C CNN
+F 3 "~" H 7450 7400 50  0001 C CNN
+	1    7450 7400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 7250 7450 7200
+Wire Wire Line
+	7450 7550 7450 7600
+Wire Wire Line
+	7450 7600 7350 7600
+$Comp
+L Device:LED D14
+U 1 1 5CA8950C
+P 4750 7850
+F 0 "D14" V 4850 7750 39  0000 C CNN
+F 1 "warm white led" V 4750 7800 50  0001 C CNN
+F 2 "" H 4750 7850 50  0001 C CNN
+F 3 "~" H 4750 7850 50  0001 C CNN
+	1    4750 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 7700 4750 7650
+Wire Wire Line
+	4750 8000 4750 8050
+Wire Wire Line
+	4750 8050 4650 8050
+$Comp
+L Device:LED D30
+U 1 1 5CA89516
+P 5050 7850
+F 0 "D30" V 5150 7750 39  0000 C CNN
+F 1 "warm white led" V 5050 7800 50  0001 C CNN
+F 2 "" H 5050 7850 50  0001 C CNN
+F 3 "~" H 5050 7850 50  0001 C CNN
+	1    5050 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 7700 5050 7650
+Wire Wire Line
+	5050 8000 5050 8050
+Wire Wire Line
+	5050 8050 4950 8050
+$Comp
+L Device:LED D46
+U 1 1 5CA89520
+P 5350 7850
+F 0 "D46" V 5450 7750 39  0000 C CNN
+F 1 "warm white led" V 5350 7800 50  0001 C CNN
+F 2 "" H 5350 7850 50  0001 C CNN
+F 3 "~" H 5350 7850 50  0001 C CNN
+	1    5350 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 7700 5350 7650
+Wire Wire Line
+	5350 8000 5350 8050
+Wire Wire Line
+	5350 8050 5250 8050
+$Comp
+L Device:LED D62
+U 1 1 5CA8952A
+P 5650 7850
+F 0 "D62" V 5750 7750 39  0000 C CNN
+F 1 "warm white led" V 5650 7800 50  0001 C CNN
+F 2 "" H 5650 7850 50  0001 C CNN
+F 3 "~" H 5650 7850 50  0001 C CNN
+	1    5650 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 7700 5650 7650
+Wire Wire Line
+	5650 8000 5650 8050
+Wire Wire Line
+	5650 8050 5550 8050
+$Comp
+L Device:LED D78
+U 1 1 5CA89534
+P 5950 7850
+F 0 "D78" V 6050 7750 39  0000 C CNN
+F 1 "warm white led" V 5950 7800 50  0001 C CNN
+F 2 "" H 5950 7850 50  0001 C CNN
+F 3 "~" H 5950 7850 50  0001 C CNN
+	1    5950 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 7700 5950 7650
+Wire Wire Line
+	5950 8000 5950 8050
+Wire Wire Line
+	5950 8050 5850 8050
+$Comp
+L Device:LED D94
+U 1 1 5CA8953E
+P 6250 7850
+F 0 "D94" V 6350 7750 39  0000 C CNN
+F 1 "warm white led" V 6250 7800 50  0001 C CNN
+F 2 "" H 6250 7850 50  0001 C CNN
+F 3 "~" H 6250 7850 50  0001 C CNN
+	1    6250 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 7700 6250 7650
+Wire Wire Line
+	6250 8000 6250 8050
+Wire Wire Line
+	6250 8050 6150 8050
+$Comp
+L Device:LED D110
+U 1 1 5CA89548
+P 6550 7850
+F 0 "D110" V 6650 7750 39  0000 C CNN
+F 1 "warm white led" V 6550 7800 50  0001 C CNN
+F 2 "" H 6550 7850 50  0001 C CNN
+F 3 "~" H 6550 7850 50  0001 C CNN
+	1    6550 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 7700 6550 7650
+Wire Wire Line
+	6550 8000 6550 8050
+Wire Wire Line
+	6550 8050 6450 8050
+$Comp
+L Device:LED D126
+U 1 1 5CA89552
+P 6850 7850
+F 0 "D126" V 6950 7750 39  0000 C CNN
+F 1 "warm white led" V 6850 7800 50  0001 C CNN
+F 2 "" H 6850 7850 50  0001 C CNN
+F 3 "~" H 6850 7850 50  0001 C CNN
+	1    6850 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 7700 6850 7650
+Wire Wire Line
+	6850 8000 6850 8050
+Wire Wire Line
+	6850 8050 6750 8050
+$Comp
+L Device:LED D142
+U 1 1 5CA8955C
+P 7150 7850
+F 0 "D142" V 7250 7750 39  0000 C CNN
+F 1 "warm white led" V 7150 7800 50  0001 C CNN
+F 2 "" H 7150 7850 50  0001 C CNN
+F 3 "~" H 7150 7850 50  0001 C CNN
+	1    7150 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 7700 7150 7650
+Wire Wire Line
+	7150 8000 7150 8050
+Wire Wire Line
+	7150 8050 7050 8050
+$Comp
+L Device:LED D158
+U 1 1 5CA89566
+P 7450 7850
+F 0 "D158" V 7550 7750 39  0000 C CNN
+F 1 "warm white led" V 7450 7800 50  0001 C CNN
+F 2 "" H 7450 7850 50  0001 C CNN
+F 3 "~" H 7450 7850 50  0001 C CNN
+	1    7450 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 7700 7450 7650
+Wire Wire Line
+	7450 8000 7450 8050
+Wire Wire Line
+	7450 8050 7350 8050
+$Comp
+L Device:LED D15
+U 1 1 5CAB7C33
+P 4750 8300
+F 0 "D15" V 4850 8200 39  0000 C CNN
+F 1 "warm white led" V 4750 8250 50  0001 C CNN
+F 2 "" H 4750 8300 50  0001 C CNN
+F 3 "~" H 4750 8300 50  0001 C CNN
+	1    4750 8300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 8150 4750 8100
+Wire Wire Line
+	4750 8450 4750 8500
+Wire Wire Line
+	4750 8500 4650 8500
+$Comp
+L Device:LED D31
+U 1 1 5CAB7C3D
+P 5050 8300
+F 0 "D31" V 5150 8200 39  0000 C CNN
+F 1 "warm white led" V 5050 8250 50  0001 C CNN
+F 2 "" H 5050 8300 50  0001 C CNN
+F 3 "~" H 5050 8300 50  0001 C CNN
+	1    5050 8300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 8150 5050 8100
+Wire Wire Line
+	5050 8450 5050 8500
+Wire Wire Line
+	5050 8500 4950 8500
+$Comp
+L Device:LED D47
+U 1 1 5CAB7C47
+P 5350 8300
+F 0 "D47" V 5450 8200 39  0000 C CNN
+F 1 "warm white led" V 5350 8250 50  0001 C CNN
+F 2 "" H 5350 8300 50  0001 C CNN
+F 3 "~" H 5350 8300 50  0001 C CNN
+	1    5350 8300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 8150 5350 8100
+Wire Wire Line
+	5350 8450 5350 8500
+Wire Wire Line
+	5350 8500 5250 8500
+$Comp
+L Device:LED D63
+U 1 1 5CAB7C51
+P 5650 8300
+F 0 "D63" V 5750 8200 39  0000 C CNN
+F 1 "warm white led" V 5650 8250 50  0001 C CNN
+F 2 "" H 5650 8300 50  0001 C CNN
+F 3 "~" H 5650 8300 50  0001 C CNN
+	1    5650 8300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 8150 5650 8100
+Wire Wire Line
+	5650 8450 5650 8500
+Wire Wire Line
+	5650 8500 5550 8500
+$Comp
+L Device:LED D79
+U 1 1 5CAB7C5B
+P 5950 8300
+F 0 "D79" V 6050 8200 39  0000 C CNN
+F 1 "warm white led" V 5950 8250 50  0001 C CNN
+F 2 "" H 5950 8300 50  0001 C CNN
+F 3 "~" H 5950 8300 50  0001 C CNN
+	1    5950 8300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 8150 5950 8100
+Wire Wire Line
+	5950 8450 5950 8500
+Wire Wire Line
+	5950 8500 5850 8500
+$Comp
+L Device:LED D95
+U 1 1 5CAB7C65
+P 6250 8300
+F 0 "D95" V 6350 8200 39  0000 C CNN
+F 1 "warm white led" V 6250 8250 50  0001 C CNN
+F 2 "" H 6250 8300 50  0001 C CNN
+F 3 "~" H 6250 8300 50  0001 C CNN
+	1    6250 8300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 8150 6250 8100
+Wire Wire Line
+	6250 8450 6250 8500
+Wire Wire Line
+	6250 8500 6150 8500
+$Comp
+L Device:LED D111
+U 1 1 5CAB7C6F
+P 6550 8300
+F 0 "D111" V 6650 8200 39  0000 C CNN
+F 1 "warm white led" V 6550 8250 50  0001 C CNN
+F 2 "" H 6550 8300 50  0001 C CNN
+F 3 "~" H 6550 8300 50  0001 C CNN
+	1    6550 8300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 8150 6550 8100
+Wire Wire Line
+	6550 8450 6550 8500
+Wire Wire Line
+	6550 8500 6450 8500
+$Comp
+L Device:LED D127
+U 1 1 5CAB7C79
+P 6850 8300
+F 0 "D127" V 6950 8200 39  0000 C CNN
+F 1 "warm white led" V 6850 8250 50  0001 C CNN
+F 2 "" H 6850 8300 50  0001 C CNN
+F 3 "~" H 6850 8300 50  0001 C CNN
+	1    6850 8300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 8150 6850 8100
+Wire Wire Line
+	6850 8450 6850 8500
+Wire Wire Line
+	6850 8500 6750 8500
+$Comp
+L Device:LED D143
+U 1 1 5CAB7C83
+P 7150 8300
+F 0 "D143" V 7250 8200 39  0000 C CNN
+F 1 "warm white led" V 7150 8250 50  0001 C CNN
+F 2 "" H 7150 8300 50  0001 C CNN
+F 3 "~" H 7150 8300 50  0001 C CNN
+	1    7150 8300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 8150 7150 8100
+Wire Wire Line
+	7150 8450 7150 8500
+Wire Wire Line
+	7150 8500 7050 8500
+$Comp
+L Device:LED D159
+U 1 1 5CAB7C8D
+P 7450 8300
+F 0 "D159" V 7550 8200 39  0000 C CNN
+F 1 "warm white led" V 7450 8250 50  0001 C CNN
+F 2 "" H 7450 8300 50  0001 C CNN
+F 3 "~" H 7450 8300 50  0001 C CNN
+	1    7450 8300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 8150 7450 8100
+Wire Wire Line
+	7450 8450 7450 8500
+Wire Wire Line
+	7450 8500 7350 8500
+$Comp
+L Device:LED D16
+U 1 1 5CAED81F
+P 4750 8750
+F 0 "D16" V 4850 8650 39  0000 C CNN
+F 1 "warm white led" V 4750 8700 50  0001 C CNN
+F 2 "" H 4750 8750 50  0001 C CNN
+F 3 "~" H 4750 8750 50  0001 C CNN
+	1    4750 8750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 8600 4750 8550
+Wire Wire Line
+	4750 8900 4750 8950
+Wire Wire Line
+	4750 8950 4650 8950
+$Comp
+L Device:LED D32
+U 1 1 5CAED829
+P 5050 8750
+F 0 "D32" V 5150 8650 39  0000 C CNN
+F 1 "warm white led" V 5050 8700 50  0001 C CNN
+F 2 "" H 5050 8750 50  0001 C CNN
+F 3 "~" H 5050 8750 50  0001 C CNN
+	1    5050 8750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 8600 5050 8550
+Wire Wire Line
+	5050 8900 5050 8950
+Wire Wire Line
+	5050 8950 4950 8950
+$Comp
+L Device:LED D48
+U 1 1 5CAED833
+P 5350 8750
+F 0 "D48" V 5450 8650 39  0000 C CNN
+F 1 "warm white led" V 5350 8700 50  0001 C CNN
+F 2 "" H 5350 8750 50  0001 C CNN
+F 3 "~" H 5350 8750 50  0001 C CNN
+	1    5350 8750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 8600 5350 8550
+Wire Wire Line
+	5350 8900 5350 8950
+Wire Wire Line
+	5350 8950 5250 8950
+$Comp
+L Device:LED D64
+U 1 1 5CAED83D
+P 5650 8750
+F 0 "D64" V 5750 8650 39  0000 C CNN
+F 1 "warm white led" V 5650 8700 50  0001 C CNN
+F 2 "" H 5650 8750 50  0001 C CNN
+F 3 "~" H 5650 8750 50  0001 C CNN
+	1    5650 8750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 8600 5650 8550
+Wire Wire Line
+	5650 8900 5650 8950
+Wire Wire Line
+	5650 8950 5550 8950
+$Comp
+L Device:LED D80
+U 1 1 5CAED847
+P 5950 8750
+F 0 "D80" V 6050 8650 39  0000 C CNN
+F 1 "warm white led" V 5950 8700 50  0001 C CNN
+F 2 "" H 5950 8750 50  0001 C CNN
+F 3 "~" H 5950 8750 50  0001 C CNN
+	1    5950 8750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 8600 5950 8550
+Wire Wire Line
+	5950 8900 5950 8950
+Wire Wire Line
+	5950 8950 5850 8950
+$Comp
+L Device:LED D96
+U 1 1 5CAED851
+P 6250 8750
+F 0 "D96" V 6350 8650 39  0000 C CNN
+F 1 "warm white led" V 6250 8700 50  0001 C CNN
+F 2 "" H 6250 8750 50  0001 C CNN
+F 3 "~" H 6250 8750 50  0001 C CNN
+	1    6250 8750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 8600 6250 8550
+Wire Wire Line
+	6250 8900 6250 8950
+Wire Wire Line
+	6250 8950 6150 8950
+$Comp
+L Device:LED D112
+U 1 1 5CAED85B
+P 6550 8750
+F 0 "D112" V 6650 8650 39  0000 C CNN
+F 1 "warm white led" V 6550 8700 50  0001 C CNN
+F 2 "" H 6550 8750 50  0001 C CNN
+F 3 "~" H 6550 8750 50  0001 C CNN
+	1    6550 8750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 8600 6550 8550
+Wire Wire Line
+	6550 8900 6550 8950
+Wire Wire Line
+	6550 8950 6450 8950
+$Comp
+L Device:LED D128
+U 1 1 5CAED865
+P 6850 8750
+F 0 "D128" V 6950 8650 39  0000 C CNN
+F 1 "warm white led" V 6850 8700 50  0001 C CNN
+F 2 "" H 6850 8750 50  0001 C CNN
+F 3 "~" H 6850 8750 50  0001 C CNN
+	1    6850 8750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 8600 6850 8550
+Wire Wire Line
+	6850 8900 6850 8950
+Wire Wire Line
+	6850 8950 6750 8950
+$Comp
+L Device:LED D144
+U 1 1 5CAED86F
+P 7150 8750
+F 0 "D144" V 7250 8650 39  0000 C CNN
+F 1 "warm white led" V 7150 8700 50  0001 C CNN
+F 2 "" H 7150 8750 50  0001 C CNN
+F 3 "~" H 7150 8750 50  0001 C CNN
+	1    7150 8750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 8600 7150 8550
+Wire Wire Line
+	7150 8900 7150 8950
+Wire Wire Line
+	7150 8950 7050 8950
+$Comp
+L Device:LED D160
+U 1 1 5CAED879
+P 7450 8750
+F 0 "D160" V 7550 8650 39  0000 C CNN
+F 1 "warm white led" V 7450 8700 50  0001 C CNN
+F 2 "" H 7450 8750 50  0001 C CNN
+F 3 "~" H 7450 8750 50  0001 C CNN
+	1    7450 8750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 8600 7450 8550
+Wire Wire Line
+	7450 8900 7450 8950
+Wire Wire Line
+	7450 8950 7350 8950
+Connection ~ 4650 4900
+Wire Wire Line
+	4650 4900 4650 5350
+Connection ~ 4650 5350
+Wire Wire Line
+	4650 5350 4650 5800
+Connection ~ 4650 5800
+Wire Wire Line
+	4650 5800 4650 6250
+Connection ~ 4650 6250
+Wire Wire Line
+	4650 6250 4650 6700
+Connection ~ 4650 6700
+Wire Wire Line
+	4650 6700 4650 7150
+Connection ~ 4650 7150
+Wire Wire Line
+	4650 7150 4650 7600
+Connection ~ 4650 7600
+Wire Wire Line
+	4650 7600 4650 8050
+Connection ~ 4650 8050
+Wire Wire Line
+	4650 8050 4650 8500
+Connection ~ 4650 8500
+Wire Wire Line
+	4650 8500 4650 8950
+Connection ~ 4650 8950
+Connection ~ 4950 4900
+Wire Wire Line
+	4950 4900 4950 5350
+Connection ~ 4950 5350
+Wire Wire Line
+	4950 5350 4950 5800
+Connection ~ 4950 5800
+Wire Wire Line
+	4950 5800 4950 6250
+Connection ~ 4950 6250
+Wire Wire Line
+	4950 6250 4950 6700
+Connection ~ 4950 6700
+Wire Wire Line
+	4950 6700 4950 7150
+Connection ~ 4950 7150
+Wire Wire Line
+	4950 7150 4950 7600
+Connection ~ 4950 7600
+Wire Wire Line
+	4950 7600 4950 8050
+Connection ~ 4950 8050
+Wire Wire Line
+	4950 8050 4950 8500
+Connection ~ 4950 8500
+Wire Wire Line
+	4950 8500 4950 8950
+Connection ~ 4950 8950
+Connection ~ 5250 4900
+Wire Wire Line
+	5250 4900 5250 5350
+Connection ~ 5250 5350
+Wire Wire Line
+	5250 5350 5250 5800
+Connection ~ 5250 5800
+Wire Wire Line
+	5250 5800 5250 6250
+Connection ~ 5250 6250
+Wire Wire Line
+	5250 6250 5250 6700
+Connection ~ 5250 6700
+Wire Wire Line
+	5250 6700 5250 7150
+Connection ~ 5250 7150
+Wire Wire Line
+	5250 7150 5250 7600
+Connection ~ 5250 7600
+Wire Wire Line
+	5250 7600 5250 8050
+Connection ~ 5250 8050
+Wire Wire Line
+	5250 8050 5250 8500
+Connection ~ 5250 8500
+Wire Wire Line
+	5250 8500 5250 8950
+Connection ~ 5250 8950
+Connection ~ 5550 4900
+Wire Wire Line
+	5550 4900 5550 5350
+Connection ~ 5550 5350
+Wire Wire Line
+	5550 5350 5550 5800
+Connection ~ 5550 5800
+Wire Wire Line
+	5550 5800 5550 6250
+Connection ~ 5550 6250
+Wire Wire Line
+	5550 6250 5550 6700
+Connection ~ 5550 6700
+Wire Wire Line
+	5550 6700 5550 7150
+Connection ~ 5550 7150
+Wire Wire Line
+	5550 7150 5550 7600
+Connection ~ 5550 7600
+Wire Wire Line
+	5550 7600 5550 8050
+Connection ~ 5550 8050
+Wire Wire Line
+	5550 8050 5550 8500
+Connection ~ 5550 8500
+Wire Wire Line
+	5550 8500 5550 8950
+Connection ~ 5550 8950
+Connection ~ 5850 4900
+Wire Wire Line
+	5850 4900 5850 5350
+Connection ~ 5850 5350
+Wire Wire Line
+	5850 5350 5850 5800
+Connection ~ 5850 5800
+Wire Wire Line
+	5850 5800 5850 6250
+Connection ~ 5850 6250
+Wire Wire Line
+	5850 6250 5850 6700
+Connection ~ 5850 6700
+Wire Wire Line
+	5850 6700 5850 7150
+Connection ~ 5850 7150
+Wire Wire Line
+	5850 7150 5850 7600
+Connection ~ 5850 7600
+Wire Wire Line
+	5850 7600 5850 8050
+Connection ~ 5850 8050
+Wire Wire Line
+	5850 8050 5850 8500
+Connection ~ 5850 8500
+Wire Wire Line
+	5850 8500 5850 8950
+Connection ~ 5850 8950
+Connection ~ 6150 4900
+Wire Wire Line
+	6150 4900 6150 5350
+Connection ~ 6150 5350
+Wire Wire Line
+	6150 5350 6150 5800
+Connection ~ 6150 5800
+Wire Wire Line
+	6150 5800 6150 6250
+Connection ~ 6150 6250
+Wire Wire Line
+	6150 6250 6150 6700
+Connection ~ 6150 6700
+Wire Wire Line
+	6150 6700 6150 7150
+Connection ~ 6150 7150
+Wire Wire Line
+	6150 7150 6150 7600
+Connection ~ 6150 7600
+Wire Wire Line
+	6150 7600 6150 8050
+Connection ~ 6150 8050
+Wire Wire Line
+	6150 8050 6150 8500
+Connection ~ 6150 8500
+Wire Wire Line
+	6150 8500 6150 8950
+Connection ~ 6150 8950
+Connection ~ 6450 4900
+Wire Wire Line
+	6450 4900 6450 5350
+Connection ~ 6450 5350
+Wire Wire Line
+	6450 5350 6450 5800
+Connection ~ 6450 5800
+Wire Wire Line
+	6450 5800 6450 6250
+Connection ~ 6450 6250
+Wire Wire Line
+	6450 6250 6450 6700
+Connection ~ 6450 6700
+Wire Wire Line
+	6450 6700 6450 7150
+Connection ~ 6450 7150
+Wire Wire Line
+	6450 7150 6450 7600
+Connection ~ 6450 7600
+Wire Wire Line
+	6450 7600 6450 8050
+Connection ~ 6450 8050
+Wire Wire Line
+	6450 8050 6450 8500
+Connection ~ 6450 8500
+Wire Wire Line
+	6450 8500 6450 8950
+Connection ~ 6450 8950
+Connection ~ 6750 4900
+Wire Wire Line
+	6750 4900 6750 5350
+Connection ~ 6750 5350
+Wire Wire Line
+	6750 5350 6750 5800
+Connection ~ 6750 5800
+Wire Wire Line
+	6750 5800 6750 6250
+Connection ~ 6750 6250
+Wire Wire Line
+	6750 6250 6750 6700
+Connection ~ 6750 6700
+Wire Wire Line
+	6750 6700 6750 7150
+Connection ~ 6750 7150
+Wire Wire Line
+	6750 7150 6750 7600
+Connection ~ 6750 7600
+Wire Wire Line
+	6750 7600 6750 8050
+Connection ~ 6750 8050
+Wire Wire Line
+	6750 8050 6750 8500
+Connection ~ 6750 8500
+Wire Wire Line
+	6750 8500 6750 8950
+Connection ~ 6750 8950
+Connection ~ 7050 4900
+Wire Wire Line
+	7050 4900 7050 5350
+Connection ~ 7050 5350
+Wire Wire Line
+	7050 5350 7050 5800
+Connection ~ 7050 5800
+Wire Wire Line
+	7050 5800 7050 6250
+Connection ~ 7050 6250
+Wire Wire Line
+	7050 6250 7050 6700
+Connection ~ 7050 6700
+Wire Wire Line
+	7050 6700 7050 7150
+Connection ~ 7050 7150
+Wire Wire Line
+	7050 7150 7050 7600
+Connection ~ 7050 7600
+Wire Wire Line
+	7050 7600 7050 8050
+Connection ~ 7050 8050
+Wire Wire Line
+	7050 8050 7050 8500
+Connection ~ 7050 8500
+Wire Wire Line
+	7050 8500 7050 8950
+Connection ~ 7050 8950
+Connection ~ 7350 4900
+Wire Wire Line
+	7350 4900 7350 5350
+Connection ~ 7350 5350
+Wire Wire Line
+	7350 5350 7350 5800
+Connection ~ 7350 5800
+Wire Wire Line
+	7350 5800 7350 6250
+Connection ~ 7350 6250
+Wire Wire Line
+	7350 6250 7350 6700
+Connection ~ 7350 6700
+Wire Wire Line
+	7350 6700 7350 7150
+Connection ~ 7350 7150
+Wire Wire Line
+	7350 7150 7350 7600
+Connection ~ 7350 7600
+Wire Wire Line
+	7350 7600 7350 8050
+Connection ~ 7350 8050
+Wire Wire Line
+	7350 8050 7350 8500
+Connection ~ 7350 8500
+Wire Wire Line
+	7350 8500 7350 8950
+Connection ~ 7350 8950
+Connection ~ 4750 3150
+Wire Wire Line
+	4750 3150 5050 3150
+Connection ~ 4750 4500
+Wire Wire Line
+	4750 4500 5050 4500
+Wire Wire Line
+	4750 4950 5050 4950
+Connection ~ 4750 5400
+Wire Wire Line
+	4750 5400 5050 5400
+Wire Wire Line
+	4750 5850 5050 5850
+Connection ~ 4750 6300
+Wire Wire Line
+	4750 6300 5050 6300
+Connection ~ 4750 6750
+Wire Wire Line
+	4750 6750 5050 6750
+Connection ~ 4750 7200
+Wire Wire Line
+	4750 7200 5050 7200
+Connection ~ 4750 7650
+Wire Wire Line
+	4750 7650 5050 7650
+Connection ~ 4750 8100
+Wire Wire Line
+	4750 8100 5050 8100
+Connection ~ 4750 8550
+Wire Wire Line
+	4750 8550 5050 8550
+Connection ~ 5050 3150
+Wire Wire Line
+	5050 3150 5350 3150
+Connection ~ 5050 3600
+Wire Wire Line
+	5050 3600 5350 3600
+Connection ~ 5050 4500
+Wire Wire Line
+	5050 4500 5350 4500
+Connection ~ 5050 4950
+Wire Wire Line
+	5050 4950 5350 4950
+Connection ~ 5050 5400
+Wire Wire Line
+	5050 5400 5350 5400
+Connection ~ 5050 5850
+Wire Wire Line
+	5050 5850 5350 5850
+Connection ~ 5050 6300
+Wire Wire Line
+	5050 6300 5350 6300
+Connection ~ 5050 6750
+Wire Wire Line
+	5050 6750 5350 6750
+Connection ~ 5050 7200
+Wire Wire Line
+	5050 7200 5350 7200
+Connection ~ 5050 7650
+Wire Wire Line
+	5050 7650 5350 7650
+Connection ~ 5050 8100
+Wire Wire Line
+	5050 8100 5350 8100
+Connection ~ 5050 8550
+Wire Wire Line
+	5050 8550 5350 8550
+Connection ~ 5350 3150
+Wire Wire Line
+	5350 3150 5650 3150
+Connection ~ 5350 3600
+Wire Wire Line
+	5350 3600 5650 3600
+Connection ~ 5350 4500
+Wire Wire Line
+	5350 4500 5650 4500
+Connection ~ 5350 4950
+Wire Wire Line
+	5350 4950 5650 4950
+Connection ~ 5350 5400
+Wire Wire Line
+	5350 5400 5650 5400
+Connection ~ 5350 5850
+Wire Wire Line
+	5350 5850 5650 5850
+Connection ~ 5350 6300
+Wire Wire Line
+	5350 6300 5650 6300
+Connection ~ 5350 6750
+Wire Wire Line
+	5350 6750 5650 6750
+Connection ~ 5350 7200
+Wire Wire Line
+	5350 7200 5650 7200
+Connection ~ 5350 7650
+Wire Wire Line
+	5350 7650 5650 7650
+Connection ~ 5350 8100
+Wire Wire Line
+	5350 8100 5650 8100
+Connection ~ 5350 8550
+Wire Wire Line
+	5350 8550 5650 8550
+Connection ~ 5650 3150
+Wire Wire Line
+	5650 3150 5950 3150
+Connection ~ 5650 3600
+Wire Wire Line
+	5650 3600 5950 3600
+Connection ~ 5650 4500
+Wire Wire Line
+	5650 4500 5950 4500
+Connection ~ 5650 4950
+Wire Wire Line
+	5650 4950 5950 4950
+Connection ~ 5650 5400
+Wire Wire Line
+	5650 5400 5950 5400
+Connection ~ 5650 5850
+Wire Wire Line
+	5650 5850 5950 5850
+Connection ~ 5650 6300
+Wire Wire Line
+	5650 6300 5950 6300
+Connection ~ 5650 6750
+Wire Wire Line
+	5650 6750 5950 6750
+Connection ~ 5650 7200
+Wire Wire Line
+	5650 7200 5950 7200
+Connection ~ 5650 7650
+Wire Wire Line
+	5650 7650 5950 7650
+Connection ~ 5650 8100
+Wire Wire Line
+	5650 8100 5950 8100
+Connection ~ 5650 8550
+Wire Wire Line
+	5650 8550 5950 8550
+Connection ~ 5950 3150
+Wire Wire Line
+	5950 3150 6250 3150
+Connection ~ 5950 3600
+Wire Wire Line
+	5950 3600 6250 3600
+Connection ~ 5950 4500
+Wire Wire Line
+	5950 4500 6250 4500
+Connection ~ 5950 4950
+Wire Wire Line
+	5950 4950 6250 4950
+Connection ~ 5950 5400
+Wire Wire Line
+	5950 5400 6250 5400
+Connection ~ 5950 5850
+Wire Wire Line
+	5950 5850 6250 5850
+Connection ~ 5950 6300
+Wire Wire Line
+	5950 6300 6250 6300
+Connection ~ 5950 6750
+Wire Wire Line
+	5950 6750 6250 6750
+Connection ~ 5950 7200
+Wire Wire Line
+	5950 7200 6250 7200
+Connection ~ 5950 7650
+Wire Wire Line
+	5950 7650 6250 7650
+Connection ~ 5950 8100
+Wire Wire Line
+	5950 8100 6250 8100
+Connection ~ 5950 8550
+Wire Wire Line
+	5950 8550 6250 8550
+Connection ~ 6250 3150
+Wire Wire Line
+	6250 3150 6550 3150
+Connection ~ 6250 3600
+Wire Wire Line
+	6250 3600 6550 3600
+Connection ~ 6250 4500
+Wire Wire Line
+	6250 4500 6550 4500
+Connection ~ 6250 4950
+Wire Wire Line
+	6250 4950 6550 4950
+Connection ~ 6250 5400
+Wire Wire Line
+	6250 5400 6550 5400
+Connection ~ 6250 5850
+Wire Wire Line
+	6250 5850 6550 5850
+Connection ~ 6250 6300
+Wire Wire Line
+	6250 6300 6550 6300
+Connection ~ 6250 6750
+Wire Wire Line
+	6250 6750 6550 6750
+Connection ~ 6250 7200
+Wire Wire Line
+	6250 7200 6550 7200
+Connection ~ 6250 7650
+Wire Wire Line
+	6250 7650 6550 7650
+Connection ~ 6250 8100
+Wire Wire Line
+	6250 8100 6550 8100
+Connection ~ 6250 8550
+Wire Wire Line
+	6250 8550 6550 8550
+Connection ~ 6550 3150
+Wire Wire Line
+	6550 3150 6850 3150
+Connection ~ 6550 3600
+Wire Wire Line
+	6550 3600 6850 3600
+Connection ~ 6550 4500
+Wire Wire Line
+	6550 4500 6850 4500
+Connection ~ 6550 4950
+Wire Wire Line
+	6550 4950 6850 4950
+Connection ~ 6550 5400
+Wire Wire Line
+	6550 5400 6850 5400
+Connection ~ 6550 5850
+Wire Wire Line
+	6550 5850 6850 5850
+Connection ~ 6550 6300
+Wire Wire Line
+	6550 6300 6850 6300
+Connection ~ 6550 6750
+Wire Wire Line
+	6550 6750 6850 6750
+Connection ~ 6550 7200
+Wire Wire Line
+	6550 7200 6850 7200
+Connection ~ 6550 7650
+Wire Wire Line
+	6550 7650 6850 7650
+Connection ~ 6550 8100
+Wire Wire Line
+	6550 8100 6850 8100
+Connection ~ 6550 8550
+Wire Wire Line
+	6550 8550 6850 8550
+Connection ~ 6850 3150
+Wire Wire Line
+	6850 3150 7150 3150
+Connection ~ 6850 3600
+Wire Wire Line
+	6850 3600 7150 3600
+Connection ~ 6850 4500
+Wire Wire Line
+	6850 4500 7150 4500
+Connection ~ 6850 4950
+Wire Wire Line
+	6850 4950 7150 4950
+Connection ~ 6850 5400
+Wire Wire Line
+	6850 5400 7150 5400
+Connection ~ 6850 5850
+Wire Wire Line
+	6850 5850 7150 5850
+Connection ~ 6850 6300
+Wire Wire Line
+	6850 6300 7150 6300
+Connection ~ 6850 6750
+Wire Wire Line
+	6850 6750 7150 6750
+Connection ~ 6850 7200
+Wire Wire Line
+	6850 7200 7150 7200
+Connection ~ 6850 7650
+Wire Wire Line
+	6850 7650 7150 7650
+Connection ~ 6850 8100
+Wire Wire Line
+	6850 8100 7150 8100
+Connection ~ 6850 8550
+Wire Wire Line
+	6850 8550 7150 8550
+Connection ~ 7150 3150
+Wire Wire Line
+	7150 3150 7450 3150
+Connection ~ 7150 3600
+Wire Wire Line
+	7150 3600 7450 3600
+Connection ~ 7150 4500
+Wire Wire Line
+	7150 4500 7450 4500
+Connection ~ 7150 4950
+Wire Wire Line
+	7150 4950 7450 4950
+Connection ~ 7150 5400
+Wire Wire Line
+	7150 5400 7450 5400
+Connection ~ 7150 5850
+Wire Wire Line
+	7150 5850 7450 5850
+Connection ~ 7150 6300
+Wire Wire Line
+	7150 6300 7450 6300
+Connection ~ 7150 6750
+Wire Wire Line
+	7150 6750 7450 6750
+Connection ~ 7150 7200
+Wire Wire Line
+	7150 7200 7450 7200
+Connection ~ 7150 7650
+Wire Wire Line
+	7150 7650 7450 7650
+Connection ~ 7150 8100
+Wire Wire Line
+	7150 8100 7450 8100
+Connection ~ 7150 8550
+Wire Wire Line
+	7150 8550 7450 8550
+Connection ~ 5250 4450
+Wire Wire Line
+	5250 3100 5250 3550
+Connection ~ 5250 3550
+Wire Wire Line
+	5250 3550 5250 4000
+Connection ~ 5250 4000
+Wire Wire Line
+	5250 4000 5250 4450
+Wire Wire Line
+	5550 3100 5550 3550
+Connection ~ 5550 3550
+Wire Wire Line
+	5550 3550 5550 4000
+Connection ~ 5550 4000
+Wire Wire Line
+	5550 4000 5550 4450
+Wire Wire Line
+	5850 3100 5850 3550
+Connection ~ 5850 3550
+Wire Wire Line
+	5850 3550 5850 4000
+Connection ~ 5850 4000
+Wire Wire Line
+	5850 4000 5850 4450
+Wire Wire Line
+	6150 3100 6150 3550
+Connection ~ 6150 3550
+Wire Wire Line
+	6150 3550 6150 4000
+Connection ~ 6150 4000
+Wire Wire Line
+	6150 4000 6150 4450
+Wire Wire Line
+	6450 3100 6450 3550
+Connection ~ 6450 3550
+Wire Wire Line
+	6450 3550 6450 4000
+Connection ~ 6450 4000
+Wire Wire Line
+	6450 4000 6450 4450
+Wire Wire Line
+	6750 3100 6750 3550
+Connection ~ 6750 3550
+Wire Wire Line
+	6750 3550 6750 4000
+Connection ~ 6750 4000
+Wire Wire Line
+	6750 4000 6750 4450
+Wire Wire Line
+	7050 3100 7050 3550
+Connection ~ 7050 3550
+Wire Wire Line
+	7050 3550 7050 4000
+Connection ~ 7050 4000
+Wire Wire Line
+	7050 4000 7050 4450
+Wire Wire Line
+	7350 3100 7350 3550
+Connection ~ 7350 3550
+Wire Wire Line
+	7350 3550 7350 4000
+Connection ~ 7350 4000
+Wire Wire Line
+	7350 4000 7350 4450
+Connection ~ 5350 2700
+Wire Wire Line
+	5350 2700 5650 2700
+Connection ~ 5650 2700
+Wire Wire Line
+	5650 2700 5950 2700
+Connection ~ 5950 2700
+Wire Wire Line
+	5950 2700 6250 2700
+Connection ~ 6250 2700
+Wire Wire Line
+	6250 2700 6550 2700
+Connection ~ 6550 2700
+Wire Wire Line
+	6550 2700 6850 2700
+Connection ~ 6850 2700
+Wire Wire Line
+	6850 2700 7150 2700
+Connection ~ 7150 2700
+Wire Wire Line
+	7150 2700 7450 2700
+Connection ~ 4950 3550
+Wire Wire Line
+	4950 3550 4950 4000
+Connection ~ 4950 4000
+Wire Wire Line
+	4950 4000 4950 4450
+Connection ~ 4650 3550
+Wire Wire Line
+	4650 3550 4650 4000
+Connection ~ 4650 4000
+Wire Wire Line
+	4650 4000 4650 4450
+Wire Wire Line
+	3850 2700 3850 4600
+Wire Wire Line
+	3850 4600 3400 4600
+Wire Wire Line
+	3850 2700 4750 2700
+Wire Wire Line
+	3950 4700 3900 4700
+Wire Wire Line
+	3950 3150 4750 3150
+Wire Wire Line
+	4150 4050 4150 4900
+Wire Wire Line
+	4150 4900 3900 4900
+Wire Wire Line
+	4250 4500 4250 5000
+Wire Wire Line
+	4250 5000 3400 5000
+Wire Wire Line
+	4250 4500 4750 4500
+Wire Wire Line
+	2500 5200 3200 5200
+Wire Wire Line
+	4450 5200 4450 5400
+Wire Wire Line
+	4450 5400 4750 5400
+Wire Wire Line
+	2500 6300 3200 6300
+Wire Wire Line
+	4550 6400 4550 6750
+Wire Wire Line
+	4550 6750 4750 6750
+Wire Wire Line
+	2500 6400 3700 6400
+Wire Wire Line
+	2500 6500 3200 6500
+Wire Wire Line
+	4450 6500 4450 7200
+Wire Wire Line
+	4450 7200 4750 7200
+Wire Wire Line
+	2500 6600 3700 6600
+Wire Wire Line
+	4350 6600 4350 7650
+Wire Wire Line
+	4350 7650 4750 7650
+Wire Wire Line
+	2500 6700 3200 6700
+Wire Wire Line
+	4250 6700 4250 8100
+Wire Wire Line
+	4250 8100 4750 8100
+Wire Wire Line
+	2500 6800 3700 6800
+Wire Wire Line
+	4150 6800 4150 8550
+Wire Wire Line
+	4150 8550 4750 8550
+$Comp
+L Device:LED D17
+U 1 1 5E21CD5D
+P 4750 9200
+F 0 "D17" V 4850 9100 39  0000 C CNN
+F 1 "warm white led" V 4750 9150 50  0001 C CNN
+F 2 "" H 4750 9200 50  0001 C CNN
+F 3 "~" H 4750 9200 50  0001 C CNN
+	1    4750 9200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 9050 4750 9000
+Wire Wire Line
+	4750 9350 4750 9400
+Wire Wire Line
+	4750 9400 4650 9400
+$Comp
+L Device:LED D33
+U 1 1 5E21CD67
+P 5050 9200
+F 0 "D33" V 5150 9100 39  0000 C CNN
+F 1 "warm white led" V 5050 9150 50  0001 C CNN
+F 2 "" H 5050 9200 50  0001 C CNN
+F 3 "~" H 5050 9200 50  0001 C CNN
+	1    5050 9200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 9050 5050 9000
+Wire Wire Line
+	5050 9350 5050 9400
+Wire Wire Line
+	5050 9400 4950 9400
+$Comp
+L Device:LED D49
+U 1 1 5E21CD71
+P 5350 9200
+F 0 "D49" V 5450 9100 39  0000 C CNN
+F 1 "warm white led" V 5350 9150 50  0001 C CNN
+F 2 "" H 5350 9200 50  0001 C CNN
+F 3 "~" H 5350 9200 50  0001 C CNN
+	1    5350 9200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 9050 5350 9000
+Wire Wire Line
+	5350 9350 5350 9400
+Wire Wire Line
+	5350 9400 5250 9400
+$Comp
+L Device:LED D65
+U 1 1 5E21CD7B
+P 5650 9200
+F 0 "D65" V 5750 9100 39  0000 C CNN
+F 1 "warm white led" V 5650 9150 50  0001 C CNN
+F 2 "" H 5650 9200 50  0001 C CNN
+F 3 "~" H 5650 9200 50  0001 C CNN
+	1    5650 9200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 9050 5650 9000
+Wire Wire Line
+	5650 9350 5650 9400
+Wire Wire Line
+	5650 9400 5550 9400
+$Comp
+L Device:LED D81
+U 1 1 5E21CD85
+P 5950 9200
+F 0 "D81" V 6050 9100 39  0000 C CNN
+F 1 "warm white led" V 5950 9150 50  0001 C CNN
+F 2 "" H 5950 9200 50  0001 C CNN
+F 3 "~" H 5950 9200 50  0001 C CNN
+	1    5950 9200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 9050 5950 9000
+Wire Wire Line
+	5950 9350 5950 9400
+Wire Wire Line
+	5950 9400 5850 9400
+$Comp
+L Device:LED D97
+U 1 1 5E21CD8F
+P 6250 9200
+F 0 "D97" V 6350 9100 39  0000 C CNN
+F 1 "warm white led" V 6250 9150 50  0001 C CNN
+F 2 "" H 6250 9200 50  0001 C CNN
+F 3 "~" H 6250 9200 50  0001 C CNN
+	1    6250 9200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 9050 6250 9000
+Wire Wire Line
+	6250 9350 6250 9400
+Wire Wire Line
+	6250 9400 6150 9400
+$Comp
+L Device:LED D113
+U 1 1 5E21CD99
+P 6550 9200
+F 0 "D113" V 6650 9100 39  0000 C CNN
+F 1 "warm white led" V 6550 9150 50  0001 C CNN
+F 2 "" H 6550 9200 50  0001 C CNN
+F 3 "~" H 6550 9200 50  0001 C CNN
+	1    6550 9200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 9050 6550 9000
+Wire Wire Line
+	6550 9350 6550 9400
+Wire Wire Line
+	6550 9400 6450 9400
+$Comp
+L Device:LED D129
+U 1 1 5E21CDA3
+P 6850 9200
+F 0 "D129" V 6950 9100 39  0000 C CNN
+F 1 "warm white led" V 6850 9150 50  0001 C CNN
+F 2 "" H 6850 9200 50  0001 C CNN
+F 3 "~" H 6850 9200 50  0001 C CNN
+	1    6850 9200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 9050 6850 9000
+Wire Wire Line
+	6850 9350 6850 9400
+Wire Wire Line
+	6850 9400 6750 9400
+$Comp
+L Device:LED D145
+U 1 1 5E21CDAD
+P 7150 9200
+F 0 "D145" V 7250 9100 39  0000 C CNN
+F 1 "warm white led" V 7150 9150 50  0001 C CNN
+F 2 "" H 7150 9200 50  0001 C CNN
+F 3 "~" H 7150 9200 50  0001 C CNN
+	1    7150 9200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 9050 7150 9000
+Wire Wire Line
+	7150 9350 7150 9400
+Wire Wire Line
+	7150 9400 7050 9400
+$Comp
+L Device:LED D161
+U 1 1 5E21CDB7
+P 7450 9200
+F 0 "D161" V 7550 9100 39  0000 C CNN
+F 1 "warm white led" V 7450 9150 50  0001 C CNN
+F 2 "" H 7450 9200 50  0001 C CNN
+F 3 "~" H 7450 9200 50  0001 C CNN
+	1    7450 9200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 9050 7450 9000
+Wire Wire Line
+	7450 9350 7450 9400
+Wire Wire Line
+	7450 9400 7350 9400
+Connection ~ 4650 9400
+Connection ~ 4950 9400
+Connection ~ 5250 9400
+Connection ~ 5550 9400
+Connection ~ 5850 9400
+Connection ~ 6150 9400
+Connection ~ 6450 9400
+Connection ~ 6750 9400
+Connection ~ 7050 9400
+Connection ~ 7350 9400
+Connection ~ 4750 9000
+Wire Wire Line
+	4750 9000 5050 9000
+Connection ~ 5050 9000
+Wire Wire Line
+	5050 9000 5350 9000
+Connection ~ 5350 9000
+Wire Wire Line
+	5350 9000 5650 9000
+Connection ~ 5650 9000
+Wire Wire Line
+	5650 9000 5950 9000
+Connection ~ 5950 9000
+Wire Wire Line
+	5950 9000 6250 9000
+Connection ~ 6250 9000
+Wire Wire Line
+	6250 9000 6550 9000
+Connection ~ 6550 9000
+Wire Wire Line
+	6550 9000 6850 9000
+Connection ~ 6850 9000
+Wire Wire Line
+	6850 9000 7150 9000
+Connection ~ 7150 9000
+Wire Wire Line
+	7150 9000 7450 9000
+Wire Wire Line
+	4650 8950 4650 9400
+Wire Wire Line
+	4950 8950 4950 9400
+Wire Wire Line
+	5250 8950 5250 9400
+Wire Wire Line
+	5550 8950 5550 9400
+Wire Wire Line
+	5850 8950 5850 9400
+Wire Wire Line
+	6150 8950 6150 9400
+Wire Wire Line
+	6450 8950 6450 9400
+Wire Wire Line
+	6750 8950 6750 9400
+Wire Wire Line
+	7050 8950 7050 9400
+Wire Wire Line
+	7350 8950 7350 9400
+$Comp
+L Device:LED D18
+U 1 1 5E2CACE4
+P 4750 9650
+F 0 "D18" V 4850 9550 39  0000 C CNN
+F 1 "warm white led" V 4750 9600 50  0001 C CNN
+F 2 "" H 4750 9650 50  0001 C CNN
+F 3 "~" H 4750 9650 50  0001 C CNN
+	1    4750 9650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 9500 4750 9450
+Wire Wire Line
+	4750 9800 4750 9850
+Wire Wire Line
+	4750 9850 4650 9850
+$Comp
+L Device:LED D34
+U 1 1 5E2CACEE
+P 5050 9650
+F 0 "D34" V 5150 9550 39  0000 C CNN
+F 1 "warm white led" V 5050 9600 50  0001 C CNN
+F 2 "" H 5050 9650 50  0001 C CNN
+F 3 "~" H 5050 9650 50  0001 C CNN
+	1    5050 9650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 9500 5050 9450
+Wire Wire Line
+	5050 9800 5050 9850
+Wire Wire Line
+	5050 9850 4950 9850
+$Comp
+L Device:LED D50
+U 1 1 5E2CACF8
+P 5350 9650
+F 0 "D50" V 5450 9550 39  0000 C CNN
+F 1 "warm white led" V 5350 9600 50  0001 C CNN
+F 2 "" H 5350 9650 50  0001 C CNN
+F 3 "~" H 5350 9650 50  0001 C CNN
+	1    5350 9650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 9500 5350 9450
+Wire Wire Line
+	5350 9800 5350 9850
+Wire Wire Line
+	5350 9850 5250 9850
+$Comp
+L Device:LED D66
+U 1 1 5E2CAD02
+P 5650 9650
+F 0 "D66" V 5750 9550 39  0000 C CNN
+F 1 "warm white led" V 5650 9600 50  0001 C CNN
+F 2 "" H 5650 9650 50  0001 C CNN
+F 3 "~" H 5650 9650 50  0001 C CNN
+	1    5650 9650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 9500 5650 9450
+Wire Wire Line
+	5650 9800 5650 9850
+Wire Wire Line
+	5650 9850 5550 9850
+$Comp
+L Device:LED D82
+U 1 1 5E2CAD0C
+P 5950 9650
+F 0 "D82" V 6050 9550 39  0000 C CNN
+F 1 "warm white led" V 5950 9600 50  0001 C CNN
+F 2 "" H 5950 9650 50  0001 C CNN
+F 3 "~" H 5950 9650 50  0001 C CNN
+	1    5950 9650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 9500 5950 9450
+Wire Wire Line
+	5950 9800 5950 9850
+Wire Wire Line
+	5950 9850 5850 9850
+$Comp
+L Device:LED D98
+U 1 1 5E2CAD16
+P 6250 9650
+F 0 "D98" V 6350 9550 39  0000 C CNN
+F 1 "warm white led" V 6250 9600 50  0001 C CNN
+F 2 "" H 6250 9650 50  0001 C CNN
+F 3 "~" H 6250 9650 50  0001 C CNN
+	1    6250 9650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 9500 6250 9450
+Wire Wire Line
+	6250 9800 6250 9850
+Wire Wire Line
+	6250 9850 6150 9850
+$Comp
+L Device:LED D114
+U 1 1 5E2CAD20
+P 6550 9650
+F 0 "D114" V 6650 9550 39  0000 C CNN
+F 1 "warm white led" V 6550 9600 50  0001 C CNN
+F 2 "" H 6550 9650 50  0001 C CNN
+F 3 "~" H 6550 9650 50  0001 C CNN
+	1    6550 9650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 9500 6550 9450
+Wire Wire Line
+	6550 9800 6550 9850
+Wire Wire Line
+	6550 9850 6450 9850
+$Comp
+L Device:LED D130
+U 1 1 5E2CAD2A
+P 6850 9650
+F 0 "D130" V 6950 9550 39  0000 C CNN
+F 1 "warm white led" V 6850 9600 50  0001 C CNN
+F 2 "" H 6850 9650 50  0001 C CNN
+F 3 "~" H 6850 9650 50  0001 C CNN
+	1    6850 9650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 9500 6850 9450
+Wire Wire Line
+	6850 9800 6850 9850
+Wire Wire Line
+	6850 9850 6750 9850
+$Comp
+L Device:LED D146
+U 1 1 5E2CAD34
+P 7150 9650
+F 0 "D146" V 7250 9550 39  0000 C CNN
+F 1 "warm white led" V 7150 9600 50  0001 C CNN
+F 2 "" H 7150 9650 50  0001 C CNN
+F 3 "~" H 7150 9650 50  0001 C CNN
+	1    7150 9650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 9500 7150 9450
+Wire Wire Line
+	7150 9800 7150 9850
+Wire Wire Line
+	7150 9850 7050 9850
+$Comp
+L Device:LED D162
+U 1 1 5E2CAD3E
+P 7450 9650
+F 0 "D162" V 7550 9550 39  0000 C CNN
+F 1 "warm white led" V 7450 9600 50  0001 C CNN
+F 2 "" H 7450 9650 50  0001 C CNN
+F 3 "~" H 7450 9650 50  0001 C CNN
+	1    7450 9650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 9500 7450 9450
+Wire Wire Line
+	7450 9800 7450 9850
+Wire Wire Line
+	7450 9850 7350 9850
+Connection ~ 4750 9450
+Wire Wire Line
+	4750 9450 5050 9450
+Connection ~ 5050 9450
+Wire Wire Line
+	5050 9450 5350 9450
+Connection ~ 5350 9450
+Wire Wire Line
+	5350 9450 5650 9450
+Connection ~ 5650 9450
+Wire Wire Line
+	5650 9450 5950 9450
+Connection ~ 5950 9450
+Wire Wire Line
+	5950 9450 6250 9450
+Connection ~ 6250 9450
+Wire Wire Line
+	6250 9450 6550 9450
+Connection ~ 6550 9450
+Wire Wire Line
+	6550 9450 6850 9450
+Connection ~ 6850 9450
+Wire Wire Line
+	6850 9450 7150 9450
+Connection ~ 7150 9450
+Wire Wire Line
+	7150 9450 7450 9450
+Wire Wire Line
+	4650 9400 4650 9850
+Wire Wire Line
+	4950 9400 4950 9850
+Wire Wire Line
+	5250 9400 5250 9850
+Wire Wire Line
+	5550 9400 5550 9850
+Wire Wire Line
+	5850 9400 5850 9850
+Wire Wire Line
+	6150 9400 6150 9850
+Wire Wire Line
+	6450 9400 6450 9850
+Wire Wire Line
+	6750 9400 6750 9850
+Wire Wire Line
+	7050 9400 7050 9850
+Wire Wire Line
+	7350 9400 7350 9850
+Wire Wire Line
+	4050 9000 4050 6900
+Wire Wire Line
+	4050 6900 3400 6900
+Wire Wire Line
+	4050 9000 4750 9000
+Wire Wire Line
+	2500 7000 3700 7000
+Wire Wire Line
+	3950 7000 3950 9450
+Wire Wire Line
+	3950 9450 4750 9450
+Wire Wire Line
+	4750 5850 4350 5850
+Wire Wire Line
+	4350 5850 4350 5300
+Wire Wire Line
+	4350 5300 3900 5300
+Connection ~ 4750 5850
+Wire Wire Line
+	4750 4950 4350 4950
+Wire Wire Line
+	4350 4950 4350 5100
+Wire Wire Line
+	4350 5100 3900 5100
+Connection ~ 4750 4950
+Wire Wire Line
+	4050 3600 4050 4800
+Wire Wire Line
+	4050 4800 3400 4800
+Wire Wire Line
+	4050 3600 4750 3600
+Connection ~ 4750 3600
+Wire Wire Line
+	4750 3600 5050 3600
+$Comp
+L Device:R_Small R82
+U 1 1 5F7F78F0
+P 3300 4600
+F 0 "R82" V 3250 4750 39  0000 C CNN
+F 1 "300" V 3250 4950 39  0000 C CNN
+F 2 "" H 3300 4600 50  0001 C CNN
+F 3 "~" H 3300 4600 50  0001 C CNN
+	1    3300 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R90
+U 1 1 5F7F7C3F
+P 3800 4700
+F 0 "R90" V 3750 4350 39  0000 C CNN
+F 1 "300" V 3750 4550 39  0000 C CNN
+F 2 "" H 3800 4700 50  0001 C CNN
+F 3 "~" H 3800 4700 50  0001 C CNN
+	1    3800 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 4700 2500 4700
+Wire Wire Line
+	2500 4600 3200 4600
+$Comp
+L Device:R_Small R91
+U 1 1 5FB0B186
+P 3800 4900
+F 0 "R91" V 3750 4550 39  0000 C CNN
+F 1 "300" V 3750 4750 39  0000 C CNN
+F 2 "" H 3800 4900 50  0001 C CNN
+F 3 "~" H 3800 4900 50  0001 C CNN
+	1    3800 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R92
+U 1 1 5FBCF114
+P 3800 5100
+F 0 "R92" V 3750 4750 39  0000 C CNN
+F 1 "300" V 3750 4950 39  0000 C CNN
+F 2 "" H 3800 5100 50  0001 C CNN
+F 3 "~" H 3800 5100 50  0001 C CNN
+	1    3800 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R93
+U 1 1 5FC930A2
+P 3800 5300
+F 0 "R93" V 3750 4950 39  0000 C CNN
+F 1 "300" V 3750 5150 39  0000 C CNN
+F 2 "" H 3800 5300 50  0001 C CNN
+F 3 "~" H 3800 5300 50  0001 C CNN
+	1    3800 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R94
+U 1 1 5FD57606
+P 3800 6400
+F 0 "R94" V 3750 6050 39  0000 C CNN
+F 1 "300" V 3750 6250 39  0000 C CNN
+F 2 "" H 3800 6400 50  0001 C CNN
+F 3 "~" H 3800 6400 50  0001 C CNN
+	1    3800 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R95
+U 1 1 5FE1B598
+P 3800 6600
+F 0 "R95" V 3750 6250 39  0000 C CNN
+F 1 "300" V 3750 6450 39  0000 C CNN
+F 2 "" H 3800 6600 50  0001 C CNN
+F 3 "~" H 3800 6600 50  0001 C CNN
+	1    3800 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R96
+U 1 1 5FEDF52A
+P 3800 6800
+F 0 "R96" V 3750 6450 39  0000 C CNN
+F 1 "300" V 3750 6650 39  0000 C CNN
+F 2 "" H 3800 6800 50  0001 C CNN
+F 3 "~" H 3800 6800 50  0001 C CNN
+	1    3800 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R97
+U 1 1 5FFA34C6
+P 3800 7000
+F 0 "R97" V 3750 6650 39  0000 C CNN
+F 1 "300" V 3750 6850 39  0000 C CNN
+F 2 "" H 3800 7000 50  0001 C CNN
+F 3 "~" H 3800 7000 50  0001 C CNN
+	1    3800 7000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 4900 2500 4900
+Wire Wire Line
+	3900 7000 3950 7000
+Wire Wire Line
+	3900 6800 4150 6800
+Wire Wire Line
+	3900 6600 4350 6600
+Wire Wire Line
+	3900 6400 4550 6400
+Wire Wire Line
+	3700 5300 2500 5300
+Wire Wire Line
+	3700 5100 2500 5100
+$Comp
+L Device:R_Small R83
+U 1 1 60383F9F
+P 3300 4800
+F 0 "R83" V 3250 4950 39  0000 C CNN
+F 1 "300" V 3250 5150 39  0000 C CNN
+F 2 "" H 3300 4800 50  0001 C CNN
+F 3 "~" H 3300 4800 50  0001 C CNN
+	1    3300 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R84
+U 1 1 6044B5FB
+P 3300 5000
+F 0 "R84" V 3250 5150 39  0000 C CNN
+F 1 "300" V 3250 5350 39  0000 C CNN
+F 2 "" H 3300 5000 50  0001 C CNN
+F 3 "~" H 3300 5000 50  0001 C CNN
+	1    3300 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R85
+U 1 1 60512C5B
+P 3300 5200
+F 0 "R85" V 3250 5350 39  0000 C CNN
+F 1 "300" V 3250 5550 39  0000 C CNN
+F 2 "" H 3300 5200 50  0001 C CNN
+F 3 "~" H 3300 5200 50  0001 C CNN
+	1    3300 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R86
+U 1 1 605DA2BF
+P 3300 6300
+F 0 "R86" V 3250 6450 39  0000 C CNN
+F 1 "300" V 3250 6650 39  0000 C CNN
+F 2 "" H 3300 6300 50  0001 C CNN
+F 3 "~" H 3300 6300 50  0001 C CNN
+	1    3300 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R87
+U 1 1 606A1927
+P 3300 6500
+F 0 "R87" V 3250 6650 39  0000 C CNN
+F 1 "300" V 3250 6850 39  0000 C CNN
+F 2 "" H 3300 6500 50  0001 C CNN
+F 3 "~" H 3300 6500 50  0001 C CNN
+	1    3300 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R88
+U 1 1 60768F8D
+P 3300 6700
+F 0 "R88" V 3250 6850 39  0000 C CNN
+F 1 "300" V 3250 7050 39  0000 C CNN
+F 2 "" H 3300 6700 50  0001 C CNN
+F 3 "~" H 3300 6700 50  0001 C CNN
+	1    3300 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R89
+U 1 1 608305F1
+P 3300 6900
+F 0 "R89" V 3250 7050 39  0000 C CNN
+F 1 "300" V 3250 7250 39  0000 C CNN
+F 2 "" H 3300 6900 50  0001 C CNN
+F 3 "~" H 3300 6900 50  0001 C CNN
+	1    3300 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 4800 2500 4800
+Wire Wire Line
+	3200 5000 2500 5000
+Wire Wire Line
+	3400 5200 4450 5200
+Wire Wire Line
+	3400 6500 4450 6500
+Wire Wire Line
+	3400 6700 4250 6700
+Wire Wire Line
+	3200 6900 2500 6900
+Wire Wire Line
+	3400 6300 4750 6300
+Wire Wire Line
+	3950 3150 3950 4700
+$Comp
+L 74xx_IEEE:74145 U8
+U 1 1 62E17862
+P 3900 1650
+F 0 "U8" H 3900 2416 50  0000 C CNN
+F 1 "74145" H 3900 2325 50  0000 C CNN
+F 2 "" H 3900 1650 50  0001 C CNN
+F 3 "" H 3900 1650 50  0001 C CNN
+	1    3900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1200 4650 1200
+Wire Wire Line
+	4650 1200 4650 3100
+Connection ~ 4650 3100
+Wire Wire Line
+	4500 1300 4950 1300
+Wire Wire Line
+	4950 1300 4950 3100
+Connection ~ 4950 3100
+Wire Wire Line
+	4500 1400 5250 1400
+Wire Wire Line
+	5250 1400 5250 3100
+Connection ~ 5250 3100
+Wire Wire Line
+	4500 1500 5550 1500
+Wire Wire Line
+	5550 1500 5550 3100
+Connection ~ 5550 3100
+Wire Wire Line
+	4500 1600 5850 1600
+Wire Wire Line
+	5850 1600 5850 3100
+Connection ~ 5850 3100
+Wire Wire Line
+	4500 1700 6150 1700
+Wire Wire Line
+	6150 1700 6150 3100
+Connection ~ 6150 3100
+Wire Wire Line
+	4500 1800 6450 1800
+Wire Wire Line
+	6450 1800 6450 3100
+Connection ~ 6450 3100
+Wire Wire Line
+	4500 1900 6750 1900
+Wire Wire Line
+	6750 1900 6750 3100
+Connection ~ 6750 3100
+Wire Wire Line
+	7050 2000 7050 3100
+Connection ~ 7050 3100
+Wire Wire Line
+	4500 2000 7050 2000
+Wire Wire Line
+	4500 2100 7350 2100
+Wire Wire Line
+	7350 2100 7350 3100
+Connection ~ 7350 3100
+Wire Wire Line
+	3300 1800 3000 1800
+Wire Wire Line
+	3300 1700 2900 1700
+Wire Wire Line
+	3300 1600 2800 1600
+Wire Wire Line
+	3300 1500 2700 1500
+$Comp
+L MCU_Microchip_ATmega:ATmega88-20PU U7
+U 1 1 63BC476D
+P 1900 5800
+F 0 "U7" H 1259 5846 50  0000 R CNN
+F 1 "ATmega88-20PU" H 1259 5755 50  0000 R CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 1900 5800 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf" H 1900 5800 50  0001 C CNN
+	1    1900 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1500 2700 5500
+Wire Wire Line
+	2800 1600 2800 5600
+Wire Wire Line
+	2900 1700 2900 5700
+Wire Wire Line
+	3000 1800 3000 5800
+Wire Wire Line
+	2500 5500 2700 5500
+Wire Wire Line
+	2500 5600 2800 5600
+Wire Wire Line
+	2500 5700 2900 5700
+Wire Wire Line
+	2500 5800 3000 5800
+$Comp
+L lm258:LM258 #U06
+U 1 1 5DBB63B4
+P 1550 2700
+F 0 "#U06" H 1550 3067 50  0000 C CNN
+F 1 "LM258" H 1550 2976 50  0000 C CNN
+F 2 "" H 1550 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 1550 2700 50  0001 C CNN
+	1    1550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L lm258:LM258 #U06
+U 2 1 5DBB7595
+P 1550 3400
+F 0 "#U06" H 1550 3767 50  0000 C CNN
+F 1 "LM258" H 1550 3676 50  0000 C CNN
+F 2 "" H 1550 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 1550 3400 50  0001 C CNN
+	2    1550 3400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
