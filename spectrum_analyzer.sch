@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:amplifier-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
@@ -3976,7 +3975,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 1500 2700 1500
 $Comp
-L MCU_Microchip_ATmega:ATmega88-20PU U7
+L amplifier-rescue:ATmega88-20PU-MCU_Microchip_ATmega U7
 U 1 1 63BC476D
 P 1900 5800
 F 0 "U7" H 1259 5846 50  0000 R CNN
@@ -4003,7 +4002,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 5800 3000 5800
 $Comp
-L lm258:LM258 #U06
+L amplifier-rescue:LM258-lm258 #U06
 U 1 1 5DBB63B4
 P 1550 2700
 F 0 "#U06" H 1550 3067 50  0000 C CNN
@@ -4014,7 +4013,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 1550 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lm258:LM258 #U06
+L amplifier-rescue:LM258-lm258 #U06
 U 2 1 5DBB7595
 P 1550 3400
 F 0 "#U06" H 1550 3767 50  0000 C CNN

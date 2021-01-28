@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:amplifier-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -2575,7 +2574,7 @@ Connection ~ 7400 8000
 Wire Wire Line
 	7400 8000 7450 8000
 $Comp
-L ad825:AD825 DA7
+L amplifier-rescue:AD825-ad825 DA7
 U 1 1 5E786959
 P 13900 2200
 F 0 "DA7" H 13900 2575 50  0000 C CNN
@@ -3558,7 +3557,7 @@ F 3 "" H 15700 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ad825:AD825 DA8
+L amplifier-rescue:AD825-ad825 DA8
 U 1 1 61E0F9C1
 P 13900 4600
 F 0 "DA8" H 13900 4975 50  0000 C CNN
