@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ U 1 1 583325F5
 P 5100 3150
 F 0 "DA1" H 4900 3650 40  0000 C CNN
 F 1 "TDA7293V" H 5200 3650 40  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-220-15_Horizontal_StaggeredType1" H 4850 3650 30  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead5.84mm_TabDown" H 4850 3650 30  0001 C CIN
 F 3 "" H 5150 3100 60  0001 C CNN
 	1    5100 3150
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 58341A6B
 P 7250 3250
 F 0 "R13" H 7321 3296 50  0000 L CNN
 F 1 "0.15" H 7321 3205 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_Power_L25.0mm_W9.0mm_P30.48mm" H 7250 3250 60  0001 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm" H 7250 3250 60  0001 C CNN
 F 3 "" H 7250 3250 60  0001 C CNN
 	1    7250 3250
 	1    0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 58341B87
 P 6950 3250
 F 0 "R12" H 6800 3200 50  0000 C CNN
 F 1 "6.8" H 6800 3300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0922_L20.0mm_D9.0mm_P30.48mm_Horizontal" H 6950 3250 60  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P22.86mm_Horizontal" H 6950 3250 60  0001 C CNN
 F 3 "" H 6950 3250 60  0001 C CNN
 	1    6950 3250
 	-1   0    0    1   
@@ -63,7 +63,7 @@ U 1 1 5834201F
 P 6450 2150
 F 0 "R11" V 6350 2050 50  0000 C CNN
 F 1 "47k" V 6350 2250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" H 6450 2150 60  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 6450 2150 60  0001 C CNN
 F 3 "" H 6450 2150 60  0001 C CNN
 	1    6450 2150
 	0    1    1    0   
@@ -74,7 +74,7 @@ U 1 1 58342069
 P 7550 3250
 F 0 "RV1" H 7650 3500 50  0000 C CNN
 F 1 "200" H 7650 3400 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296Y" H 7550 3250 60  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical" H 7550 3250 60  0001 C CNN
 F 3 "" H 7550 3250 60  0001 C CNN
 	1    7550 3250
 	1    0    0    -1  
@@ -85,7 +85,7 @@ U 1 1 58342655
 P 5000 2150
 F 0 "R8" V 4900 2050 50  0000 C CNN
 F 1 "47k" V 4900 2250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" H 5000 2150 60  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 5000 2150 60  0001 C CNN
 F 3 "" H 5000 2150 60  0001 C CNN
 	1    5000 2150
 	0    1    1    0   
@@ -96,7 +96,7 @@ U 1 1 583429EA
 P 3600 2850
 F 0 "R4" V 3500 2750 50  0000 C CNN
 F 1 "47k" V 3500 2950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" H 3600 2850 60  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 3600 2850 60  0001 C CNN
 F 3 "" H 3600 2850 60  0001 C CNN
 	1    3600 2850
 	0    1    1    0   
@@ -107,7 +107,7 @@ U 1 1 58343100
 P 6150 3200
 F 0 "C9" H 6250 3400 50  0000 C CNN
 F 1 "100.0" H 6300 3300 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 6150 3200 60  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 6150 3200 60  0001 C CNN
 F 3 "" H 6150 3200 60  0001 C CNN
 	1    6150 3200
 	1    0    0    -1  
@@ -120,7 +120,7 @@ AR Path="/58343792" Ref="C5"  Part="1"
 AR Path="/5833169E/58343792" Ref="C?"  Part="1" 
 F 0 "C?" V 4750 2350 50  0000 C CNN
 F 1 "750" V 4750 2550 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L16.5mm_W7.3mm_P15.00mm_MKT" H 4900 2450 60  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W7.3mm_P15.00mm_MKT" H 4900 2450 60  0001 C CNN
 F 3 "" H 4900 2450 60  0001 C CNN
 	1    4900 2450
 	0    1    1    0   
@@ -131,7 +131,7 @@ U 1 1 58344622
 P 5850 2400
 F 0 "R9" H 5950 2500 50  0000 L CNN
 F 1 "1.5k" H 5950 2400 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" H 5850 2400 60  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 5850 2400 60  0001 C CNN
 F 3 "" H 5850 2400 60  0001 C CNN
 	1    5850 2400
 	1    0    0    -1  
@@ -155,7 +155,7 @@ AR Path="/58345D7D" Ref="C11"  Part="1"
 AR Path="/5833169E/58345D7D" Ref="C?"  Part="1" 
 F 0 "C?" H 6400 3000 50  0000 R CNN
 F 1 "1.0" H 6400 3100 50  0000 R CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L24.0mm_W12.2mm_P22.50mm_MKT" H 6450 3200 60  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L24.0mm_W12.2mm_P22.50mm_MKT" H 6450 3200 60  0001 C CNN
 F 3 "" H 6450 3200 60  0001 C CNN
 	1    6450 3200
 	-1   0    0    1   
@@ -168,7 +168,7 @@ AR Path="/58341C01" Ref="C14"  Part="1"
 AR Path="/5833169E/58341C01" Ref="C?"  Part="1" 
 F 0 "C?" H 7000 2550 50  0000 L CNN
 F 1 "0.1" H 7000 2450 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3" H 6950 2350 60  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3" H 6950 2350 60  0001 C CNN
 F 3 "" H 6950 2350 60  0001 C CNN
 	1    6950 2350
 	1    0    0    -1  
@@ -201,7 +201,7 @@ U 1 1 58346F78
 P 4350 4450
 F 0 "R6" V 4250 4350 50  0000 C CNN
 F 1 "1.5" V 4250 4500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" H 4350 4450 60  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" H 4350 4450 60  0001 C CNN
 F 3 "" H 4350 4450 60  0001 C CNN
 	1    4350 4450
 	0    1    1    0   
@@ -234,7 +234,7 @@ U 1 1 58347733
 P 3350 3550
 F 0 "R3" H 3400 3450 50  0000 L CNN
 F 1 "33k" H 3400 3350 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" H 3350 3550 60  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 3350 3550 60  0001 C CNN
 F 3 "" H 3350 3550 60  0001 C CNN
 	1    3350 3550
 	1    0    0    -1  
@@ -245,7 +245,7 @@ U 1 1 583477D3
 P 2850 3550
 F 0 "R1" H 2900 3450 50  0000 L CNN
 F 1 "20k" H 2900 3350 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" H 2850 3550 60  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 2850 3550 60  0001 C CNN
 F 3 "" H 2850 3550 60  0001 C CNN
 	1    2850 3550
 	1    0    0    -1  
@@ -256,7 +256,7 @@ U 1 1 58348115
 P 3550 3500
 F 0 "D2" V 3650 3550 40  0000 L CNN
 F 1 "DIODE" V 3750 3500 40  0000 L CNN
-F 2 "Diodes_ThroughHole:D_DO-15_P15.24mm_Horizontal" H 3550 3500 60  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P15.24mm_Horizontal" H 3550 3500 60  0001 C CNN
 F 3 "" H 3550 3500 60  0001 C CNN
 	1    3550 3500
 	0    -1   -1   0   
@@ -289,7 +289,7 @@ U 1 1 583486BB
 P 3100 4150
 F 0 "R2" V 3000 4050 50  0000 C CNN
 F 1 "10k" V 3000 4250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" H 3100 4150 60  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 3100 4150 60  0001 C CNN
 F 3 "" H 3100 4150 60  0001 C CNN
 	1    3100 4150
 	0    1    1    0   
@@ -300,7 +300,7 @@ U 1 1 5834B506
 P 2000 2950
 F 0 "P2" H 1950 3250 50  0000 L CNN
 F 1 "INPUT" H 1900 3150 40  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2000 2950 60  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2000 2950 60  0001 C CNN
 F 3 "" H 2000 2950 60  0001 C CNN
 	1    2000 2950
 	-1   0    0    -1  
@@ -322,7 +322,7 @@ U 1 1 5834C81E
 P 6100 4300
 F 0 "C8" H 5950 4100 50  0000 L CNN
 F 1 "1000.0" H 5800 4200 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D10.0mm_P5.00mm_P7.50mm" H 6100 4300 60  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm_P7.50mm" H 6100 4300 60  0001 C CNN
 F 3 "" H 6100 4300 60  0001 C CNN
 	1    6100 4300
 	-1   0    0    -1  
@@ -333,7 +333,7 @@ U 1 1 5834C8C8
 P 6800 4300
 F 0 "C13" H 6650 4100 50  0000 L CNN
 F 1 "220.0" H 6550 4200 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 6800 4300 60  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 6800 4300 60  0001 C CNN
 F 3 "" H 6800 4300 60  0001 C CNN
 	1    6800 4300
 	-1   0    0    -1  
@@ -344,7 +344,7 @@ U 1 1 5834C926
 P 7500 4300
 F 0 "C16" H 7550 4500 50  0000 L CNN
 F 1 "220.0" H 7550 4400 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 7500 4300 60  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 7500 4300 60  0001 C CNN
 F 3 "" H 7500 4300 60  0001 C CNN
 	1    7500 4300
 	1    0    0    -1  
@@ -355,7 +355,7 @@ U 1 1 5834C98C
 P 8200 4300
 F 0 "C18" H 8250 4500 50  0000 L CNN
 F 1 "1000.0" H 8250 4400 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D10.0mm_P5.00mm_P7.50mm" H 8200 4300 60  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm_P7.50mm" H 8200 4300 60  0001 C CNN
 F 3 "" H 8200 4300 60  0001 C CNN
 	1    8200 4300
 	1    0    0    -1  
@@ -368,7 +368,7 @@ AR Path="/5834CA0A" Ref="C12"  Part="1"
 AR Path="/5833169E/5834CA0A" Ref="C?"  Part="1" 
 F 0 "C?" H 6500 4500 50  0000 L CNN
 F 1 "1.0" H 6500 4400 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L24.0mm_W12.2mm_P22.50mm_MKT" H 6450 4300 60  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L24.0mm_W12.2mm_P22.50mm_MKT" H 6450 4300 60  0001 C CNN
 F 3 "" H 6450 4300 60  0001 C CNN
 	1    6450 4300
 	1    0    0    -1  
@@ -381,7 +381,7 @@ AR Path="/5834CA70" Ref="C15"  Part="1"
 AR Path="/5833169E/5834CA70" Ref="C?"  Part="1" 
 F 0 "C?" H 7200 4500 50  0000 L CNN
 F 1 "0.1" H 7200 4400 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3" H 7150 4300 60  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3" H 7150 4300 60  0001 C CNN
 F 3 "" H 7150 4300 60  0001 C CNN
 	1    7150 4300
 	1    0    0    -1  
@@ -394,7 +394,7 @@ AR Path="/5834CAC8" Ref="C17"  Part="1"
 AR Path="/5833169E/5834CAC8" Ref="C?"  Part="1" 
 F 0 "C?" H 7900 4500 50  0000 L CNN
 F 1 "0.1" H 7900 4400 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3" H 7850 4300 60  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3" H 7850 4300 60  0001 C CNN
 F 3 "" H 7850 4300 60  0001 C CNN
 	1    7850 4300
 	1    0    0    -1  
@@ -407,7 +407,7 @@ AR Path="/5834CB82" Ref="C19"  Part="1"
 AR Path="/5833169E/5834CB82" Ref="C?"  Part="1" 
 F 0 "C?" H 8600 4500 50  0000 L CNN
 F 1 "1.0" H 8600 4400 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L24.0mm_W12.2mm_P22.50mm_MKT" H 8550 4300 60  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L24.0mm_W12.2mm_P22.50mm_MKT" H 8550 4300 60  0001 C CNN
 F 3 "" H 8550 4300 60  0001 C CNN
 	1    8550 4300
 	1    0    0    -1  
@@ -418,7 +418,7 @@ U 1 1 5834FE05
 P 5350 4250
 F 0 "P3" H 5600 4300 50  0000 C CNN
 F 1 "POWER" H 5600 4400 50  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM3-96mm_Lock_5pin_straight" H 5350 4250 60  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-5_P5.08mm" H 5350 4250 60  0001 C CNN
 F 3 "" H 5350 4250 60  0001 C CNN
 	1    5350 4250
 	-1   0    0    -1  
@@ -655,7 +655,7 @@ AR Path="/58342B6B" Ref="C3"  Part="1"
 AR Path="/5833169E/58342B6B" Ref="C?"  Part="1" 
 F 0 "C?" V 2950 2750 50  0000 C CNN
 F 1 "0.33" V 2950 2950 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L41.5mm_W15.0mm_P37.50mm_MKS4" H 3150 2850 60  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L41.5mm_W15.0mm_P37.50mm_MKS4" H 3150 2850 60  0001 C CNN
 F 3 "" H 3150 2850 60  0001 C CNN
 	1    3150 2850
 	0    1    1    0   
@@ -668,7 +668,7 @@ U 1 1 58359945
 P 4550 3550
 F 0 "R7" H 4650 3450 50  0000 L CNN
 F 1 "180k" H 4650 3350 50  0000 L CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" H 4550 3550 60  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 4550 3550 60  0001 C CNN
 F 3 "" H 4550 3550 60  0001 C CNN
 	1    4550 3550
 	1    0    0    -1  
@@ -706,7 +706,7 @@ U 1 1 5835AFE4
 P 6450 1950
 F 0 "R10" V 6350 1850 50  0000 C CNN
 F 1 "68k" V 6350 2050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal" H 6450 1950 60  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 6450 1950 60  0001 C CNN
 F 3 "" H 6450 1950 60  0001 C CNN
 	1    6450 1950
 	0    1    1    0   
@@ -767,7 +767,7 @@ AR Path="/5D76D768" Ref="C7"  Part="1"
 AR Path="/5833169E/5D76D768" Ref="C?"  Part="1" 
 F 0 "C?" V 5450 1850 50  0000 C CNN
 F 1 "0.15" V 5450 2050 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:CP_Axial_L29.0mm_D10.0mm_P35.00mm_Horizontal" H 5600 1950 60  0001 C CNN
+F 2 "Capacitor_THT:CP_Axial_L29.0mm_D10.0mm_P35.00mm_Horizontal" H 5600 1950 60  0001 C CNN
 F 3 "" H 5600 1950 60  0001 C CNN
 	1    5600 1950
 	0    1    1    0   
@@ -782,7 +782,7 @@ AR Path="/5D77D443" Ref="C10"  Part="1"
 AR Path="/5833169E/5D77D443" Ref="C?"  Part="1" 
 F 0 "C?" H 6500 2350 50  0000 C CNN
 F 1 "0.15" H 6500 2450 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:CP_Axial_L29.0mm_D10.0mm_P35.00mm_Horizontal" H 6250 2400 60  0001 C CNN
+F 2 "Capacitor_THT:CP_Axial_L29.0mm_D10.0mm_P35.00mm_Horizontal" H 6250 2400 60  0001 C CNN
 F 3 "" H 6250 2400 60  0001 C CNN
 	1    6250 2400
 	1    0    0    -1  
@@ -805,7 +805,7 @@ U 1 1 5D7B327D
 P 8100 2750
 F 0 "P5" H 8178 2791 50  0000 L CNN
 F 1 "OUT" H 8178 2700 50  0000 L CNN
-F 2 "Connect:PINHEAD1-2" H 8100 2750 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 8100 2750 50  0001 C CNN
 F 3 "" H 8100 2750 50  0001 C CNN
 	1    8100 2750
 	1    0    0    -1  
@@ -816,7 +816,7 @@ U 1 1 5D7BB7B7
 P 8100 2450
 F 0 "P4" H 8050 2700 50  0000 L CNN
 F 1 "CLIP DETECTION" H 7850 2600 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8100 2450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8100 2450 50  0001 C CNN
 F 3 "" H 8100 2450 50  0001 C CNN
 	1    8100 2450
 	1    0    0    -1  
@@ -850,7 +850,7 @@ AR Path="/58342AF7" Ref="C4"  Part="1"
 AR Path="/5833169E/58342AF7" Ref="C?"  Part="1" 
 F 0 "C?" H 3900 3650 50  0000 L CNN
 F 1 "33n" H 3900 3550 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L16.5mm_W9.0mm_P15.00mm_MKT" H 3850 3450 60  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W9.0mm_P15.00mm_MKT" H 3850 3450 60  0001 C CNN
 F 3 "" H 3850 3450 60  0001 C CNN
 	1    3850 3450
 	1    0    0    -1  
@@ -861,7 +861,7 @@ U 1 1 583476DF
 P 2650 3500
 F 0 "C1" H 2650 3800 50  0000 L CNN
 F 1 "10.0" H 2650 3700 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D8.0mm_P3.50mm" H 2650 3500 60  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2650 3500 60  0001 C CNN
 F 3 "" H 2650 3500 60  0001 C CNN
 	1    2650 3500
 	1    0    0    -1  
@@ -872,7 +872,7 @@ U 1 1 58347687
 P 3100 3500
 F 0 "C2" H 3150 3350 50  0000 L CNN
 F 1 "10.0" H 3150 3250 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D8.0mm_P3.50mm" H 3100 3500 60  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3100 3500 60  0001 C CNN
 F 3 "" H 3100 3500 60  0001 C CNN
 	1    3100 3500
 	1    0    0    -1  
@@ -887,7 +887,7 @@ U 1 1 60112DE4
 P 4050 2850
 F 0 "R5" V 3843 2850 50  0000 C CNN
 F 1 "200k" V 3934 2850 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296Y" H 4050 2850 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical" H 4050 2850 50  0001 C CNN
 F 3 "~" H 4050 2850 50  0001 C CNN
 	1    4050 2850
 	0    1    1    0   
@@ -930,7 +930,7 @@ U 1 1 601864E9
 P 5300 2450
 F 0 "C6" V 5150 2350 50  0000 C CNN
 F 1 "750" V 5150 2550 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L16.5mm_W7.3mm_P15.00mm_MKT" H 5338 2300 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W7.3mm_P15.00mm_MKT" H 5338 2300 50  0001 C CNN
 F 3 "~" H 5300 2450 50  0001 C CNN
 	1    5300 2450
 	0    1    1    0   
@@ -1040,7 +1040,7 @@ U 1 1 600F45FC
 P 2000 2050
 F 0 "P1" H 1892 1725 50  0000 C CNN
 F 1 "Filter disable" H 1892 1816 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2000 2050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2000 2050 50  0001 C CNN
 F 3 "~" H 2000 2050 50  0001 C CNN
 	1    2000 2050
 	-1   0    0    -1  
@@ -1074,7 +1074,7 @@ U 1 1 6019B9E4
 P 2700 2600
 F 0 "D1" H 2800 2500 50  0000 C CNN
 F 1 "D" H 2650 2500 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-15_P15.24mm_Horizontal" H 2700 2600 50  0001 C CNN
+F 2 "Diode_THT:D_DO-15_P15.24mm_Horizontal" H 2700 2600 50  0001 C CNN
 F 3 "~" H 2700 2600 50  0001 C CNN
 	1    2700 2600
 	-1   0    0    1   
